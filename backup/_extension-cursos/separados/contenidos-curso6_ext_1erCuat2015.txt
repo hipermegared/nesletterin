@@ -1,0 +1,23 @@
+NEWSLETTER_DIR='curso6_ext_1cuat_2015'
+AREA='Multimediales__ENTER__Dirección de Extensión & Bienestar Estudiantil'
+
+
+
+
+
+TITULO='Fotografía sin objetivo: Módulo Película.'
+SUBTITULO='Taller teórico-práctico de fotografía estenopeica color.'
+DOCENTES='Natalia Monserrat y Carmín Santos.'
+RESUMEN='La propuesta está orientada a todos aquellos que tengan conocimientos básicos de fotografía estenopeica y quieran experimentar con la fotografía de una manera no convencional. Los participantes podrán construir cámaras para película 35mm y formato medio con cartón, foamboard y madera balsa, diseñando y pensando el dispositivo fotográfico acorde con sus propias necesidades y con el tipo de imagen que deseen obtener.'
+DIAS_HORARIO='Jueves de 19:00hrs a 21:30hrs'
+DURACION_CLASE='2:30 hs. semanales'
+INICIO='11 de junio'
+TURNO='Noche'
+CANTIDAD_CLASES='4 clases'
+MODALIDAD='Teórico-práctica'
+TIPO_DE_CURSO='Curso De Extensión'
+COSTO_TOTAL='$550.- (Costo total del curso sin descuento o bonificación, incluye materiales de contrucción de cámara, no incluye películas fotográfica)'
+DESTINATARIOS='Todas aquellas personas que estén interesadas en experimentar en el campo de la fotografía de una manera no convencional. Reciclando objetos, cajas, latas, o cualquier espacio estanco de luz, transformándolos en cámaras y desarrollando la creatividad. Se construirán cámaras que se adecuen al tipo de imagen que el alumno desee obtener, tomando una postura crítica y reflexiva sobre la misma. *No son necesarios conocimientos previos de fotografía.'
+
+
+

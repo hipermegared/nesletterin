@@ -1,0 +1,587 @@
+	<!-- ***************************************************
+	********************************************************
+
+	HOW TO USE: Use these code examples as a guideline for formatting your HTML email. You may want to create your own template based on these snippets or just pick and choose the ones that fix your specific rendering issue(s). There are two main areas in the template: 1. The header (head) area of the document. You will find global styles, where indicated, to move inline. 2. The body section contains more specific fixes and guidance to use where needed in your design.
+
+	DO NOT COPY OVER COMMENTS AND INSTRUCTIONS WITH THE CODE to your message or risk spam box banishment :).
+
+	It is important to note that sometimes the styles in the header area should not be or don't need to be brought inline. Those instances will be marked accordingly in the comments.
+
+	********************************************************
+	**************************************************** -->
+
+	<!-- Using the xHTML doctype is a good practice when sending HTML email. While not the only doctype you can use, it seems to have the least inconsistencies. For more information on which one may work best for you, check out the resources below.
+
+	UPDATED: Now using xHTML strict based on the fact that gmail and hotmail uses it.  Find out more about that, and another great boilerplate, here: http://www.emailology.org/#1
+
+	More info/Reference on doctypes in email:
+	Campaign Monitor - http://www.campaignmonitor.com/blog/post/3317/correct-doctype-to-use-in-html-email/
+	Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_sheep_of_html_email_design
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>{-----$TITULO_RENGLON1-----}</title>
+	<style type="text/css">
+
+			/***********
+			Originally based on The MailChimp Reset from Fabio Carneiro, MailChimp User Experience Design
+			More info and templates on Github: https://github.com/mailchimp/Email-Blueprints
+			http://www.mailchimp.com &amp; http://www.fabio-carneiro.com
+
+			INLINE: Yes.
+			***********/
+			/* Client-specific Styles */
+			#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+			body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;background:#e1e4e1;}
+			/* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+			.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+			#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;background:#e1e4e1;}
+			/* End reset */
+
+			/* Some sensible defaults for images
+			1. "-ms-interpolation-mode: bicubic" works to help ie properly resize images in IE. (if you are resizing them using the width and height attributes)
+			2. "border:none" removes border when linking images.
+			3. Updated the common Gmail/Hotmail image display fix: Gmail and Hotmail unwantedly adds in an extra space below images when using non IE browsers. You may not always want all of your images to be block elements. Apply the "image_fix" class to any image you need to fix.
+
+			Bring inline: Yes.
+			*/
+			img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+			a img {border:none;}
+			.image_fix {display:block;}
+			.td_fix {line-height: 1px}
+			
+			.image_flecha {margin-top: 4px;}
+
+
+			/** Yahoo paragraph fix: removes the proper spacing or the paragraph (p) tag. To correct we set the top/bottom margin to 1em in the head of the document. Simple fix with little effect on other styling. NOTE: It is also common to use two breaks instead of the paragraph tag but I think this way is cleaner and more semantic. NOTE: This example recommends 1em. More info on setting web defaults: http://www.w3.org/TR/CSS21/sample.html or http://meiert.com/en/blog/20070922/user-agent-style-sheets/
+
+			Bring inline: Yes.
+			**/
+			p {margin: 0;}
+			p.lead {margin-top: 5px;}
+			/** Hotmail header color reset: Hotmail replaces your header color styles with a green color on H2, H3, H4, H5, and H6 tags. In this example, the color is reset to black for a non-linked header, blue for a linked header, red for an active header (limited support), and purple for a visited header (limited support).  Replace with your choice of color. The !important is really what is overriding Hotmail's styling. Hotmail also sets the H1 and H2 tags to the same size.
+
+			Bring inline: Yes.
+			**/
+			h1, h2, h3, h4, h5, h6 {margin:0px;}
+
+			h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration: none !important; color: #006667 !important;}
+
+			h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+				color: #006667 !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+			}
+
+			h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+				color: #006667  !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+			}
+
+			/** Outlook 07, 10 Padding issue: These "newer" versions of Outlook add some padding around table cells potentially throwing off your perfectly pixeled table.  The issue can cause added space and also throw off borders completely.  Use this fix in your header or inline to safely fix your table woes.
+
+			More info: http://www.ianhoar.com/2008/04/29/outlook-2007-borders-and-1px-padding-on-table-cells/
+			http://www.campaignmonitor.com/blog/post/3392/1px-borders-padding-on-table-cells-in-outlook-07/
+
+			H/T @edmelly
+
+			Bring inline: No.
+			**/
+			table td {border-collapse: collapse;}
+
+			/** Remove spacing around Outlook 07, 10 tables
+
+			More info : http://www.campaignmonitor.com/blog/post/3694/removing-spacing-from-around-tables-in-outlook-2007-and-2010/
+
+			Bring inline: Yes
+			**/
+			table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+			/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email, bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+
+			Bring inline: Yes. */
+			a {color: #006667 !important; text-decoration: none !important}
+
+			/* Or to go the gold star route...
+			a:link { color: orange; }
+			a:visited { color: blue; }
+			a:hover { color: green; }
+			*/
+
+			/***************************************************
+			****************************************************
+			MOBILE TARGETING
+
+			Use @media queries with care.  You should not bring these styles inline -- so it's recommended to apply them AFTER you bring the other stlying inline.
+
+			Note: test carefully with Yahoo.
+			Note 2: Don't bring anything below this line inline.
+			****************************************************
+			***************************************************/
+
+			/* NOTE: To properly use @media queries and play nice with yahoo mail, use attribute selectors in place of class, id declarations.
+			table[class=classname]
+			Read more: http://www.campaignmonitor.com/blog/post/3457/media-query-issues-in-yahoo-mail-mobile-email/
+			*/
+			@media only screen and (max-device-width: 480px) {
+
+				/* A nice and clean way to target phone numbers you want clickable and avoid a mobile phone from linking other numbers that look like, but are not phone numbers.  Use these two blocks of code to "unstyle" any numbers that may be linked.  The second block gives you a class to apply with a span tag to the numbers you would like linked and styled.
+
+				Inspired by Campaign Monitor's article on using phone numbers in email: http://www.campaignmonitor.com/blog/post/3571/using-phone-numbers-in-html-email/.
+
+				Step 1 (Step 2: line 224)
+				*/
+				a[href^="tel"], a[href^="sms"] {
+					text-decoration: none;
+					color: #666; /* or whatever your want */
+					pointer-events: none;
+					cursor: default;
+				}
+
+				.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+					text-decoration: default;
+					color: #666 !important; /* or whatever your want */
+					pointer-events: auto;
+					cursor: default;
+				}
+			}
+
+			/* More Specific Targeting */
+
+			@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+				/* You guessed it, ipad (tablets, smaller screens, etc) */
+
+				/* Step 1a: Repeating for the iPad */
+				a[href^="tel"], a[href^="sms"] {
+					text-decoration: none;
+					color: blue; /* or whatever your want */
+					pointer-events: none;
+					cursor: default;
+				}
+
+				.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+					text-decoration: default;
+					color: orange !important;
+					pointer-events: auto;
+					cursor: default;
+				}
+			}
+
+			@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+				/* Put your iPhone 4g styles in here */
+			}
+
+			/* Following Android targeting from:
+			http://developer.android.com/guide/webapps/targeting.html
+			http://pugetworks.com/2011/04/css-media-queries-for-targeting-different-mobile-devices/  */
+			@media only screen and (-webkit-device-pixel-ratio:.75){
+				/* Put CSS for low density (ldpi) Android layouts in here */
+			}
+			@media only screen and (-webkit-device-pixel-ratio:1){
+				/* Put CSS for medium density (mdpi) Android layouts in here */
+			}
+			@media only screen and (-webkit-device-pixel-ratio:1.5){
+				/* Put CSS for high density (hdpi) Android layouts in here */
+			}
+			/* end Android targeting */
+
+			.block_separador, .block_margen{
+				font-size: 1px; 
+				line-height: 1px;	
+			} 
+
+
+
+			.mod_noMargin{
+				margin:0px !important;	
+			}
+			.mod_marginFino{
+				margin-top:3px;	
+			}
+
+			.mod_marginMedio{
+				margin-top:5px !important;	
+			}
+			.mod_marginGrueso{
+				margin-top:15px;	
+			}
+			.mod_marginGruesoBig{
+				margin-top:30px;	
+			}
+			.mod_marginBot{
+				margin-bottom:5px;
+			}
+
+			.mod_marginLeft{
+				margin-left:5px;
+			}
+			.mod_marginRightGrueso{
+				margin-right:75px;
+			}
+
+			.mod_backgroundLightGreen{
+				background:#5D9C7E;
+			}
+			.mod_backgroundGreen{
+				background:#004840;
+			}
+			.mod_backgroundGrey{
+				background:#D3D1C0;
+			}
+
+			.mod_backgroundBlack{
+				background: #444A4F;
+			}
+
+			.mod_colorBlack{
+				color: #444A4F;
+			}
+			.mod_colorMidBlack{
+				color: #807F74;
+			}
+			
+
+
+			a.mod_colorBlack{
+				color: #3D3C3B !important;
+				text-decoration: none !important;
+			}
+
+			.mod_colorGrey{
+				color:#D3D1C0;
+			}
+
+			.mod_colorGreen{
+				color:#006062;
+			}
+			.mod_fontWeightBold{
+				font-weight:700;
+			}
+
+			.mod_fontTrebu{
+				font-family:"Trebuchet MS", Helvetica, sans-serif;
+			}
+			.mod_fontThao{
+				font-family:Tahoma, Geneva, sans-serif;
+			}
+
+			.mod_fontArial{
+				font-family:"Arial", Helvetica, sans-serif;
+				font-weight:400;
+
+			}
+			.mod_fontArialBold{
+				font-family: "Arial Bold", sans-serif;
+				font-weight:700;
+
+			}
+
+			.mod_fontSerif{
+				font-family: "Times New Roman", Times, serif;
+			}
+
+			.mod_sizeXBig{
+				font-size:36px;	
+				line-height:130%;
+
+			}
+			.mod_sizeBig{
+				font-size:27px;	
+				line-height:110%;
+			}
+
+			.mod_sizeMed{
+				font-size:11px;	
+				line-height:110%;
+			}
+			.mod_sizeMedSmall{
+				font-size:13px;	
+				line-height:110%;
+			}
+
+			.mod_sizeSmall{
+				font-size:11px;	
+				line-height:120%;
+			}
+			.mod_sizeXSmall{
+				font-size:9px;	
+				line-height:120%;
+			}
+
+
+			.mod_textUppercase{
+				text-transform:uppercase;
+			}
+			.mod_textNonecase{
+				text-transform:none !important;
+			}
+
+			
+
+			h1{
+				font-size:36px;	
+				line-height: 130%;
+
+			}
+			h2{
+				margin-top:4px;
+				margin-bottom:2px;
+				font-size:12px;	
+				line-height: 115%;
+				font-weight: 400px;
+			}
+			h3{
+				margin-top:10px;
+				margin-bottom:0px;
+
+				font-size:12px;	
+				line-height: 120%;
+			}
+			h4{
+				margin-bottom:5px;
+				font-size:10px;	
+				line-height: 120%;
+			}
+			/*especiales*/
+			.una{
+				width: 45px;
+			}
+		</style>
+
+		<!-- Targeting Windows Mobile -->
+		<!--[if IEMobile 7]>
+		<style type="text/css">
+
+		</style>
+		<![endif]-->
+
+		<!-- ***********************************************
+		****************************************************
+		END MOBILE TARGETING
+		****************************************************
+		************************************************ -->
+
+		<!--[if gte mso 9]>
+		<style>
+			/* Target Outlook 2007 and 2010 */
+		</style>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+		<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+			<tr>
+				<td>
+
+					<!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
+					<table id="header" cellpadding="0"  width="600" cellspacing="0" border="0" align="center">
+
+						<tr  width="600" >
+							<td class="block_margen mod_izquierdo mod_backgroundLightGreen" width="75" valign="top">&nbsp;</td>
+							<td class="block_content mod_center mod_backgroundLightGreen" width="525" valign="top">
+								<table id="tableContainer" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+									<tr  width="525" height="10"><td class="block_margen mod_top mod_backgroundLightGreen" width="525" height="10" valign="top">&nbsp;</td>
+									<tr width="525"><td class="td_fix"><img class="image_fix mod_fontSerif mod_colorGrey" width="120" alt="Artes Multimediales" title="Artes  Multimediales" src="http://www.extension.iuna-atam.com.ar/newsletter/images/logos/atam.png"/>&nbsp;</td>
+									<tr  width="525" height="10"><td class="block_margen mod_bott mod_backgroundLightGreen" width="525" height="10" valign="top">&nbsp;</td>			
+								</table>
+							</td>
+
+							
+						</tr>
+
+					</table><!-- cierra header -->
+
+
+
+
+					<table id="titulos" cellpadding="0"  width="600" cellspacing="0" border="0" align="center">
+									
+						<tr  width="600" >
+
+							<td class="block_margen mod_izquierdo mod_backgroundLightGreen" width="75" valign="top">&nbsp;</td>
+							
+							<td class="block_content mod_center mod_backgroundLightGreen" width="525" valign="top">
+								<table id="tableContainer" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+
+									<tr  width="525" height="15"><td class="block_margen mod_top mod_backgroundLightGreen" width="525" height="10" valign="top">&nbsp;</td>
+									<tr  width="525">
+										<td class="elem_texto mod_backgroundGreen"> 
+											<h2 class="mod_marginLeft mod_fontArial mod_colorGrey mod_backgroundGreen mod_textUppercase mod_marginRightGrueso">{-----$ENCABEZADO-----}</h2>
+										</td>
+									<tr  width="525" cellspacing="0" border="0">
+										<td cellspacing="0" border="0" class="block_img mod_top mod_backgroundLightGreen" width="525"  valign="top"><img WIDTH="525" HEIGHT="auto" src="{-----$IMG_URL-----}" alt="Imagen Noticia" /></td>	
+									<tr  width="525" height="5">
+										<td class="block_margen mod_top mod_backgroundLightGreen" width="525" height="5" valign="top">&nbsp;</td>
+									<tr  width="525" height="15"><td class="block_margen mod_top mod_backgroundGreen" width="525" height="40" valign="top">&nbsp;</td>
+									<tr  width="525">
+										<td class="elem_texto mod_backgroundGreen"> 
+											<h1 class="mod_marginLeft mod_textUppercase  mod_fontArialBold mod_colorGrey mod_backgroundGreen mod_marginRightGrueso">{-----$TITULO-----}</h1>
+										</td>
+									<tr  width="525">
+										<td class="elem_texto mod_backgroundGreen"> 
+											<h2 class="mod_marginLeft mod_fontArialBold mod_colorGrey  mod_backgroundGreen mod_textNonecase mod_marginRightGrueso">{-----$SUBTITULO-----}</h2>
+										</td>
+									<tr  width="525">
+										<td class="elem_texto mod_backgroundGreen"> 
+											<h3 class="mod_marginLeft mod_colorGrey mod_fontArial mod_backgroundGreen mod_textNonecase mod_marginRightGrueso">{-----$SUB_SUBTITULO-----}</h3>
+										</td>
+									<tr  width="525" height="5"><td class="block_margen mod_bott mod_backgroundGreen" width="525" height="5" valign="top">&nbsp;</td>			
+
+								</table>
+
+							</td><!-- cierra content -->
+
+
+						</tr>
+					</table><!-- cierra titulos -->
+
+					<table id="contenidos" cellpadding="0"  width="600" cellspacing="0" border="0" align="center">
+
+						<tr  width="600" >
+							<td class="block_margen mod_izquierdo mod_backgroundGrey" width="75" valign="top">&nbsp;</td>
+
+							<td class="block_content mod_center mod_backgroundGrey" width="500" valign="top">
+
+								<!-- #########EMPIEZA BLOQUE CURSO-->
+
+								<table id="tableContainer" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+
+
+									<tr  width="500" height="25"><td class="block_margen mod_bott mod_backgroundGrey" width="525" height="25" valign="top">&nbsp;</td>
+
+										<!-- EMPIEZA  bloque texto-->
+									<table id="tableBoqueTexto" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+										<tr  width="500">
+											<td class="elem_texto mod_fontArial mod_colorBlack mod_sizeSmall" width="500">
+
+												
+
+												
+												<div class="mod_fontArial lead">{-----$CONTENIDO-----}</div>
+
+												
+
+											</td>
+											<td class="block_margen mod_derecho mod_backgroundGrey" width="25" valign="top">&nbsp;</td>
+									</table><!-- CIERRA  bloque texto-->
+
+
+
+
+																				<!-- TERMINA bloque texto-->
+
+
+																				<!-- TERMINA margen final-->
+									<table id="tableContainer" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+										<tr  width="525" height="25"><td class="block_margen mod_bott mod_backgroundGrey" width="525" height="25" valign="top">&nbsp;</td>	
+										</table>
+
+
+
+
+																					<!-- #########EMPIEZA BLOQUE CIERRE-->
+
+																					<!-- EMPIEZA contenido-->
+							<table id="tableContainer" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+
+
+
+								<!-- separador-->
+								<tr  width="525"><td class="block_separador mod_top mod_backgroundGreen" width="525" height="1" valign="top">&nbsp;</td>
+
+									<!-- separador-->
+
+
+									<!-- EMPIEZA  bloque texto-->
+
+									<table id="tableBoqueTexto" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+										<tr  width="525">
+											<td class="elem_texto mod_fontArial mod_colorBlack mod_sizeSmall" width="410">
+												<h3 class="mod_textUppercase mod_fontArialBold  mod_fontWeightBold mod_marginGrueso">{-----$CIERRE_titulo-----}</h3>
+												<div class="mod_fontArial">{-----$CIERRE_contenido-----}</div>
+
+											</td>
+											<td class="block_margen mod_derecho mod_backgroundGrey" width="25" valign="top">&nbsp;</td>
+										</table>
+
+										<!-- separador fino-->
+										<table id="tableSeparador" cellpadding="0"  width="525" cellspacing="0" border="0" align="center">
+											<tr width="525" height="15"><td class="block_margen mod_backgroundGrey" width="525" height="15" valign="top">&nbsp;</td>
+
+										<!-- TERMINA bloque texto-->
+
+										<!-- #########TERMINA BLOQUE INFO-->
+
+
+
+
+											</table><!-- termina contenido-->
+
+										</td>
+
+									</tr>
+
+								</table>
+
+								<table id="footer" cellpadding="0"  width="600" cellspacing="0" border="0" align="center">
+
+									<tr  width="600" >
+
+										<td class="block_content mod_center mod_backgroundGrey" width="600" valign="top">
+											<table id="tableContainer" cellpadding="0"  width="600" cellspacing="0" border="0" align="center">
+												<tr  width="600">
+													<td width="75" valign="top" class="td_fix"><img class="una image_fix mod_marginFino mod_fontArial mod_colorBlack" width="56"
+														alt="UNA" title="UNA"  
+														src="http://www.extension.iuna-atam.com.ar/newsletter/images/logos/UNA.png"/>&nbsp;</td>
+													
+													<td width="525">
+														<div id="firma" class="mod_colorGreen mod_fontSerif mod_sizeMedSmall">{-----$AREA-----}</div>
+														
+														<table id="tableContainer" cellpadding="0" width="525" cellspacing="0" border="0" align="center">
+														<tr width="525" height="30">
+															<td class="block_margen mod_backgroundGrey" width="500" height="30" valign="top">&nbsp;</td>
+															<td class="block_margen mod_derecho mod_backgroundGrey" width="25" height="30" valign="top">&nbsp;</td>
+
+														<tr  width="525">
+															<td width="500" class="elem_texto mod_fontArial mod_colorMidBlack mod_sizeXSmall"></p>Si prefer&iacute;s no recibir m&aacute;s este mail, pod&eacute;s darte de baja con un <a href="https://docs.google.com/forms/d/18W0SGXf-9sQSBQ17DOaHYCO0wq80V6Mbay2KNnpnJZI/viewform" target="_blank" style="color: #006667 !important; text-decoration: none !important;">sólo click</a>. Seg&uacute;n el art 1 disposici&oacute;n 4/2009, se transcribe: art. 27 inc 3 ley 25326: el titular podr&aacute; en cualquier momento solicitar el retiro o bloqueo de su nombre de los bancos de datos a los que se refiere el presente art&iacute;culo. y art. 27 anexo i decreto 1558/01: en toda comunicaci&oacute;n con fines de publicidad que se realice por correo, tel&eacute;fono, correo electr&oacute;nico, internet u otro medio a distancia a conocer, se deber&aacute; indicar, en forma expresa y destacada, la posibilidad del titular del dato de solicitar el retiro o bloqueo, total o parcial, de su nombre de la base de datos. a pedido del interesado, se deber&aacute; informar el nombre del responsable o usuario del banco de datos que provey&oacute; la informaci&oacute;n</p></td>
+															<td class="block_margen mod_derecho mod_backgroundGrey" width="25" valign="top">&nbsp;</td>
+														</table>
+													</td>
+													
+
+													</td>
+												
+													
+
+											</table>
+											</td>
+											<tr  width="600" height="15"><td class="block_margen mod_bott mod_backgroundGrey" width="600" height="30" valign="top">&nbsp;</td>
+
+											</tr>
+
+										</table>
+			<!-- End example table -->
+
+			<!-- Yahoo Link color fix updated: Simply bring your link styling inline. 
+			<a href="http://htmlemailboilerplate.com" target ="_blank" title="Styling Links" style="color: orange; text-decoration: none;">Coloring Links appropriately</a>
+			-->
+			<!-- Gmail/Hotmail image display fix: Gmail and Hotmail unwantedly adds in an extra space below images when using non IE browsers.  This can be especially painful when you putting images on top of each other or putting back together an image you spliced for formatting reasons.  Either way, you can add the 'image_fix' class to remove that space below the image.  Make sure to set alignment (don't use float) on your images if you are placing them inline with text.
+			<img class="image_fix" src="full path to image" alt="Your alt text" title="Your title text" width="x" height="x" /> -->
+
+			<!-- Step 2: Working with telephone numbers (including sms prompts).  Use the "mobile_link" class with a span tag to control what number links and what doesn't in mobile clients. 
+			<span class="mobile_link">123-456-7890</span> -->
+
+		</td>
+	</tr>
+</table>
+<!-- End of wrapper table -->
+</body>
+</html>
+
+	<!-- reserva
+
+	<tr  width="450" height="15"><td class="block_margen mod_bott mod_backgroundGrey" width="450" height="15" valign="top">&nbsp;</td>
+	-->

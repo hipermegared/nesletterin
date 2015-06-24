@@ -1,0 +1,10 @@
+Perl
+* Text::Template
+    ** Getopt::Std
+    ** Pod::Usage
+    ** HTML::Entities
+        encode_entities
+
+Ruby
+* premailer
+    * hpricot  

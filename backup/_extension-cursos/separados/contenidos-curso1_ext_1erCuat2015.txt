@@ -1,0 +1,17 @@
+NEWSLETTER_DIR='curso1_ext_1cuat_2015'
+AREA='Multimediales__ENTER__Dirección de Extensión & Bienestar Estudiantil'
+
+TITULO='Taller de Música aplicada a la producción Multimedial y Audiovisual.'
+SUBTITULO='Descubriendo y resignificando la identidad de lo visual a través del sonido y de la música.'
+DOCENTES='Cesar Leonardo Delgado y Julián Helman'
+RESUMEN='El curso está orientado a estimular mediante el abordaje teórico-práctico, la producción sonora y musical a ser aplicada en producciones audiovisuales, multimediales, teatrales, etc. Partiendo de ideas, conceptos, imágenes, o segmentos fílmicos, articulándolas desde diversos principios constructivos. Se planteará una serie de trabajos prácticos a ser desarrollados individualmente o en grupo a partir de las herramientas que maneje cada alumno, para clase a clase, analizarlas en conjunto.__ENTER__El objetivo del curso es proponer un espacio de reflexión y experimentación sonora y musical para ser aplicada a la producción visual (cine, teatro, videoarte, artes multimediales).'
+DIAS_HORARIO='Martes de 19:00hrs a 21:00hrs'
+DURACION_CLASE='2 hs. semanales'
+INICIO='12 de mayo'
+TURNO='Noche'
+CANTIDAD_CLASES='8 clases'
+MODALIDAD='Teórico-práctica'
+TIPO_DE_CURSO='Curso De Extensión'
+COSTO_TOTAL='$800.- (Costo total del curso sin descuento o bonificación)'
+DESTINATARIOS='Público en general con conocimientos básicos de lenguaje y herramientas musicales o sonoras'
+

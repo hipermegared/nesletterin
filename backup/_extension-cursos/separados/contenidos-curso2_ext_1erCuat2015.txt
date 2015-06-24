@@ -1,0 +1,17 @@
+NEWSLETTER_DIR='curso2_ext_1cuat_2015'
+AREA='Multimediales__ENTER__Dirección de Extensión & Bienestar Estudiantil'
+
+
+TITULO='Taller de aplicación de Kinect en obras interactivas.'
+SUBTITULO='Una aproximación a la programación de sistemas interactivos.'
+DOCENTES='Fabián Sguiglia.'
+RESUMEN='Kinect es un sensor desarrollado por Microsoft para su consola Xbox 360. Aunque fue diseñado para controlar videojuegos, en los últimos años ha sido ampliamente adoptado en la construcción de contenidos artísticos interactivos, principalmente porque hace posible analizar grandes superficies en tres dimensiones, de forma poco invasiva y sin conocimientos de electrónica. El principal objetivo de este taller es ayudar a los alumnos a incorporar kinect en sus proyectos, independientemente de sus disciplinas de origen. Las clases serán prácticas y estarán orientadas a la resolución de problemas.'
+DIAS_HORARIO='Lunes de 18:00hrs a 20:00hrs'
+DURACION_CLASE='2 hs. semanales'
+INICIO='11 de mayo'
+TURNO='Noche'
+CANTIDAD_CLASES='8 clases'
+MODALIDAD='Teórico-práctica'
+TIPO_DE_CURSO='Curso De Extensión'
+COSTO_TOTAL='$800.- (Costo total del curso sin descuento o bonificación)'
+DESTINATARIOS='El taller está orientado a artistas visuales, artistas sonoros, teatristas, escenó- grafos, o a cualquiera que esté interesado en aprender a usar kinect en proyectos artísticos. Se requieren nociones básicas de programación, ya que el curso se dictará en torno a la librería SimpleOpenNI del lenguaje Processing.'

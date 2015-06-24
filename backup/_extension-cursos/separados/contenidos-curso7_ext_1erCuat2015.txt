@@ -1,0 +1,22 @@
+NEWSLETTER_DIR='curso7_ext_1cuat_2015'
+AREA='Multimediales__ENTER__Dirección de Extensión & Bienestar Estudiantil'
+
+
+
+
+
+TITULO='La tecnología multimedia interactiva aplicada a la escena.'
+SUBTITULO='Software Isadora y plataforma Arduino.'
+DOCENTES='Juan Carlos Ramayo y Aníbal Zorrilla.'
+RESUMEN='El curso consiste en el abordaje del software Isadora usado en conjunto con la plataforma Arduino como un conjunto de herramientas que permiten controlar procesos físicos en relación con la captura del movimiento y el procesamiento de imagen y sonido en tiempo real.__ENTER__El software Isadora es un entorno de programación gráfica que proporciona control interactivo sobre los medios digitales, con especial énfasis en la manipulación en tiempo real del video digital. Tiene una interfaz extremadamente amigable con el usuario, lo que lo convierte en una herramienta muy útil para ser usada por personas que quieren emplear esta tecnología pero no cuentan con una formación especializada en programación. La placa Arduino es un hardware que permite controlar elementos físicos tales como motores, consolas de luces y sonido, interruptores y demás. Al emplearlos en conjunto es posible con relativa sencillez diseñar dispositivos a través de los cuales se produzca una interacción en tiempo real entre performers, medios digitales y objetos escénicos. El curso se plantea como un espacio de experimentación en el cual los asistentes, a partir del material que se les ofrece, adquieran los medios para continuar luego con sus propias investigaciones y desarrollen sus propios proyectos.'
+DIAS_HORARIO='Jueves de 18:00hrs a 21:00hrs'
+DURACION_CLASE='2 hs. semanales'
+INICIO='14 de mayo'
+TURNO='Noche'
+CANTIDAD_CLASES='8 clases'
+MODALIDAD='Teórico-práctica'
+TIPO_DE_CURSO='Curso De Extensión'
+COSTO_TOTAL='$600.- (Costo total del curso sin descuento o bonificación)'
+DESTINATARIOS='Público en general.'
+
+

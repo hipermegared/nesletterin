@@ -1,0 +1,19 @@
+NEWSLETTER_DIR='output-tesisjara'
+
+AREA='Multimediales__ENTER__Dirección de Extensión Cultural y Bienestar Estudiantil'
+
+ENCABEZADO='MUESTRA MAYO 2015.'
+
+IMG_URL='http://www.extension.iuna-atam.com.ar/newsletter/images/neo_espiritismo.jpg'
+
+TITULO='NEO ESPIRITISMO'
+
+SUBTITULO_NOTICIA='Proyecto de graduación de la carrera de Artes Multimediales - UNA.'
+SUB_SUBTITULO='Graduado, Lucas Giménez Jara.'
+
+
+RESUMEN='Neo Espiritismo es una obra de arte multimedial comprendida por una performance audiovisual y una serie de instalaciones que intervienen los salones del Museo Ernesto de La Cárcova.__ENTER__Contemplando la hipótesis de que el universo esté conformado por diversas dimensiones espacio-temporales, la mediumnidad de los seres humanos podría ser interpretada como la manera que tenemos para decodificar la “actividad sutil”, es decir, representaciones mentales de cómo nuestra energía se relaciona con otras formas de conciencia inter dimensional: la imaginación como interface del alma.__ENTER__Es habitual que gran parte de nuestra generación tenga una lectura del Arte Clásico vinculada a los cánones de belleza dogmática, a la severidad técnica, y que lo vea ligado a las fuerzas del control político y las elites. Sin embargo, considerando la idea de que los seres humanos puedan conectarse mediúmnicamente con otras dimensiones y luego representarlo, podríamos ver al proyecto clásico como una inmensa canalización mediúmnica en la que se ha intuido una lógica mayor, y se buscó simbolizar materialmente el poema mayor, el universo, un único verso.__ENTER__Inspirada en esto, la obra indaga la posibilidad de articular el entrenamiento del performer-médium con la interface multimedial para crear experiencias cuya sustancia provenga de los planos adyacentes, metáfora en clave multimedial sobre la existencia multidimensional.'
+
+
+Titulo_CIERRE='PRESENTACIÓN'
+Contenido_CIERRE='Sábado 02-05-2015, 19:30hs, puntual. Entrada libre y gratuita.__ENTER__Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova”__ENTER__Av. España 1701 y Elvira Rawson Dellepiane.'
