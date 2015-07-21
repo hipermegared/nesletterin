@@ -1,0 +1,20 @@
+NEWSLETTER_DIR='output-tesismauri'
+
+AREA='Multimediales__ENTER__Dirección de Extensión Cultural y Bienestar Estudiantil'
+
+ENCABEZADO='MUESTRA JULIO 2015.'
+
+IMG_URL='http://www.extension.iuna-atam.com.ar/newsletter/images/tesis_mauricio.png'
+
+TITULO='IN SITU'
+
+SUBTITULO='Proyecto de graduación de la carrera de Artes Multimediales - UNA.'
+SUB_SUBTITULO='Graduado, Mauricio Gutierrez.'
+
+
+RESUMEN='In situ intenta materializar parte de mi experiencia subjetiva con respecto a la obra de arte o no arte, su concepto, su materialidad, y los significados que esta genera en el contexto. In situ, no empieza, no termina, puede o no ser arte, puede o no significar, se nutre de los contextos individuales y sus interrelaciones. Se manifiesta en la percepción de los individuos y sus acciones. No hay papeles predefinidos, estos se desarrollan en el tiempo y el espacio. In situ no busca encontrar, In situ solo busca.'
+
+
+
+CIERRE_titulo='PRESENTACIÓN'
+CIERRE_contenido='Viernes 24-07-2015, 19:30hs, puntual. Entrada libre y gratuita.__ENTER__Área Transdepartamental de Artes Multimediales__ENTER__Av. Don Pedro de Mendoza 679, Ciudad Autónoma de Buenos Aires.'
