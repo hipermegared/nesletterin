@@ -4,20 +4,20 @@ AREA='Multimediales__ENTER__Secretaría Académica / Departamento de Alumnos'
 
 ENCABEZADO='INGRESO 2016: MODALIDAD PRESENCIAL Y MODALIDAD VIRTUAL'
 
-IMG_URL=''
+IMG_URL=' '
 
-TITULO='INSCRIBITE A LA CARRERA DE ARTES MULTIMEDIALES DE LA UNIVERSIDAD NACIONAL DE LAS ARTES'
+TITULO='INSCRIBITE A LA CARRERA DE ARTES MULTIMEDIALES DE LA UNA'
 
 SUBTITULO='A partir del 3 de agosto está abierta la inscripción para el ciclo lectivo 2016.'
 SUB_SUBTITULO='Inscribite aquí: http://multimedia.una.edu.ar/contenidos/2090-ingreso-2016'
 
 RESUMEN='Los estudiantes que opten por esta carrera podrán inscribirse al Curso Preuniversitario Virtual, esto permite que alumnos de todo el territorio nacional puedan cursar su Preuniversitario desde su hogar y tener una primera aproximación con el objeto de estudio de nuestra disciplina artística, y si es su vocación poder planificar su cursada en La Ciudad Autónoma de Buenos Aires.'
 
-$TITULO1='INGRESO'
-$CONTENIDO1='Toda la información y/u orientación de esta modalidad les será enviada vía mail a la dirección de correo electrónico que completaron en el formulario de preinscripción una que hayan cumplido con el envío por mail o la entrega de la planilla de inscripción mas la documentación requerida a la Secretaría Académica del Área Transdepartamental de Artes Multimediales ubicada en Av. Don Pedro de Mendoza 679 (1º piso), de Lunes a Viernes de 10 a 14hs o 15 a 18hs.'
+TITULO1='INGRESO'
+CONTENIDO1='Toda la información y/u orientación de esta modalidad les será enviada vía mail a la dirección de correo electrónico que completaron en el formulario de preinscripción una que hayan cumplido con el envío por mail o la entrega de la planilla de inscripción mas la documentación requerida a la Secretaría Académica del Área Transdepartamental de Artes Multimediales ubicada en Av. Don Pedro de Mendoza 679 (1º piso), de Lunes a Viernes de 10 a 14hs o 15 a 18hs.'
 
-$TITULO2='LAS ARTES MULTIMEIDALES EN LA BOCA'
-$CONTENIDO2='El Area Transdepartamental de Artes Multimediales está emplazada en el Barrio de La Boca, Distrito de las Artes. Después de mucho esfuerzo y trabajo conjunto con el Rectorado, ATAM cuenta con un edificio exclusivo dedicado a la enseñanza, creación y exposición de las Artes Multimediales.'
+TITULO2='LAS ARTES MULTIMEIDALES EN LA BOCA'
+CONTENIDO2='El Area Transdepartamental de Artes Multimediales está emplazada en el Barrio de La Boca, Distrito de las Artes. Después de mucho esfuerzo y trabajo conjunto con el Rectorado, ATAM cuenta con un edificio exclusivo dedicado a la enseñanza, creación y exposición de las Artes Multimediales.'
 
 CIERRE_titulo='DUDAS CONSULTAS O PEDIDO DE INFORMACIÓN'
-CIERRE_contenido='Secretaría Académica / Departamento de Alumnos__ENTER__Av. Don Pedro de Mendoza 679. Lunes a viernes de 9 a 18hs__ENTER__tel. (54.11) 4307 0621. / e-mail: multimedia.academica@una.edu.ar'
+CIERRE_contenido='Secretaría Académica / Departamento de Alumnos__ENTER__Av. Don Pedro de Mendoza 679. Lunes a viernes de 9 a 18hs__ENTER__tel. (54.11) 4307 0621 / e-mail: multimedia.academica@una.edu.ar'
