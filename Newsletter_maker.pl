@@ -8,12 +8,12 @@
 use Getopt::Std;
 use Pod::Usage;
 use autodie;
-use feature q|say|;
+use feature         q|say|;
 use Text::Template;
-use POSIX q|strftime|;
-use HTML::Entities q|encode_entities|;
+use POSIX           q|strftime|;
+use HTML::Entities  q|encode_entities|;
+use Text::FindLinks q|markup_links|;
 
-#$|++;
 my $debug          = 0;
 my %opts           = ();
 my %coso_loco      = ();
@@ -116,7 +116,7 @@ while (<COSO>) {
         next;
     }
    # $coso_loco{$variable} = encode_entities($valor_limpio);
-   $coso_loco{$variable} = $valor_limpio;
+   $coso_loco{$variable} = markup_links($valor_limpio);
 }
 
 # Hacer la cosa.
