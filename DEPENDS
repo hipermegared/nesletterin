@@ -2,8 +2,7 @@ Perl
 * Text::Template
     ** Getopt::Std
     ** Pod::Usage
-    ** HTML::Entities
-        encode_entities
+    ** Text::FindLinks
 
 Ruby
 * premailer

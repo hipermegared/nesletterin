@@ -11,7 +11,7 @@ use autodie;
 use feature         q|say|;
 use Text::Template;
 use POSIX           q|strftime|;
-use HTML::Entities  q|encode_entities|;
+#use HTML::Entities  q|encode_entities|;
 use Text::FindLinks q|markup_links|;
 
 my $debug          = 0;
@@ -80,7 +80,7 @@ while (<COSO>) {
         say "El contenido del campo $variable tiene __ENTER__, no?" if $debug;
 
   #$valor_limpio = parrafear( encode_entities( reemplazar_enters($valor_bb) ) );
-        $valor_limpio = reemplazar_enters($valor_bb);
+        $valor_limpio = markup_links(text=> reemplazar_enters($valor_bb));
         my @pss = split( '\n', $valor_limpio );
         my $final_stringy = '';
         foreach my $pz (@pss) {
@@ -110,13 +110,12 @@ while (<COSO>) {
         # Problema con los parrafos: Necesitan salto de linea y espaciado lindo.
 
         # $valor_limpio = parrafear( encode_entities($valor_bb) );
-        $valor_limpio = parrafear($valor_bb);
+        $valor_limpio = markup_links(text=> parrafear($valor_bb));
         #$valor_limpio = parrafear( encode_entities($valor_bb), $tipo_parrafo );
         $coso_loco{$variable} = $valor_limpio;
         next;
     }
-   # $coso_loco{$variable} = encode_entities($valor_limpio);
-   $coso_loco{$variable} = markup_links($valor_limpio);
+       $coso_loco{$variable} = $valor_limpio;
 }
 
 # Hacer la cosa.
