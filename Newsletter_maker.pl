@@ -205,32 +205,40 @@ sub reemplazar_enters {
 ######################################################################
 sub linkeame_el_texto {
     my $input             = shift;
-    my $rgx_tutti_Outside = '([\[][^\[\]]*[\]][\(][^\(\)]+[\)])';
+    my $rgx_tutti_Outside = '([\[][^\[\]]*[\]][\(][^\(\)]*[\)])';
     my @linkis            = ();
     while ( $input =~ m/$rgx_tutti_Outside/gi ) {
         push( @linkis, $1 );
     }
-    my $rgx_tutti_inside = '[\[]([^\[\]]+)[\]][\(]([^\(\)]+)[\)]';
-    my $rgx_solo_URL     = '[\[][\]][\(]([^\(\)]+)[\)]';
-    my $string_out       = $input;
+    my $rgx_tutti_inside        = '[\[]([^\[\]]+)[\]][\(]([^\(\)]+)[\)]';
+    my $rgx_solo_URL_corchetes  = '[\[][\]][\(]([^\(\)]+)[\)]';
+    my $rgx_solo_URL_parentesis = '[\[]([^\[\]]+)[\]][\(][\)]';
+    my $string_out              = $input;
 
     return $input unless (@linkis);
 
     foreach my $linkinside (@linkis) {
-        my ( $texto_link, $url_link );
-        if ( $linkinside =~ m/$rgx_solo_URL/g ) {
+        my ( $texto_link, $url_link, $sacar );
+        if ( $linkinside =~ m/$rgx_solo_URL_corchetes/g ) {
             $texto_link = $1;
             $url_link   = $1;
+            $sacar      = '\[' . $1 . '\]\(' . '\)';
+        }
+        if ( $linkinside =~ m/$rgx_solo_URL_parentesis/g ) {
+            $texto_link = $1;
+            $url_link   = $1;
+            $sacar      = '\[' . '\]\(' . $1. '\)';
         }
         if ( $linkinside =~ m/$rgx_tutti_inside/g ) {
             $texto_link = $1;
             $url_link   = $2;
+            $sacar      = '\[' . $texto_link . '\]\(' . $url_link . '\)';
         }
-        my $sacar       = '\[' . $texto_link . '\]\(' . $url_link . '\)';
         my $salida_link = '<a href="' . $url_link . '" target="_blank">' . 
                             $texto_link . '</a>';
         $string_out =~ s/$sacar/$salida_link/g;
     }
+    say $string_out if $debug;
     return $string_out;
 }
 ######################################################################
