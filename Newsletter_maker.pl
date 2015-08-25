@@ -12,7 +12,6 @@ use feature         q|say|;
 use Text::Template;
 use POSIX           q|strftime|;
 #use HTML::Entities  q|encode_entities|;
-use Text::FindLinks q|markup_links|;
 
 my $debug          = 0;
 my %opts           = ();
@@ -80,7 +79,8 @@ while (<COSO>) {
         say "El contenido del campo $variable tiene __ENTER__, no?" if $debug;
 
   #$valor_limpio = parrafear( encode_entities( reemplazar_enters($valor_bb) ) );
-        $valor_limpio = markup_links(text=> reemplazar_enters($valor_bb));
+        #$valor_limpio = reemplazar_enters($valor_bb);
+        $valor_limpio = reemplazar_enters(linkeame_el_texto($valor_bb));
         my @pss = split( '\n', $valor_limpio );
         my $final_stringy = '';
         foreach my $pz (@pss) {
@@ -110,7 +110,7 @@ while (<COSO>) {
         # Problema con los parrafos: Necesitan salto de linea y espaciado lindo.
 
         # $valor_limpio = parrafear( encode_entities($valor_bb) );
-        $valor_limpio = markup_links(text=> parrafear($valor_bb));
+        $valor_limpio = parrafear(linkeame_el_texto($valor_bb));
         #$valor_limpio = parrafear( encode_entities($valor_bb), $tipo_parrafo );
         $coso_loco{$variable} = $valor_limpio;
         next;
@@ -199,7 +199,40 @@ sub reemplazar_enters {
     say "salida es $salida" if $debug;
     return $salida;
 }
+######################################################################
+# Agregado para convertir en enlaces html las direcciones wen 
+# y enlaces dentro del texto.
+######################################################################
+sub linkeame_el_texto {
+    my $input             = shift;
+    my $rgx_tutti_Outside = '([\[][^\[\]]*[\]][\(][^\(\)]+[\)])';
+    my @linkis            = ();
+    while ( $input =~ m/$rgx_tutti_Outside/gi ) {
+        push( @linkis, $1 );
+    }
+    my $rgx_tutti_inside = '[\[]([^\[\]]+)[\]][\(]([^\(\)]+)[\)]';
+    my $rgx_solo_URL     = '[\[][\]][\(]([^\(\)]+)[\)]';
+    my $string_out       = $input;
 
+    return $input unless (@linkis);
+
+    foreach my $linkinside (@linkis) {
+        my ( $texto_link, $url_link );
+        if ( $linkinside =~ m/$rgx_solo_URL/g ) {
+            $texto_link = $1;
+            $url_link   = $1;
+        }
+        if ( $linkinside =~ m/$rgx_tutti_inside/g ) {
+            $texto_link = $1;
+            $url_link   = $2;
+        }
+        my $sacar       = '\[' . $texto_link . '\]\(' . $url_link . '\)';
+        my $salida_link = '<a href="' . $url_link . '" target="_blank">' . 
+                            $texto_link . '</a>';
+        $string_out =~ s/$sacar/$salida_link/g;
+    }
+    return $string_out;
+}
 ######################################################################
 # Pods
 ######################################################################
