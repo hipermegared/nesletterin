@@ -60,6 +60,7 @@
 				margin-bottom:10px;
 				margin-left:0;
 				/*@editable*/ text-align:left;
+				text-transform: uppercase;
 			}
 
 			/**
@@ -80,6 +81,7 @@
 				margin-bottom:10px;
 				margin-left:0;
 				/*@editable*/ text-align:left;
+				text-transform: uppercase;
 			}
 
 			/**
@@ -100,6 +102,7 @@
 				margin-bottom:10px;
 				margin-left:0;
 				/*@editable*/ text-align:left;
+				text-transform: uppercase;
 			}
 
 			/**
@@ -120,8 +123,28 @@
 				margin-bottom:10px;
 				margin-left:0;
 				/*@editable*/ text-align:left;
+				text-transform: uppercase;
 			}
-			
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h5, .h5{
+				/*@editable*/ color:#444A4F;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+				text-transform: uppercase;
+			}
 			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
 			
 			/**
@@ -195,9 +218,9 @@
 			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
 			*/
 			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#5D9C7E;
 				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
+				/*@editable*/ text-decoration:none;
 			}
 			
 			#headerImage{
@@ -225,10 +248,13 @@
 			.bodyContent div{
 				/*@editable*/ color:#444A4F;
 				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
-				/*@editable*/ font-size:12px;
-				/*@editable*/ line-height:120%;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
 				/*@editable*/ text-align:left;
 				
+			}
+			.bodyContent h4{
+
 			}
 			
 			/**
@@ -237,9 +263,9 @@
 			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
 			*/
 			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#5D9C7E;
 				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
+				/*@editable*/ text-decoration:none;
 			}
 			
 			.bodyContent img{
@@ -264,10 +290,29 @@
 			}
 
 			.rowContent.last div{
-				/*border-bottom: 0px solid transparent;
-				padding-bottom: 0px;*/
+				border-bottom: 0px solid transparent;
+				padding-bottom: 0px;
 			}
 
+			/* /\/\/\/\/\/\/\/\/\/\ CUSTOM CONTENT: CURSO /\/\/\/\/\/\/\/\/\/\ */
+			.curso .resumen{
+				margin-bottom: 10px;
+			}
+			.curso .data a{
+				/*font-size: 12px;*/
+				text-decoration: none;
+				font-weight: bold !important;
+				color:#5D9C7E;
+			}
+			.info div{
+				background-color: #004840;
+				padding: 10px;
+				color: #D3D1C0;
+			}
+			.info div h5{
+	
+				color: #D3D1C0;
+			}
 			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COLUMNS; LEFT, CENTER, RIGHT /\/\/\/\/\/\/\/\/\/\ */
 			
 			/**
@@ -287,8 +332,8 @@
 			.leftColumnContent div{
 				/*@editable*/ color:#444A4F;
 				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
-				/*@editable*/ font-size:12px;
-				/*@editable*/ line-height:120%;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
 				/*@editable*/ text-align:left;
 			}
 			
@@ -298,9 +343,9 @@
 			* @tip Set the styling for your email's left column links. Choose a color that helps them stand out from your text.
 			*/
 			.leftColumnContent div a:link, .leftColumnContent div a:visited, /* Yahoo! Mail Override */ .leftColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#5D9C7E;
 				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
+				/*@editable*/ text-decoration:none;
 			}
 			
 			.leftColumnContent img{
@@ -325,8 +370,8 @@
 			.centerColumnContent div{
 				/*@editable*/ color:#444A4F;
 				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
-				/*@editable*/ font-size:12px;
-				/*@editable*/ line-height:120%;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
 				/*@editable*/ text-align:left;
 			}
 			
@@ -336,9 +381,9 @@
 			* @tip Set the styling for your email's center column links. Choose a color that helps them stand out from your text.
 			*/
 			.centerColumnContent div a:link, .centerColumnContent div a:visited, /* Yahoo! Mail Override */ .centerColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#5D9C7E;
 				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
+				/*@editable*/ text-decoration:none;
 			}
 			
 			.centerColumnContent img{
@@ -363,8 +408,8 @@
 			.rightColumnContent div{
 				/*@editable*/ color:#444A4F;
 				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
-				/*@editable*/ font-size:12px;
-				/*@editable*/ line-height:120%;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
 				/*@editable*/ text-align:left;
 			}
 			
@@ -374,16 +419,18 @@
 			* @tip Set the styling for your email's right column links. Choose a color that helps them stand out from your text.
 			*/
 			.rightColumnContent div a:link, .rightColumnContent div a:visited, /* Yahoo! Mail Override */ .rightColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
-				/*@editable*/ color:#336699;
+				/*@editable*/ color:#5D9C7E;
 				/*@editable*/ font-weight:normal;
-				/*@editable*/ text-decoration:underline;
+				/*@editable*/ text-decoration:none;
 			}
 			
 			.rightColumnContent img{
 				display:inline;
 				height:auto;
 			}
-
+			.columnContent div{
+				margin-top: 10px;
+			}
 
 			.columnContent.odd{
 				background-color:#D3D1C0; 
@@ -400,8 +447,10 @@
 
 			}
 
-			#otrasNoticias .leftColumnContent {
+			#otrasNoticias .leftColumnContent td {
 				border-right: 1px solid #E1E4E1;
+				padding:20px 20px 20px 19px;
+
 			}
 
 
@@ -427,8 +476,8 @@
 			.footerContent div{
 				/*@editable*/ color:#D3D1C0;
 				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:12px;
-				/*@editable*/ line-height:125%;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
 				/*@editable*/ text-align:left;
 			}
 			
@@ -557,246 +606,259 @@
 														<td valign="top" class="sectionTitle">
 															<div mc:edit="std_content00">
 																<h2 class="h2">Cursos de Extensión</h2>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent odd">
+													<tr>
+														<td valign="top">
+															<div mc:edit="std_content00" class="curso">				
+																<h4 class="h4">Curso 1</h4>
+																<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde, laboriosam mollitia. Facilis quidem, pariatur maiores quas, modi reprehenderit unde dolores reiciendis voluptatum nemo porro accusamus nihil in. Porro, vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo corrupti eveniet, ex repudiandae voluptates eaque nisi saepe quibusdam, laboriosam quas earum fuga nihil assumenda nobis, error quidem ut, dolorum deserunt.
+																	<br />
+																	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus quidem maxime tempore veritatis ipsam fugiat. Facere ad in tempora officia id adipisci a maxime, aperiam pariatur quam consequatur deserunt.
+																</p>
+																<span class="data">[ <strong>Incio:</strong> 1 de mayo | <strong>8 clases:</strong> lunes de 18 a 20hrs | <a href="multimedial.una.edu.ar">+ info</a> ]</span>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent even">
+													<tr>
+														<td valign="top">
+															<div mc:edit="std_content00">				
+																<h4 class="h4">Curso 2</h4>
+																<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
+																<br />
+
+																After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent even last">
+													<tr>
+														<td valign="top">
+															<div mc:edit="std_content00">				
+																<h4 class="h4">Curso 3</h4>
+																	<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
+																	<br />
+
+																	After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
 																</div>
 															</td>
 														</tr>
 													</table>
 													<!-- // End Module: Standard Content \\ -->
-													<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent odd">
+													<table border="0" cellpadding="10" cellspacing="0" width="100%" class="rowContent info">
+													<tr>
+														<td valign="top">
+															<div mc:edit="std_content00">				
+																<h5 class="h5">Inscripciones o Consultas</h5>
+																	Dirección de Extensión & Bienestar Estudiantil - Lunes a viernes 10 a 15hrs<br/>
+																	[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | <a href="mailto:multimedia.cursos@una.edu.ar">multimedia.cursos@una.edu.ar<a> ]	
+																</div>
+															</td>
+														</tr>
+													</table>
+													<!-- // End Module: Standard Content \\ -->
+												</td>
+											</tr>
+											<tr>
+												<td colspan="3" valign="top" class="bodyContent sectionTitle">
+
+													<!-- // Begin Module: Standard Content \\ -->
+													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tr>
 															<td valign="top">
-																<div mc:edit="std_content00">				
-																	<h2 class="h3">Curso 1</h3>
-																		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde, laboriosam mollitia. Facilis quidem, pariatur maiores quas, modi reprehenderit unde dolores reiciendis voluptatum nemo porro accusamus nihil in. Porro, vel!
-																		<br />
+																<div mc:edit="std_content00">
+																	<h2 class="h2">Muestras</h2>
+																</div>
+															</td>
+														</tr>
+													</table>
 
-																		<strong>Inicio:</strong> Lunes 1 de mayo, de 18 a 20hrs. (8 clases).
-																	</div>
-																</td>
-															</tr>
-														</table>
-														<!-- // End Module: Standard Content \\ -->
-														<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent even">
-															<tr>
-																<td valign="top">
-																	<div mc:edit="std_content00">				
-																		<h3 class="h3">Curso 2</h3>
-																			<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
-																			<br />
 
-																			After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
-																		</div>
-																	</td>
-																</tr>
-															</table>
-															<!-- // End Module: Standard Content \\ -->
-															<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent even last">
-															<tr>
-																<td valign="top">
-																	<div mc:edit="std_content00">				
-																		<h3 class="h3">Curso 3</h3>
-																			<strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
-																			<br />
+												</td>
+											</tr>
+											<tr>
+												<td valign="top" width="180" class="leftColumnContent columnContent odd">
 
-																			After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
-																		</div>
-																	</td>
-																</tr>
-															</table>
-															<!-- // End Module: Standard Content \\ -->
-														</td>
-													</tr>
-													<tr>
-														<td colspan="3" valign="top" class="bodyContent sectionTitle">
+													<!-- // Begin Module: Top Image with Content \\ -->
+													<table border="0" cellpadding="20" cellspacing="0" width="100%">
+														<tr mc:repeatable>
+															<td valign="top">
+																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
+																<div mc:edit="tiwc200_content00">
+																	<h4 class="h4">Muestra 1</h4>
+																	<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+																</div>
+															</td>
+														</tr>
+													</table>
+													<!-- // End Module: Top Image with Content \\ -->
 
-															<!-- // Begin Module: Standard Content \\ -->
-															<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																<tr>
-																	<td valign="top">
-																		<div mc:edit="std_content00">
-																			<h2 class="h2">Muestras</h2>
+												</td>
+												<td valign="top" width="180" class="centerColumnContent columnContent even">
+
+													<!-- // Begin Module: Top Image with Content \\ -->
+													<table border="0" cellpadding="20" cellspacing="0" width="100%">
+														<tr mc:repeatable>
+															<td valign="top">
+																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image01" />
+																<div mc:edit="tiwc200_content01">
+																	<h4 class="h4">Muestra 2</h4>
+																	<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+																</div>
+															</td>
+														</tr>
+													</table>
+													<!-- // End Module: Top Image with Content \\ -->
+
+												</td>
+												<td valign="top" width="180" class="rightColumnContent columnContent odd">
+
+													<!-- // Begin Module: Top Image with Content \\ -->
+													<table border="0" cellpadding="20" cellspacing="0" width="100%">
+														<tr mc:repeatable>
+															<td valign="top">
+																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image02" />
+																<div mc:edit="tiwc200_content02">
+																	<h4 class="h4">Muestra 3</h4>
+																	<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+																</div>
+															</td>
+														</tr>
+													</table>
+													<!-- // End Module: Top Image with Content \\ -->
+
+												</td>
+											</tr>
+											<tr>
+												<td colspan="3" valign="top" class="bodyContent sectionTitle">
+													<!-- // Begin Module: Standard Content \\ -->
+													<table border="0" cellpadding="20" cellspacing="0" width="100%" >
+														<tr>
+															<td valign="top">
+																<div mc:edit="std_content00">
+																	<h2 class="h2">Otras Noticias</h2>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="3" valign="top" class="bodyContent">
+													<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
+
+
+														<tr>
+															<td valign="top" width="280" class="leftColumnContent columnContent">
+
+																<!-- // Begin Module: Top Image with Content \\ -->
+																<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																	<tr mc:repeatable>
+																		<td valign="top" class="cellBorderRight">
+																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
+																			<div mc:edit="tiwc300_content00">
+																				<h4 class="h4">Noticia 1</h4>
+																				<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
 																			</div>
 																		</td>
 																	</tr>
 																</table>
+																<!-- // End Module: Top Image with Content \\ -->
 
+															</td>
+															<td valign="top" width="280" class="rightColumnContent columnContent">
+
+																<!-- // Begin Module: Top Image with Content \\ -->
+																<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																	<tr mc:repeatable>
+																		<td valign="top">
+																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
+																			<div mc:edit="tiwc300_content01">
+																				<h4 class="h4">Noticia 2</h4>
+																				<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+																			</div>
+																		</td>
+																	</tr>
+																</table>
+																<!-- // End Module: Top Image with Content \\ -->
 
 															</td>
 														</tr>
-														<tr>
-															<td valign="top" width="180" class="leftColumnContent columnContent odd">
-
-																<!-- // Begin Module: Top Image with Content \\ -->
-																<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																	<tr mc:repeatable>
-																		<td valign="top">
-																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
-																			<div mc:edit="tiwc200_content00">
-																				<h4 class="h4">Muestra 1</h4>
-																				<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-																			</div>
-																		</td>
-																	</tr>
-																</table>
-																<!-- // End Module: Top Image with Content \\ -->
-
-															</td>
-															<td valign="top" width="180" class="centerColumnContent columnContent even">
-
-																<!-- // Begin Module: Top Image with Content \\ -->
-																<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																	<tr mc:repeatable>
-																		<td valign="top">
-																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image01" />
-																			<div mc:edit="tiwc200_content01">
-																				<h4 class="h4">Muestra 2</h4>
-																				<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-																			</div>
-																		</td>
-																	</tr>
-																</table>
-																<!-- // End Module: Top Image with Content \\ -->
-
-															</td>
-															<td valign="top" width="180" class="rightColumnContent columnContent odd">
-
-																<!-- // Begin Module: Top Image with Content \\ -->
-																<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																	<tr mc:repeatable>
-																		<td valign="top">
-																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image02" />
-																			<div mc:edit="tiwc200_content02">
-																				<h4 class="h4">Muestra 3</h4>
-																				<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-																			</div>
-																		</td>
-																	</tr>
-																</table>
-																<!-- // End Module: Top Image with Content \\ -->
-
-															</td>
-														</tr>
-														<tr>
-															<td colspan="3" valign="top" class="bodyContent sectionTitle">
-																<!-- // Begin Module: Standard Content \\ -->
-																<table border="0" cellpadding="20" cellspacing="0" width="100%" >
-																	<tr>
-																		<td valign="top">
-																			<div mc:edit="std_content00">
-																				<h2 class="h2">Otras Noticias</h2>
-																				</div>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-															</tr>
-															<tr>
-																<td colspan="3" valign="top" class="bodyContent">
-																	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
 
 
-																		<tr>
-																			<td valign="top" width="280" class="leftColumnContent columnContent">
-
-																				<!-- // Begin Module: Top Image with Content \\ -->
-																				<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																					<tr mc:repeatable>
-																						<td valign="top">
-																							<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
-																							<div mc:edit="tiwc300_content00">
-																								<h4 class="h4">Noticia 1</h4>
-																								<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-																							</div>
-																						</td>
-																					</tr>
-																				</table>
-																				<!-- // End Module: Top Image with Content \\ -->
-
-																			</td>
-																			<td valign="top" width="280" class="rightColumnContent columnContent">
-
-																				<!-- // Begin Module: Top Image with Content \\ -->
-																				<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																					<tr mc:repeatable>
-																						<td valign="top">
-																							<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
-																							<div mc:edit="tiwc300_content01">
-																								<h4 class="h4">Noticia 2</h4>
-																								<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-																							</div>
-																						</td>
-																					</tr>
-																				</table>
-																				<!-- // End Module: Top Image with Content \\ -->
-
-																			</td>
-																		</tr>
-
-
-																	</td>
-																</tr>
-															</table>
-															<!-- // End Section: otras noticias \\ -->
-
-														</table>
-														<!-- // End Template Body \\ -->
-													</td>
-												</tr>
-												<tr>
-													<td align="center" valign="top">
-														<!-- // Begin Template Footer \\ -->
-														<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
-															<tr>
-																<td valign="top" class="footerContent">
-
-																	<!-- // Begin Module: Standard Footer \\ -->
-																	<table border="0" cellpadding="10" cellspacing="0" width="100%">
-																		<tr>
-																			<td colspan="2" valign="middle" id="social">
-																				<div mc:edit="std_social">
-																					&nbsp;<a href="*|TWITTER:PROFILEURL|*">follow on Twitter</a> | <a href="*|FACEBOOK:PROFILEURL|*">friend on Facebook</a> | <a href="*|FORWARD|*">forward to a friend</a>&nbsp;
-																				</div>
-																			</td>
-																		</tr>
-																		<tr>
-																			<td valign="top" width="350">
-																				<div mc:edit="std_footer">
-																					<em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
-																					<br />
-																					*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
-																					<br />
-																					<strong>Our mailing address is:</strong>
-																					<br />
-																					*|HTML:LIST_ADDRESS_HTML|**|END:IF|* 
-																				</div>
-																			</td>
-																			<td valign="top" width="190" id="monkeyRewards">
-																				<div mc:edit="monkeyrewards">
-																					*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
-																				</div>
-																			</td>
-																		</tr>
-																		<tr>
-																			<td colspan="2" valign="middle" id="utility">
-																				<div mc:edit="std_utility">
-																					&nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
-																				</div>
-																			</td>
-																		</tr>
-																	</table>
-																	<!-- // End Module: Standard Footer \\ -->
-
-																</td>
-															</tr>
-														</table>
-														<!-- // End Template Footer \\ -->
 													</td>
 												</tr>
 											</table>
-											<br />
-										</td>
-									</tr>
-								</table>
-							</center>
-						</body>
-						</html>
+											<!-- // End Section: otras noticias \\ -->
+
+										</table>
+										<!-- // End Template Body \\ -->
+									</td>
+								</tr>
+								<tr>
+									<td align="center" valign="top">
+										<!-- // Begin Template Footer \\ -->
+										<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+											<tr>
+												<td valign="top" class="footerContent">
+
+													<!-- // Begin Module: Standard Footer \\ -->
+													<table border="0" cellpadding="10" cellspacing="0" width="100%">
+														<tr>
+															<td colspan="2" valign="middle" id="social">
+																<div mc:edit="std_social">
+																	&nbsp;<a href="*|TWITTER:PROFILEURL|*">follow on Twitter</a> | <a href="*|FACEBOOK:PROFILEURL|*">friend on Facebook</a> | <a href="*|FORWARD|*">forward to a friend</a>&nbsp;
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td valign="top" width="350">
+																<div mc:edit="std_footer">
+																	<em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+																	<br />
+																	*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+																	<br />
+																	<strong>Our mailing address is:</strong>
+																	<br />
+																	*|HTML:LIST_ADDRESS_HTML|**|END:IF|* 
+																</div>
+															</td>
+															<td valign="top" width="190" id="monkeyRewards">
+																<div mc:edit="monkeyrewards">
+																	*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2" valign="middle" id="utility">
+																<div mc:edit="std_utility">
+																	&nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+																</div>
+															</td>
+														</tr>
+													</table>
+													<!-- // End Module: Standard Footer \\ -->
+
+												</td>
+											</tr>
+										</table>
+										<!-- // End Template Footer \\ -->
+									</td>
+								</tr>
+							</table>
+							<br />
+						</td>
+					</tr>
+				</table>
+			</center>
+		</body>
+	</html>
