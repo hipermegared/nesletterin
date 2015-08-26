@@ -281,17 +281,23 @@
 			.sectionTitle h2{
 				color: #004840;
 				text-transform: uppercase;
-				margin: 20px 0;
+				margin: 0px 0;
 			}
 			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: ROW /\/\/\/\/\/\/\/\/\/\ */
-			.rowContent div{
+			.rowContent.curso.first td{
+				padding: 20px 20px 10px;
+			}
+			.rowContent.curso td{
+				padding: 5px 20px 10px;
+			}
+			.rowContent.curso div{
 				border-bottom: 1px solid #E1E4E1;
-				padding-bottom: 10px;
+				padding-bottom: 20px;
 			}
 
-			.rowContent.last div{
+			.rowContent.curso.last div{
 				border-bottom: 0px solid transparent;
-				padding-bottom: 0px;
+				padding-bottom: 10px;
 			}
 
 			/* /\/\/\/\/\/\/\/\/\/\ CUSTOM CONTENT: CURSO /\/\/\/\/\/\/\/\/\/\ */
@@ -565,13 +571,13 @@
 									<table border="0" cellpadding="10" cellspacing="0" width="100%">
 										<tr>
 											<td valign="top">
-												<div mc:edit="std_preheader_content">
+												<div >
 													Boletín mensual del Área Transdepartamental de Artes Multimediales de la Universidad Nacional de las Artes
 												</div>
 											</td>
 											<!-- *|IFNOT:ARCHIVE_PAGE|* -->
 											<!-- <td valign="top" width="190">
-												<div mc:edit="std_preheader_links">
+												<div >
 													Is this email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
 												</div>
 											</td> -->
@@ -593,7 +599,7 @@
 											<td class="headerContent">
 
 												<!-- // Begin Module: Standard Header Image \\ -->
-												<img src="http://extension.iuna-atam.com.ar/newsletter/images/boletin-septimbre.png" style="max-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+												<img src="http://extension.iuna-atam.com.ar/newsletter/images/boletin-septimbre.png" style="max-width:600px;" id="headerImage campaign-icon" label="header_image"  mc:allowdesigner mc:allowtext />
 												<!-- // End Module: Standard Header Image \\ -->
 
 											</td>
@@ -614,17 +620,17 @@
 												<table border="0" cellpadding="20" cellspacing="0" width="100%">
 													<tr>
 														<td valign="top" class="sectionTitle">
-															<div mc:edit="std_content00">
+															<div >
 																<h2 class="h2">Cursos de Extensión</h2>
 															</div>
 														</td>
 													</tr>
 												</table>
 												<!-- // End Module: Standard Content \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent odd">
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
 													<tr>
 														<td valign="top">
-															<div mc:edit="std_content00" class="curso">				
+															<div  class="curso">				
 																<h4 class="h4">Curso 1</h4>
 																<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde, laboriosam mollitia. Facilis quidem, pariatur maiores quas, modi reprehenderit unde dolores reiciendis voluptatum nemo porro accusamus nihil in. Porro, vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo corrupti eveniet, ex repudiandae voluptates eaque nisi saepe quibusdam, laboriosam quas earum fuga nihil assumenda nobis, error quidem ut, dolorum deserunt.
 																	<br />
@@ -636,10 +642,10 @@
 													</tr>
 												</table>
 												<!-- // End Module: Standard Content \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent even">
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso even">
 													<tr>
 														<td valign="top">
-															<div mc:edit="std_content00" class="curso">				
+															<div  class="curso">				
 																<h4 class="h4">Curso 2</h4>
 																<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde, laboriosam mollitia. Facilis quidem, pariatur maiores quas, modi reprehenderit unde dolores reiciendis voluptatum nemo porro accusamus nihil in. Porro, vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo corrupti eveniet, ex repudiandae voluptates eaque nisi saepe quibusdam, laboriosam quas earum fuga nihil assumenda nobis, error quidem ut, dolorum deserunt.
 																<br />
@@ -651,10 +657,10 @@
 													</tr>
 												</table>
 												<!-- // End Module: Standard Content \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent even last">
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso even last">
 													<tr>
 														<td valign="top">
-															<div mc:edit="std_content00" class="curso">				
+															<div  class="curso">				
 																<h4 class="h4">Curso 3</h4>
 																	<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde, laboriosam mollitia. Facilis quidem, pariatur maiores quas, modi reprehenderit unde dolores reiciendis voluptatum nemo porro accusamus nihil in. Porro, vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo corrupti eveniet, ex repudiandae voluptates eaque nisi saepe quibusdam, laboriosam quas earum fuga nihil assumenda nobis, error quidem ut, dolorum deserunt.
 																	<br />
@@ -669,7 +675,7 @@
 													<table border="0" cellpadding="10" cellspacing="0" width="100%" class="rowContent">
 													<tr>
 														<td valign="top">
-															<div mc:edit="std_content00" class="infoCursos">				
+															<div  class="infoCursos">				
 																<h5 class="h5">Inscripciones y Consultas</h5>
 																	Dirección de Extensión y Bienestar Estudiantil / Cursos | Lunes a viernes 10 a 15hrs<br/>
 																	[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | <a href="mailto:multimedia.cursos@una.edu.ar">multimedia.cursos@una.edu.ar<a> ]	
@@ -687,7 +693,7 @@
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tr>
 															<td valign="top">
-																<div mc:edit="std_content00">
+																<div >
 																	<h2 class="h2">Muestras</h2>
 																</div>
 															</td>
@@ -702,10 +708,10 @@
 
 													<!-- // Begin Module: Top Image with Content \\ -->
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
-														<tr mc:repeatable>
+														<tr class="repeatable">
 															<td valign="top">
-																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
-																<div mc:edit="tiwc200_content00">
+																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" label="image"  />
+																<div >
 																	<h4 class="h4">Muestra 1</h4>
 																	<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
 																</div>
@@ -719,10 +725,10 @@
 
 													<!-- // Begin Module: Top Image with Content \\ -->
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
-														<tr mc:repeatable>
+														<tr class="repeatable">
 															<td valign="top">
-																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image01" />
-																<div mc:edit="tiwc200_content01">
+																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" label="image"  />
+																<div >
 																	<h4 class="h4">Muestra 2</h4>
 																	<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
 																</div>
@@ -736,10 +742,10 @@
 
 													<!-- // Begin Module: Top Image with Content \\ -->
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
-														<tr mc:repeatable>
+														<tr class="repeatable">
 															<td valign="top">
-																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image02" />
-																<div mc:edit="tiwc200_content02">
+																<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_160.gif" style="max-width:160px;" label="image"  />
+																<div >
 																	<h4 class="h4">Muestra 3</h4>
 																	<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
 																</div>
@@ -756,7 +762,7 @@
 													<table border="0" cellpadding="20" cellspacing="0" width="100%" >
 														<tr>
 															<td valign="top">
-																<div mc:edit="std_content00">
+																<div >
 																	<h2 class="h2">Otras Noticias</h2>
 																</div>
 															</td>
@@ -774,10 +780,10 @@
 
 																<!-- // Begin Module: Top Image with Content \\ -->
 																<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																	<tr mc:repeatable>
+																	<tr class="repeatable">
 																		<td valign="top" class="cellBorderRight">
-																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
-																			<div mc:edit="tiwc300_content00">
+																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" label="image"  />
+																			<div >
 																				<h4 class="h4">Noticia 1</h4>
 																				<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
 																			</div>
@@ -791,10 +797,10 @@
 
 																<!-- // Begin Module: Top Image with Content \\ -->
 																<table border="0" cellpadding="20" cellspacing="0" width="100%">
-																	<tr mc:repeatable>
+																	<tr class="repeatable">
 																		<td valign="top">
-																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
-																			<div mc:edit="tiwc300_content01">
+																			<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" label="image"  />
+																			<div >
 																				<h4 class="h4">Noticia 2</h4>
 																				<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
 																			</div>
@@ -827,15 +833,15 @@
 													<table border="0" cellpadding="10" cellspacing="0" width="100%">
 														<tr>
 															<td colspan="2" valign="middle" id="social">
-																<div mc:edit="std_social">
+																<div >
 																	&nbsp;<a href="http://www.multimedia.una.edu.ar">sitio oficial</a> | <a href="https://twitter.com/UNAmultimedial">twitter</a> | <a href="https://www.facebook.com/una.multimediales">facebook</a>&nbsp;
 																</div>
 															</td>
 														</tr>
 														<tr>
 															<td valign="top" width="350">
-																<div mc:edit="std_footer">
-																	<strong>Departamento de alumnos</strong>
+																<div >
+																	<strong>Departamento de Alumnos</strong>
 																	<br/>
 																	43070624 | <a href="mailto:multimedia.academica@una.edu.ar">multimedia.academica@una.edu.ar</a>
 																	<br/>
@@ -850,7 +856,7 @@
 																</div>
 															</td>
 															<td valign="top" width="190" id="monkeyRewards">
-																<div mc:edit="monkeyrewards">
+																<div >
 																	Universidad Nacional de las Artes
 																	<br/>
 																	Artes Multimediales
@@ -861,7 +867,7 @@
 														</tr>
 														<tr>
 															<td colspan="2" valign="middle" id="utility">
-																<div mc:edit="std_utility">
+																<div >
 																	&nbsp;<a href="https://docs.google.com/forms/d/18W0SGXf-9sQSBQ17DOaHYCO0wq80V6Mbay2KNnpnJZI/viewform">desuscribime de esta lista</a> | <a href="mailto:contenidos@cpamvirtual.com.ar?subject=Quiero%20agregarme%20a%20la%20lista%20de%20difusión">agregarme a esta lista</a>&nbsp;
 																</div>
 															</td>
