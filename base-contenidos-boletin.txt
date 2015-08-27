@@ -1,0 +1,36 @@
+TITULO_A=''
+titulo_A1=''
+resumen_A1=''
+cierre_A1=''
+# idem/repite 6+
+
+TITULO_CIERRE_A=''
+CONTENIDO_CIERRE_A=''
+#########
+
+
+TITULO_B=''
+img_B1=''
+titulo_B1=''
+contenido_B1=''
+# idem/repite 2+
+#########
+
+
+TITULO_C=''
+titulo_C1=''
+resumen_C1=''
+cierre_C1=''
+# idem/repite 1+
+
+TITULO_CIERRE_C=''
+CONTENIDO_CIERRE_C=''
+#########
+
+
+TITULO_D=''
+img_D1=''
+titulo_D1=''
+contenido_D1=''
+# idem/repite 1+
+#########
