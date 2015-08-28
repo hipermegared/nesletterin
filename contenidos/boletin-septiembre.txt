@@ -1,8 +1,10 @@
+TITULO_MAIL='ATAM / Boletín Semptiembre'
+
 TITULO_A='CURSOS DE EXTENSIÓN'
 
 titulo_A1='Programación Módulo Wifi ESP8266 Arduino - MySQL000Webhost - Thingspeak'
 
-resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a OyT en cuestión de monitoreo y registros.___ENTER___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor (www.000webhost.com MySQL), como también la implementación de un monitoreo online (Thinspeaks.com).'
+resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a OyT en cuestión de monitoreo y registros.___BR___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor (www.000webhost.com MySQL), como también la implementación de un monitoreo online (Thinspeaks.com).'
 
 cierre_A1='[ **Inicio:** 1º de octubre | **8 clases:** jueves de 18 a 20hrs | [http://multimedia.una.edu.ar/extension/cursos/](+ info) ]'
 
@@ -10,13 +12,13 @@ cierre_A1='[ **Inicio:** 1º de octubre | **8 clases:** jueves de 18 a 20hrs | [
 
 titulo_A2='Taller de Aplicación de Kinect en Obras Interactivas'
 
-resumen_A2='El Taller de Aplicación de Kinect en Obras Interactivas tiene como objetivo capacitar a los alumnos en la aplicación del sensor Kinect al diseño de contenidos interactivos, a partir de la librería SimpleOpenNI del lenguaje de programación Processing.___ENTER___Las clases del taller serán teórico-prácticas, centradas fuertemente en la resolución de problemas.Esto es, las exposiciones teóricas serán sencillas y estarán al servicio de generar herramientas para abordar problemáticas concretas de la construcción de sistemas interactivos. El último período del curso estará dedicado a la planificación y el prototipado de obras por parte de los alumnos, que servirán también como instancia de evaluación.'
+resumen_A2='El Taller de Aplicación de Kinect en Obras Interactivas tiene como objetivo capacitar a los alumnos en la aplicación del sensor Kinect al diseño de contenidos interactivos, a partir de la librería SimpleOpenNI del lenguaje de programación Processing.___BR___Las clases del taller serán teórico-prácticas, centradas fuertemente en la resolución de problemas.Esto es, las exposiciones teóricas serán sencillas y estarán al servicio de generar herramientas para abordar problemáticas concretas de la construcción de sistemas interactivos. El último período del curso estará dedicado a la planificación y el prototipado de obras por parte de los alumnos, que servirán también como instancia de evaluación.'
 
 cierre_A2='[ **Inicio:** 11 de septiembre | **8 clases:** viernes de 18 a 20hrs | [http://multimedia.una.edu.ar/extension/cursos/2532-taller-de-aplicacion-de-kinect-en-obras-interactivas](+ info) ]'
 
 
 titulo_A3='Fotografía sin objetivo, módulo Papel'
-resumen_A3='Taller teórico práctico de fotografía estenopoeica.___ENTER___La propuesta está orientada a todas aquellas personas que estén interesadas en experimentar en el campo de la fotografía de una manera no convencional. Reciclando objetos, cajas, latas, o cualquier espacio estanco de luz, transformándolos en cámaras y desarrollando la creatividad.___ENTER___Se construirán cámaras que se adecuen al tipo de imagen que el alumno desee obtener, tomando una postura crítica y reflexiva sobre la misma.'
+resumen_A3='Taller teórico práctico de fotografía estenopoeica.___BR___La propuesta está orientada a todas aquellas personas que estén interesadas en experimentar en el campo de la fotografía de una manera no convencional. Reciclando objetos, cajas, latas, o cualquier espacio estanco de luz, transformándolos en cámaras y desarrollando la creatividad.___BR___Se construirán cámaras que se adecuen al tipo de imagen que el alumno desee obtener, tomando una postura crítica y reflexiva sobre la misma.'
 
 cierre_A3='[ **Inicio:** 10 de septiembre | **4 clases:** jueves de 16:30 a 19hrs | [http://multimedia.una.edu.ar/extension/cursos/](+ info) ]'
 
@@ -24,32 +26,32 @@ cierre_A3='[ **Inicio:** 10 de septiembre | **4 clases:** jueves de 16:30 a 19hr
 titulo_A4='Fotografía sin objetivo, módulo película'
 
 resumen_A4='La propuesta está orientada a todos aquellos que tengan conocimientos básicos de fotografía estenopeica 
-y quieran experimentar con la fotografía de una manera no convencional.___ENTER___Los participantes podrán construir cámaras para película 35mm y formato medio con cartón, foamboard y madera balsa, diseñando y pensando el dispositivo fotográfico acorde con sus propias necesidades y con el tipo de imagen que deseen obtener.'
+y quieran experimentar con la fotografía de una manera no convencional.___BR___Los participantes podrán construir cámaras para película 35mm y formato medio con cartón, foamboard y madera balsa, diseñando y pensando el dispositivo fotográfico acorde con sus propias necesidades y con el tipo de imagen que deseen obtener.'
 
 cierre_A4='[ **Inicio:** 8 de octubre | **4 clases:** jueves de 16:30 a 19hrs | [http://multimedia.una.edu.ar/extension/cursos/](+ info) ]'
 
 
 titulo_A5='Introducción a la animación tradicional 2D'
 
-resumen_A5='Conocer y aplicar los fundamentos del dibujo animado como recurso narrativo.___ENTER___Entender  la mecánica del movimiento a través del dibujo.___ENTER___Experimentar posibilidades expresivas del dibujo aplicado a la animación.___ENTER___Este taller pretende abarcar los lineamientos  principales que constituyen la técnica del dibujo animado y sus posibilidades expresivas.'
+resumen_A5='Conocer y aplicar los fundamentos del dibujo animado como recurso narrativo.___BR___Entender  la mecánica del movimiento a través del dibujo.___BR___Experimentar posibilidades expresivas del dibujo aplicado a la animación.___BR___Este taller pretende abarcar los lineamientos  principales que constituyen la técnica del dibujo animado y sus posibilidades expresivas.'
 
 cierre_A5='[ **Inicio:** 3 de septiembre | **8 clases:** jueves de 19 a 21hrs | [http://multimedia.una.edu.ar/extension/cursos/2531-introduccion-a-la-animacion-tradicional-2d](+ info) ]'
 
 
 titulo_A6='Composición Fotográfica'
-resumen_A6='El taller se propone introducir al alumno a los conceptos básicos de fotografía para pensar luego el cruce con otras disciplinas.___ENTER___Se le brindarán conceptos tanto teóricos como técnicos que le permitan reflexionar acerca de la situación actual de la fotografía en su carácter experimental,mediante diferentes ejercicios grupales y el desarrollo de un proyecto personal.'
+resumen_A6='El taller se propone introducir al alumno a los conceptos básicos de fotografía para pensar luego el cruce con otras disciplinas.___BR___Se le brindarán conceptos tanto teóricos como técnicos que le permitan reflexionar acerca de la situación actual de la fotografía en su carácter experimental,mediante diferentes ejercicios grupales y el desarrollo de un proyecto personal.'
 cierre_A6='[ **Inicio:** 10 de septiembre | **8 clases:** jueves de 19 a 21hrs | [http://multimedia.una.edu.ar/extension/cursos/](+ info) ]'
 
 
 titulo_A7='Taller de Experimentación Audiovisual'
 
-resumen_A7='La propuesta es crear un espacio de desarrollo creativo, buscando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, el uso que cada uno le presta, y la búsqueda de representaciones.___ENTER___El uso básico de elementos de filmación, con los dispositivos con los que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara.'
+resumen_A7='La propuesta es crear un espacio de desarrollo creativo, buscando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, el uso que cada uno le presta, y la búsqueda de representaciones.___BR___El uso básico de elementos de filmación, con los dispositivos con los que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara.'
 
 cierre_A7='[ **Inicio:** 7 de septiembre | **8 clases:** lunes de 19 a 21hrs | [http://multimedia.una.edu.ar/extension/cursos/](+ info) ]'
 
 
 TITULO_CIERRE_A='Inscripciones y Consultas'
-CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hrs___ENTER___[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [mailto:multimedia.cursos@una.edu.ar](multimedia.cursos@una.edu.ar) ]'
+CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hrs___BR___[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [mailto:multimedia.cursos@una.edu.ar](multimedia.cursos@una.edu.ar) ]'
 #########
 
 
@@ -57,11 +59,11 @@ TITULO_B='MUESTRAS'
 
 img_B1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-desposito.jpg'
 titulo_B1='LAS DOS VALDRADAS'
-contenido_B1='Proyecto de graduación de Mercedes d´Espósito.___ENTER___Las dos Valdradas invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad.___ENTER___La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.___ENTER__Viernes 28/0815, 20:00 a 22:00hs. 1er Piso Aula Magna. Av. Don Pedro de Mendoza 679'
+contenido_B1='Proyecto de graduación de Mercedes d´Espósito.___BR___Las dos Valdradas invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad.___BR___La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.___BR___**Viernes 28/08/15, 20 a 22hs. Aula Magna (1º piso)** Av. Don Pedro de Mendoza 679'
 
 img_B2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-portillo.jpg'
 titulo_B2='Muestra Homenaje Alfredo Portillos'
-contenido_B2='La muestra Alfredo Portillos “Materias, formas, espacios. Un recorrido por el arte, la magia y los misterios” es la segunda del Ciclo de Exposiciones Temporarias de artistas argentinos, especialmente dedicadas a maestros de reconocida trayectoria, que han sido parte de la institución. En esta oportunidad el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova” se enorgullece de abrir sus puertas al maestro Portillos, cuya obra es exhibida después de varios años.___ENTER___***Inauguración:*** Viernes 28 de agosto a las 13 hs. Elvira Rawson de Dellepiane, a mts. de Av. España.'
+contenido_B2='La muestra Alfredo Portillos “Materias, formas, espacios. Un recorrido por el arte, la magia y los misterios” es la segunda del Ciclo de Exposiciones Temporarias de artistas argentinos, especialmente dedicadas a maestros de reconocida trayectoria, que han sido parte de la institución. En esta oportunidad el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova” se enorgullece de abrir sus puertas al maestro Portillos, cuya obra es exhibida después de varios años.___BR___***Inauguración:*** Viernes 28 de agosto a las 13 hs. Elvira Rawson de Dellepiane, a mts. de Av. España.'
 
 img_B3='Cerámica Interactiva & Multimedial'
 titulo_B3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-ceramica.jpg'
@@ -81,14 +83,14 @@ resumen_C2='El objetivo de este curso es capacitar al alumno en la programación
 cierre_C2='[ **Inicio:** 15 de septiembre | **48 horas:** martes y jueves de 18 a 20hrs | [http://multimedia.una.edu.ar/posgrados/cursos/2524-introduccion-a-la-programacion-para-el-arte-interactivo-y-la-escena](+ info) ]'
 
 TITULO_CIERRE_C='Inscripciones y Consultas'
-CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado___ENTER___[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [mailto:multimedia.investigacion@una.edu.ar](multimedia.investigacion@una.edu.ar) ]'
+CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado___BR___[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [mailto:multimedia.investigacion@una.edu.ar](multimedia.investigacion@una.edu.ar) ]'
 
 
 TITULO_D='NOTICIAS'
 
 img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
 titulo_D1='Jóvenes en Primer Plano. Séptima Edición'
-contenido_D1='Hasta el 28/08 Jóvenes en Primer Plano nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Pueden presentarse fotografías, cortos, videominutos o piezas audiovisuales de su factoría. No hay límite de edad.___ENTER___Les acercamos [http://moreno.gob.ar/noticia.aspx?id=6104'](las bases) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [mailto:festivaljovenesenprimerplano@gmail.com](festivaljovenesenprimerplano@gmail.com).'
+contenido_D1='Hasta el 28/08 Jóvenes en Primer Plano nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Pueden presentarse fotografías, cortos, videominutos o piezas audiovisuales de su factoría. No hay límite de edad.___BR___Les acercamos [http://moreno.gob.ar/noticia.aspx?id=6104'](las bases) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [mailto:festivaljovenesenprimerplano@gmail.com](festivaljovenesenprimerplano@gmail.com).'
 
 img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-exptoons.jpg'
 titulo_D2='NUEVOS TALENTOS PARA LA CREACION DE VIDEOSMUSICALES 2015'
