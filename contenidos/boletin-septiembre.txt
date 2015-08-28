@@ -93,7 +93,7 @@ TITULO_D='NOTICIAS'
 
 img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
 titulo_D1='Jóvenes en Primer Plano. 7ma Edición'
-contenido_D1='Hasta el 28 de agosto **Jóvenes en Primer Plano 7ma Edición** nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Les acercamos [las bases](http://bit.ly/1UiGOa8) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [mailto:festivaljovenesenprimerplano@gmail.com](mailto:festivaljovenesenprimerplano@gmail.com).'
+contenido_D1='Hasta el 28 de agosto **Jóvenes en Primer Plano 7ma Edición** nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Les acercamos [las bases](http://bit.ly/1UiGOa8) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [festivaljovenesenprimerplano@gmail.com](mailto:festivaljovenesenprimerplano@gmail.com).'
 
 img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-expotoons.png'
 titulo_D2='CONCURSO EXPOTOONS 2015'
