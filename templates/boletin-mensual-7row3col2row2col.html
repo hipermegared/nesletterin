@@ -6,7 +6,7 @@
 	<!-- Facebook sharing information tags -->
 	<meta property="og:title" content="*|MC:SUBJECT|*" />
 
-	<title>{------$TITULO_MAIL-----}</title>
+	<title>{-----$TITULO_MAIL-----}</title>
 	<style type="text/css">
 		/* Client-specific Styles */
 		#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
@@ -115,7 +115,7 @@
 				/*@editable*/ color:#444A4F;
 				display:block;
 				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:22px;
+				/*@editable*/ font-size:18px;
 				/*@editable*/ font-weight:bold;
 				/*@editable*/ line-height:100%;
 				margin-top:0;
@@ -292,8 +292,8 @@
 				padding: 5px 20px 10px;
 			}
 			.rowContent.curso div{
-				border-bottom: 1px solid #E1E4E1;
-				padding-bottom: 20px;
+				/*border-bottom: 1px solid #E1E4E1;*/
+				/*padding-bottom: 20px;*/
 			}
 
 			.rowContent.curso.last div{
@@ -306,6 +306,10 @@
 			/* /\/\/\/\/\/\/\/\/\/\ CUSTOM CONTENT: CURSO /\/\/\/\/\/\/\/\/\/\ */
 			.curso .resumen{
 				margin-bottom: 10px;
+			}
+			.curso .data{
+				background: #E1E4E1;
+				padding: 3px;
 			}
 			.curso .data a{
 				/*font-size: 12px;*/
@@ -320,13 +324,13 @@
 				padding-bottom: 20px;
 			}
 			.infoCursos div{
-				background-color: #E1E4E1;
+				background-color: #004840;
 				padding: 10px;
-				color: #444A4F;
+				color: #E1E4E1;
 			}
 			.infoCursos div h5{
 
-				color: #444A4F;
+				color: #E1E4E1;
 				border-bottom: 1px solid #D3D1C0;
 				line-height: 150%;
 			}
@@ -639,7 +643,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_A1-----}</h4>
 																<p class="resumen">{-----$resumen_A1-----}</p>
-																<span class="data">{-----$cierre_A1-----}</span>
+																<div class="data">{-----$cierre_A1-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -651,7 +655,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_A2-----}</h4>
 																<p class="resumen">{-----$resumen_A2-----}</p>
-																<span class="data">{-----$cierre_A2-----}</span>
+																<div class="data">{-----$cierre_A2-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -663,7 +667,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_A3-----}</h4>
 																<p class="resumen">{-----$resumen_A3-----}</p>
-																<span class="data">{-----$cierre_A3-----}</span>
+																<div class="data">{-----$cierre_A3-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -675,7 +679,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_A4-----}</h4>
 																<p class="resumen">{-----$resumen_A4-----}</p>
-																<span class="data">{-----$cierre_A4-----}</span>
+																<div class="data">{-----$cierre_A4-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -687,7 +691,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_A5-----}</h4>
 																<p class="resumen">{-----$resumen_A5-----}</p>
-																<span class="data">{-----$cierre_A5-----}</span>
+																<div class="data">{-----$cierre_A5-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -699,7 +703,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_A6-----}</h4>
 																<p class="resumen">{-----$resumen_A6-----}</p>
-																<span class="data">{-----$cierre_A6-----}</span>
+																<div class="data">{-----$cierre_A6-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -711,7 +715,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_A7-----}</h4>
 																<p class="resumen">{-----$resumen_A7-----}</p>
-																<span class="data">{-----$cierre_A7-----}</span>
+																<div class="data">{-----$cierre_A7-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -774,7 +778,7 @@
 															<img src="{-----$img_B2-----}" style="max-width:160px;" alt="{-----$titulo_B2-----}" title="{-----$titulo_B2-----}"  />
 															<div >
 																<h4 class="h4">{-----$titulo_B2-----}</h4>
-                                                                {-----$contenido_B2-----}
+                                {-----$contenido_B2-----}
 															</div>
 														</td>
 													</tr>
@@ -782,7 +786,7 @@
 												<!-- // End Module: Top Image with Content \\ -->
 
 											</td>
-											<td valign="top" width="180" class="centerColumnContent columnContent even">
+											<td valign="top" width="180" class="centerColumnContent columnContent odd">
 
 												<!-- // Begin Module: Top Image with Content \\ -->
 												<table border="0" cellpadding="20" cellspacing="0" width="100%">
@@ -821,7 +825,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_C1-----}</h4>
 																<p class="resumen">{-----$resumen_C1-----}</p>
-																<span class="data">{-----$cierre_C1-----}</span>
+																<div class="data">{-----$cierre_C1-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -833,7 +837,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_C2-----}</h4>
 																<p class="resumen">{-----$resumen_C2-----}</p>
-																<span class="data">{-----$cierre_C2-----}</span>
+																<div class="data">{-----$cierre_C2-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -882,7 +886,7 @@
 															<table border="0" cellpadding="20" cellspacing="0" width="100%">
 																<tr class="repeatable">
 																	<td valign="top" class="cellBorderRight">
-																		<img src="{-----$img_D1-----}" style="max-width:260px;" title="{-----$titulo_D2-----}"  alt="{-----$titulo_D1-----}"/>
+																		<img src="{-----$img_D1-----}" style="max-width:260px;" title="{-----$titulo_D1-----}"  alt="{-----$titulo_D1-----}"/>
 																		<div >
 																			<h4 class="h4">{-----$titulo_D1-----}</h4>
 																			{-----$contenido_D1-----}
