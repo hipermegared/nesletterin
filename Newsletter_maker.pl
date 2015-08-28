@@ -199,8 +199,8 @@ sub boldear {
     my $string_in            =  shift;
     my $string_outin         =  $string_in;
     my @gilators_pa_boldear  =  ();
-    my $rgx_bold_discover    = '([\*]{2}[^\*]+[\*]{2})';
-    my $rgx_busqueda_boldis  = '[\*]{2}([^\*]+)[\*]{2}';
+    my $rgx_bold_discover    = '([\*][\*][^\*]+[\*][\*]';
+    my $rgx_busqueda_boldis  = '[\*][\*]([^\*]+)[\*][\*]';
     while ($string_in =~ m/$rgx_bold_discover/gi){
         push(@gilators_pa_boldear,$1);    
     }
