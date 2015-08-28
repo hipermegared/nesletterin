@@ -59,7 +59,7 @@ TITULO_B='MUESTRAS'
 
 img_B1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-desposito.jpg'
 titulo_B1='LAS DOS VALDRADAS'
-contenido_B1='Proyecto de graduación de Mercedes d´Espósito.___BR___Las dos Valdradas invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad.___BR___La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.___ENTER__Viernes 28/08/15, 20 a 22hs. Aula Magna (1º piso). Av. Don Pedro de Mendoza 679'
+contenido_B1='Proyecto de graduación de Mercedes d´Espósito.___BR___Las dos Valdradas invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad.___BR___La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.___BR___**Viernes 28/08/15, 20 a 22hs. Aula Magna (1º piso)** Av. Don Pedro de Mendoza 679'
 
 img_B2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-portillo.jpg'
 titulo_B2='Muestra Homenaje Alfredo Portillos'
