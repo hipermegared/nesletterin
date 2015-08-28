@@ -8,8 +8,8 @@ IMG_URL=' '
 
 TITULO='INSCRIBITE A LA CARRERA DE ARTES MULTIMEDIALES DE LA UNA'
 
-SUBTITULO='A partir del 3 de agosto está abierta la inscripción para el ciclo lectivo 2016.'
-SUB_SUBTITULO='Inscribite aquí: http://multimedia.una.edu.ar/contenidos/2090-ingreso-2016'
+SUBTITULO='A **partir** del 3 de agosto está abierta la inscripción para el ciclo lectivo 2016.'
+SUB_SUBTITULO='Inscribite [aquí](http://multimedia.una.edu.ar/contenidos/2090-ingreso-2016)'
 
 RESUMEN='Los estudiantes que opten por esta carrera podrán inscribirse al Curso Preuniversitario Virtual, esto permite que alumnos de todo el territorio nacional puedan cursar su Preuniversitario desde su hogar y tener una primera aproximación con el objeto de estudio de nuestra disciplina artística, y si es su vocación poder planificar su cursada en La Ciudad Autónoma de Buenos Aires.'
 
