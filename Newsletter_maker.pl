@@ -19,6 +19,7 @@ my %coso_loco      = ();
 my $t_banana       = strftime( "%d_%B_%Y_%H_%M_%S", localtime( time() ) );
 my $salida_archivo = $t_banana . 'Newsletter_premailer.html';
 my $cifrado_enter  = '__ENTER__';
+my $cifrado_br     = '___BR___';
 say "El archivo de salida es: $salida_archivo" if $debug;
 my $salida_archivo_perl         = $t_banana . 'Newsletter_WebFormat.html';
 my $salida_archivo_carpeta_perl = $salida_archivo_perl;
@@ -75,47 +76,34 @@ while (<COSO>) {
     }
 
     # Agregado para parrafear campos largos.
-    if ( $valor_limpio =~ m/__ENTER__/g ) {
+    if ( $valor_limpio =~ m/__ENTER__|__BR__/g ) {
         say "El contenido del campo $variable tiene __ENTER__, no?" if $debug;
-
-  #$valor_limpio = parrafear( encode_entities( reemplazar_enters($valor_bb) ) );
-        #$valor_limpio = reemplazar_enters($valor_bb);
         $valor_limpio = reemplazar_enters(linkeame_el_texto($valor_bb));
         my @pss = split( '\n', $valor_limpio );
         my $final_stringy = '';
         foreach my $pz (@pss) {
-
-            #$final_stringy .= parrafear(encode_entities($pz));
             if ( $pz =~ m/^$/g ) {
                 $pz = '&nbsp;';
                 say "parrafo es == $pz" if $debug;
                 $final_stringy .= parrafear($pz);
                 next;
-            }
-            else {
+            } else {
                 $final_stringy .= parrafear( $pz );
-            say "LA PUTA MADRE: $final_stringy" if $debug;
+                say "LA PUTA MADRE: $final_stringy" if $debug;
                 next;
             }
         }
-        say "FINAL DE LA NUEVA COSA PARRAFOSA == $final_stringy" if $debug;
+        say "FINAL DEL NEO PARRAFO == $final_stringy" if $debug;
         $coso_loco{$variable} = $final_stringy;
         next;
     }
 
     if ( $variable =~ m/^(P\w?\d+)$/g ) {
-
-        #my $tipo_parrafo = $1;
-        #say "tipo parrafo == $tipo_parrafo" if $debug;
-        # Problema con los parrafos: Necesitan salto de linea y espaciado lindo.
-
-        # $valor_limpio = parrafear( encode_entities($valor_bb) );
         $valor_limpio = parrafear(linkeame_el_texto($valor_bb));
-        #$valor_limpio = parrafear( encode_entities($valor_bb), $tipo_parrafo );
         $coso_loco{$variable} = $valor_limpio;
         next;
     }
-       $coso_loco{$variable} = $valor_limpio;
+    $coso_loco{$variable} = $valor_limpio;
 }
 
 # Hacer la cosa.
@@ -156,7 +144,11 @@ sub parrafear {
 
     # Solucion chota: parrafos.
     my $parrafo_br = shift;
-    my $parrafo    = '<p>' . $parrafo_br . '</p>' . "\n";
+    my $parrafo    = '<p>' . boldear($parrafo_br) . '</p>' . "\n";
+    my $br_html = '<br/>';
+    # Agregado para insertar espacios, sin que sean necesariamente párrafos.
+    $parrafo =~ s/$cifrado_br/$br_html/g;
+    #boldear los strings.
     say "Parrafo es == $parrafo" if $debug;
     return $parrafo;
 }
@@ -198,6 +190,29 @@ sub reemplazar_enters {
 
     say "salida es $salida" if $debug;
     return $salida;
+}
+######################################################################
+# Agregado para permitir algun control adicional sobre el texto
+# en negrita.
+######################################################################
+sub boldear {
+    my $string_in            =  shift;
+    my $string_outin         =  $string_in;
+    my @gilators_pa_boldear  =  ();
+    my $rgx_bold_discover    = '([\*]{2}[^\*]+[\*]{2})';
+    my $rgx_busqueda_boldis  = '[\*]{2}([^\*]+)[\*]{2}';
+    while ($string_in =~ m/$rgx_bold_discover/gi){
+        push(@gilators_pa_boldear,$1);    
+    }
+    my $boldin = '<strong>';
+    my $boldin_out = '</strong>';
+    foreach my $buscado (@gilators_pa_boldear){
+        my ($baobab) = $buscado =~ m/$rgx_busqueda_boldis/g;
+        my $reemplazo = $boldin . $baobab . $boldin_out; 
+        $string_out =~ s/$buscado/$reemplazo/g;
+    }
+    say $string_out if $debug;
+    return $string_out;
 }
 ######################################################################
 # Agregado para convertir en enlaces html las direcciones wen 
