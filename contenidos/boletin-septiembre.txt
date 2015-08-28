@@ -25,8 +25,7 @@ cierre_A3='[ **Inicio:** 10 de septiembre | **4 clases:** jueves de 16:30 a 19hr
 
 titulo_A4='Fotografía sin objetivo, módulo película'
 
-resumen_A4='La propuesta está orientada a todos aquellos que tengan conocimientos básicos de fotografía estenopeica 
-y quieran experimentar con la fotografía de una manera no convencional.___BR___Los participantes podrán construir cámaras para película 35mm y formato medio con cartón, foamboard y madera balsa, diseñando y pensando el dispositivo fotográfico acorde con sus propias necesidades y con el tipo de imagen que deseen obtener.'
+resumen_A4='La propuesta está orientada a todos aquellos que tengan conocimientos básicos de fotografía estenopeica y quieran experimentar con la fotografía de una manera no convencional.___BR___Los participantes podrán construir cámaras para película 35mm y formato medio con cartón, foamboard y madera balsa, diseñando y pensando el dispositivo fotográfico acorde con sus propias necesidades y con el tipo de imagen que deseen obtener.'
 
 cierre_A4='[ **Inicio:** 8 de octubre | **4 clases:** jueves de 16:30 a 19hrs | [http://multimedia.una.edu.ar/extension/cursos/](+ info) ]'
 
@@ -52,18 +51,18 @@ cierre_A7='[ **Inicio:** 7 de septiembre | **8 clases:** lunes de 19 a 21hrs | [
 
 TITULO_CIERRE_A='Inscripciones y Consultas'
 CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hrs___BR___[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [mailto:multimedia.cursos@una.edu.ar](multimedia.cursos@una.edu.ar) ]'
-#########
+
 
 
 TITULO_B='MUESTRAS'
 
 img_B1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-desposito.jpg'
 titulo_B1='LAS DOS VALDRADAS'
-contenido_B1='Proyecto de graduación de Mercedes d´Espósito.___BR___Las dos Valdradas invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad.___BR___La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.___BR___**Viernes 28/08/15, 20 a 22hs. Aula Magna (1º piso)** Av. Don Pedro de Mendoza 679'
+contenido_B1='Proyecto de graduación de Mercedes d´Espósito.___BR___Las dos Valdradas invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad.___BR___La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.___BR___ **Viernes 28/08/15, 20 a 22hs. Aula Magna (1º piso)** Av. Don Pedro de Mendoza 679'
 
 img_B2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-portillo.jpg'
 titulo_B2='Muestra Homenaje Alfredo Portillos'
-contenido_B2='La muestra Alfredo Portillos “Materias, formas, espacios. Un recorrido por el arte, la magia y los misterios” es la segunda del Ciclo de Exposiciones Temporarias de artistas argentinos, especialmente dedicadas a maestros de reconocida trayectoria, que han sido parte de la institución. En esta oportunidad el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova” se enorgullece de abrir sus puertas al maestro Portillos, cuya obra es exhibida después de varios años.___BR___***Inauguración:*** Viernes 28 de agosto a las 13 hs. Elvira Rawson de Dellepiane, a mts. de Av. España.'
+contenido_B2='La muestra Alfredo Portillos “Materias, formas, espacios. Un recorrido por el arte, la magia y los misterios” es la segunda del Ciclo de Exposiciones Temporarias de artistas argentinos, especialmente dedicadas a maestros de reconocida trayectoria, que han sido parte de la institución. En esta oportunidad el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova” se enorgullece de abrir sus puertas al maestro Portillos, cuya obra es exhibida después de varios años.___BR___**Inauguración:** Viernes 28 de agosto a las 13 hs. Elvira Rawson de Dellepiane, a mts. de Av. España.'
 
 img_B3='Cerámica Interactiva & Multimedial'
 titulo_B3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-ceramica.jpg'
@@ -90,8 +89,8 @@ TITULO_D='NOTICIAS'
 
 img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
 titulo_D1='Jóvenes en Primer Plano. Séptima Edición'
-contenido_D1='Hasta el 28/08 Jóvenes en Primer Plano nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Pueden presentarse fotografías, cortos, videominutos o piezas audiovisuales de su factoría. No hay límite de edad.___BR___Les acercamos [http://moreno.gob.ar/noticia.aspx?id=6104'](las bases) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [mailto:festivaljovenesenprimerplano@gmail.com](festivaljovenesenprimerplano@gmail.com).'
+contenido_D1='Hasta el 28/08 Jóvenes en Primer Plano nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Pueden presentarse fotografías, cortos, videominutos o piezas audiovisuales de su factoría. No hay límite de edad.___BR___Les acercamos [http://moreno.gob.ar/noticia.aspx?id=6104](las bases) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [mailto:festivaljovenesenprimerplano@gmail.com](festivaljovenesenprimerplano@gmail.com).'
 
 img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-exptoons.jpg'
 titulo_D2='NUEVOS TALENTOS PARA LA CREACION DE VIDEOSMUSICALES 2015'
-contenido_D2='Leader Entertainment y Expotoons lanzan el Concurso de Animación “NUEVOS TALENTOS PARA LA CREACION DE VIDEOS MUSICALES 2015__ENTER___en este [http://www.expotoons.com/home/web/es/news/v/show/242.html](link) se encuentran las bases para la inscripción gratuita.'
+contenido_D2='Leader Entertainment y Expotoons lanzan el Concurso de Animación “NUEVOS TALENTOS PARA LA CREACION DE VIDEOS MUSICALES 2015"__ENTER___en este [http://www.expotoons.com/home/web/es/news/v/show/242.html](link) se encuentran las bases para la inscripción gratuita.'
