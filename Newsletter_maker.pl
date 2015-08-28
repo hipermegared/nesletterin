@@ -3,16 +3,12 @@
 # Probando...
 # Todavia es bastante chiotto el asunto, pero va queriendo.
 ######################################################################
-#use strict;
-#use warnings;
 use Getopt::Std;
 use Pod::Usage;
 use autodie;
 use feature         q|say|;
 use Text::Template;
 use POSIX           q|strftime|;
-#use HTML::Entities  q|encode_entities|;
-use utf8;
 
 my $debug          = 0;
 my %opts           = ();
@@ -20,7 +16,7 @@ my %coso_loco      = ();
 my $t_banana       = strftime( "%d_%B_%Y_%H_%M_%S", localtime( time() ) );
 my $salida_archivo = $t_banana . 'Newsletter_premailer.html';
 my $cifrado_enter  = '__ENTER__';
-my $cifrado_br     = '__BR__';
+my $cifrado_br     = '___BR___';
 say "El archivo de salida es: $salida_archivo" if $debug;
 my $salida_archivo_perl         = $t_banana . 'Newsletter_WebFormat.html';
 my $salida_archivo_carpeta_perl = $salida_archivo_perl;
@@ -34,7 +30,6 @@ my $carpeteame_esta = 'NEWSLETTER_DIR';
 my $carpete         = '.';
 
 getopts( 'hdt:c:', \%opts );
-
 $debug = $opts{d};
 ayudas() if $opts{h};
 
@@ -42,7 +37,7 @@ ayudas() if $opts{h};
 ayudas() unless $opts{t};
 ayudas() unless $opts{c};
 
-#CHequeo simple de archivillos...
+#Chequeo simple de archivillos...
 die "Alguno o todos los archivos especificados no existen. 
 Error Grave y vertigo en el upite. 
 FIN" unless ( -e $opts{t} and -e $opts{c} );
@@ -66,7 +61,6 @@ while (<COSO>) {
     # Esto va a ser usado despues tambien: sacar comillas y parrafear...
     my $valor_bb     = sacar_comillas($valor);
     my $valor_limpio = $valor_bb;
-    say "VVVVVVVVVVVVVVVVVVVV $valor_limpio" if $debug;
     ##################
     # Agregado en v2 #
     ##################
@@ -78,21 +72,20 @@ while (<COSO>) {
     }
 
     # Agregado para parrafear campos largos.
-    if ( $valor_limpio =~ m/__ENTER__|__BR__/g ) {
+    if ( $valor_limpio =~ m/__ENTER__|___BR___/g ) {
         say "El contenido del campo $variable tiene __ENTER__, no?" if $debug;
-        my $forrada = linkeame_el_texto($valor_bb);
-        $valor_limpio = reemplazar_enters($forrada);
+        $valor_limpio = reemplazar_enters($valor_bb);
         my @pss = split( '\n', $valor_limpio );
         my $final_stringy = '';
         foreach my $pz (@pss) {
             if ( $pz =~ m/^$/g ) {
                 $pz = '&nbsp;';
-                say "parrafo es == $pz" if $debug;
-                $final_stringy .= parrafear($pz);
+                $final_stringy .= parrafear( $pz );
                 next;
             } else {
-                $final_stringy .= parrafear( $pz );
-                say "LA PUTA MADRE: $final_stringy" if $debug;
+                my $ds = parrafear($pz);
+                say "$ds" if $debug;
+                $final_stringy .= linkeame_el_texto($ds);
                 next;
             }
         }
@@ -100,13 +93,12 @@ while (<COSO>) {
         $coso_loco{$variable} = $final_stringy;
         next;
     }
-
     if ( $variable =~ m/^(P\w?\d+)$/g ) {
         $valor_limpio = parrafear(linkeame_el_texto($valor_bb));
         $coso_loco{$variable} = $valor_limpio;
         next;
     }
-    $coso_loco{$variable} = $valor_limpio;
+    $coso_loco{$variable} = linkeame_el_texto(boldear($valor_limpio));
 }
 
 # Hacer la cosa.
@@ -135,7 +127,7 @@ else {
 ######################################################################
 sub sacar_comillas {
     my $strng = shift;
-    say $strng if $debug;
+    say "SACAR_COMILLAS $strng" if $debug;
     my ($coso_locoloto) = $strng =~ m/^\s*'(.+)'$/g;
     say "coso_locoloto == $coso_locoloto" if $debug;
     die unless $coso_locoloto;
@@ -144,14 +136,11 @@ sub sacar_comillas {
 
 # Agregar tipos de parrafos ? ? ?
 sub parrafear {
-    # Solucion chota: parrafos.
     my $parrafo_br_r = shift;
     my $parrafo_br = boldear($parrafo_br_r);
     my $parrafo    = '<p>' . $parrafo_br . '</p>' . "\n";
     my $br_html = '<br/>';
-    # Agregado para insertar espacios, sin que sean necesariamente párrafos.
-    $parrafo =~ s/$cifrado_br/$br_html/g;
-    #boldear los strings.
+    $parrafo =~ s/___BR___/$br_html/g;
     say "Parrafo es == $parrafo" if $debug;
     return $parrafo;
 }
@@ -161,8 +150,9 @@ sub premailear {
     unless ( $carpete eq '.' ) {
         $salida_ruby = $carpete . '/' . $salida_archivo;
     }
-    my $comm =
-      'ruby pp.rb' . ' ' . $salida_archivo_carpeta_perl . ' ' . $salida_ruby;
+    my $comm =  'ruby pp.rb' . 
+                ' ' . $salida_archivo_carpeta_perl . 
+                ' ' . $salida_ruby;
     say `$comm`;
 }
 
@@ -183,14 +173,8 @@ sub hacer_carpeta_salida {
 sub reemplazar_enters {
     my $texto = shift;
     say "texto es $texto" if $debug;
-
-    #my @ps = split("$cifrado_enter",$texto);
-    #print @ps if $debug;
-    #my $salida = join "\n", @ps;
-
     $texto =~ s/$cifrado_enter/\n/g;
     my $salida = $texto;
-
     say "salida es $salida" if $debug;
     return $salida;
 }
@@ -202,20 +186,18 @@ sub boldear {
     my $string_in            =  shift;
     my $string_outin         =  $string_in;
     my @gilators_pa_boldear  =  ();
-    my $rgx_bold_discover    = '([*][*][^*]+[*][*])';
-    my $rgx_busqueda_boldis  = '[*]{2}([^*]+)[*]{2}';
-    while ($string_in =~ m/\Q$rgx_bold_discover\E/g){
+    while ($string_in =~ m/(\*\*[^\*]+\*\*)/g){
         push(@gilators_pa_boldear,$1);    
     }
     my $boldin = '<strong>';
     my $boldin_out = '</strong>';
     foreach my $buscado (@gilators_pa_boldear){
-        my ($baobab) = $buscado =~ m/$rgx_busqueda_boldis/g;
+        my ($baobab) = $buscado =~ m/\*\*([^\*]+)\*\*/g;
         my $reemplazo = $boldin . $baobab . $boldin_out; 
-        $string_out =~ s/$buscado/$reemplazo/g;
+        $string_outin =~ s/\Q$buscado/$reemplazo/g;
     }
-    say "BOLDEAR $string_out" if $debug;
-    return $string_out;
+    say "BOLDEAR $string_outin" if $debug;
+    return $string_outin;
 }
 ######################################################################
 # Agregado para convertir en enlaces html las direcciones wen 
@@ -326,7 +308,6 @@ Utilizar **esta sintaxis**.
 B<Si estamos viendo esta ayuda sin pedirla, quiere decir que faltaron alguna de las opciones de arriba.>
 
 
-~ GsTv ~ 2014                            Zaijian.
-
+~ GsTv ~ 2014,2015... y contando.                            Zaijian.
 
 =cut
