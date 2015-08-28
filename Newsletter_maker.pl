@@ -12,6 +12,7 @@ use feature         q|say|;
 use Text::Template;
 use POSIX           q|strftime|;
 #use HTML::Entities  q|encode_entities|;
+use utf8;
 
 my $debug          = 0;
 my %opts           = ();
@@ -65,6 +66,7 @@ while (<COSO>) {
     # Esto va a ser usado despues tambien: sacar comillas y parrafear...
     my $valor_bb     = sacar_comillas($valor);
     my $valor_limpio = $valor_bb;
+    say "VVVVVVVVVVVVVVVVVVVV $valor_limpio" if $debug;
     ##################
     # Agregado en v2 #
     ##################
@@ -78,7 +80,8 @@ while (<COSO>) {
     # Agregado para parrafear campos largos.
     if ( $valor_limpio =~ m/__ENTER__|__BR__/g ) {
         say "El contenido del campo $variable tiene __ENTER__, no?" if $debug;
-        $valor_limpio = reemplazar_enters(linkeame_el_texto($valor_bb));
+        my $forrada = linkeame_el_texto($valor_bb);
+        $valor_limpio = reemplazar_enters($forrada);
         my @pss = split( '\n', $valor_limpio );
         my $final_stringy = '';
         foreach my $pz (@pss) {
@@ -135,16 +138,16 @@ sub sacar_comillas {
     say $strng if $debug;
     my ($coso_locoloto) = $strng =~ m/^\s*'(.+)'$/g;
     say "coso_locoloto == $coso_locoloto" if $debug;
-    die unless defined $coso_locoloto;
+    die unless $coso_locoloto;
     return $coso_locoloto;
 }
 
 # Agregar tipos de parrafos ? ? ?
 sub parrafear {
-
     # Solucion chota: parrafos.
-    my $parrafo_br = shift;
-    my $parrafo    = '<p>' . boldear($parrafo_br) . '</p>' . "\n";
+    my $parrafo_br_r = shift;
+    my $parrafo_br = boldear($parrafo_br_r);
+    my $parrafo    = '<p>' . $parrafo_br . '</p>' . "\n";
     my $br_html = '<br/>';
     # Agregado para insertar espacios, sin que sean necesariamente párrafos.
     $parrafo =~ s/$cifrado_br/$br_html/g;
@@ -199,9 +202,9 @@ sub boldear {
     my $string_in            =  shift;
     my $string_outin         =  $string_in;
     my @gilators_pa_boldear  =  ();
-    my $rgx_bold_discover    = '([\*][\*][^\*]+[\*][\*])';
-    my $rgx_busqueda_boldis  = '[\*][\*]([^\*]+)[\*][\*]';
-    while ($string_in =~ m/$rgx_bold_discover/gi){
+    my $rgx_bold_discover    = '([*][*][^*]+[*][*])';
+    my $rgx_busqueda_boldis  = '[*]{2}([^*]+)[*]{2}';
+    while ($string_in =~ m/\Q$rgx_bold_discover\E/g){
         push(@gilators_pa_boldear,$1);    
     }
     my $boldin = '<strong>';
@@ -211,7 +214,7 @@ sub boldear {
         my $reemplazo = $boldin . $baobab . $boldin_out; 
         $string_out =~ s/$buscado/$reemplazo/g;
     }
-    say $string_out if $debug;
+    say "BOLDEAR $string_out" if $debug;
     return $string_out;
 }
 ######################################################################
