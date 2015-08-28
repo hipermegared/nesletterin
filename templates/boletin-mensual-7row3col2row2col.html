@@ -6,7 +6,7 @@
 	<!-- Facebook sharing information tags -->
 	<meta property="og:title" content="*|MC:SUBJECT|*" />
 
-	<title>*|MC:SUBJECT|*</title>
+	<title>{------$TITULO_MAIL-----}</title>
 	<style type="text/css">
 		/* Client-specific Styles */
 		#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
@@ -605,7 +605,7 @@
 											<td class="headerContent">
 
 												<!-- // Begin Module: Standard Header Image \\ -->
-												<img src="http://extension.iuna-atam.com.ar/newsletter/images/boletin-septimbre.png" style="max-width:600px;" id="headerImage campaign-icon" label="ATAM Boletín Septiembre"  title="ATAM Boletín Septiembre"mc:allowdesigner mc:allowtext />
+												<img src="http://extension.iuna-atam.com.ar/newsletter/images/boletin-septimbre.png" style="max-width:600px;" id="headerImage campaign-icon" title="{------$TITULO_MAIL-----}"  alt="{------$TITULO_MAIL-----}"/>
 												<!-- // End Module: Standard Header Image \\ -->
 
 											</td>
@@ -755,7 +755,7 @@
 												<table border="0" cellpadding="20" cellspacing="0" width="100%">
 													<tr class="repeatable">
 														<td valign="top">
-															<img src="{-----$img_B1-----}" style="max-width:160px;" label="image"  />
+															<img src="{-----$img_B1-----}" style="max-width:160px;" alt="{-----$titulo_B1-----}" title="{-----$titulo_B1-----}"  />
 															<div >
 																<h4 class="h4">{-----$titulo_B1-----}</h4>
                                                                 {-----$contenido_B1-----}
@@ -771,7 +771,7 @@
 												<table border="0" cellpadding="20" cellspacing="0" width="100%">
 													<tr class="repeatable">
 														<td valign="top">
-															<img src="{-----$img_B2-----}" style="max-width:160px;" label="image"  />
+															<img src="{-----$img_B2-----}" style="max-width:160px;" alt="{-----$titulo_B2-----}" title="{-----$titulo_B2-----}"  />
 															<div >
 																<h4 class="h4">{-----$titulo_B2-----}</h4>
                                                                 {-----$contenido_B2-----}
@@ -788,7 +788,7 @@
 												<table border="0" cellpadding="20" cellspacing="0" width="100%">
 													<tr class="repeatable">
 														<td valign="top">
-															<img src="{-----$img_B3-----}" style="max-width:160px;" label="image"  />
+															<img src="{-----$img_B3-----}" style="max-width:160px;" alt="{-----$titulo_B3-----}" title="{-----$titulo_B3-----}"  />
 															<div >
 																<h4 class="h4">{-----$titulo_B3-----}</h4>
                                                                 {-----$contenido_B3-----}
@@ -819,12 +819,9 @@
 													<tr>
 														<td valign="top">
 															<div  class="curso">				
-																<h4 class="h4">Curso 1</h4>
-																<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde, laboriosam mollitia. Facilis quidem, pariatur maiores quas, modi reprehenderit unde dolores reiciendis voluptatum nemo porro accusamus nihil in. Porro, vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo corrupti eveniet, ex repudiandae voluptates eaque nisi saepe quibusdam, laboriosam quas earum fuga nihil assumenda nobis, error quidem ut, dolorum deserunt.
-																	<br />
-																	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus quidem maxime tempore veritatis ipsam fugiat. Facere ad in tempora officia id adipisci a maxime, aperiam pariatur quam consequatur deserunt.
-																</p>
-																<span class="data">[ <strong>Incio:</strong> 1 de mayo | <strong>8 clases:</strong> lunes de 18 a 20hrs | <a href="multimedial.una.edu.ar">+ info</a> ]</span>
+																<h4 class="h4">{-----$titulo_C1-----}</h4>
+																<p class="resumen">{-----resumen_C1-----}</p>
+																<span class="data">{-----cierre_C1-----}</span>
 															</div>
 														</td>
 													</tr>
@@ -834,12 +831,9 @@
 													<tr>
 														<td valign="top">
 															<div  class="curso">				
-																<h4 class="h4">Curso 2</h4>
-																<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur unde, laboriosam mollitia. Facilis quidem, pariatur maiores quas, modi reprehenderit unde dolores reiciendis voluptatum nemo porro accusamus nihil in. Porro, vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo corrupti eveniet, ex repudiandae voluptates eaque nisi saepe quibusdam, laboriosam quas earum fuga nihil assumenda nobis, error quidem ut, dolorum deserunt.
-																	<br />
-																	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus quidem maxime tempore veritatis ipsam fugiat. Facere ad in tempora officia id adipisci a maxime, aperiam pariatur quam consequatur deserunt.
-																</p>
-																<span class="data">[ <strong>Incio:</strong> 1 de mayo | <strong>8 clases:</strong> lunes de 18 a 20hrs | <a href="multimedial.una.edu.ar">+ info</a> ]</span>
+																<h4 class="h4">{-----$titulo_C2-----}</h4>
+																<p class="resumen">{-----resumen_C2-----}</p>
+																<span class="data">{-----cierre_C2-----}</span>
 															</div>
 														</td>
 													</tr>
@@ -850,10 +844,8 @@
 													<tr>
 														<td valign="top">
 															<div class="inscripciones">				
-																<h5 class="h5">Inscripciones y Consultas</h5>
-																Coordinación de Investigación y Posgrado
-																<br/>
-																[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | <a href="mailto:multimedia.investigacion@una.edu.ar">multimedia.investigacion@una.edu.ar<a> ]	
+																<h5 class="h5">{-----TITULO_CIERRE_C-----}</h5>
+																{-----CONTENIDO_CIERRE_C-----}																
 															</div>
 														</td>
 													</tr>
@@ -890,10 +882,10 @@
 															<table border="0" cellpadding="20" cellspacing="0" width="100%">
 																<tr class="repeatable">
 																	<td valign="top" class="cellBorderRight">
-																		<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" label="image"  />
+																		<img src="{-----$img_D1-----}" style="max-width:260px;" title="{-----$titulo_D2-----}"  alt="{-----$titulo_D1-----}"/>
 																		<div >
-																			<h4 class="h4">Noticia 1</h4>
-																			<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+																			<h4 class="h4">{-----$titulo_D1-----}</h4>
+																			{-----$contenido_D1-----}
 																		</div>
 																	</td>
 																</tr>
@@ -907,10 +899,10 @@
 															<table border="0" cellpadding="20" cellspacing="0" width="100%">
 																<tr class="repeatable">
 																	<td valign="top">
-																		<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" label="image"  />
+																		<img src="{-----$img_D2-----}" style="max-width:260px;" title="{-----$titulo_D2-----}" alt="{-----$titulo_D2-----}" />
 																		<div >
-																			<h4 class="h4">Noticia 2</h4>
-																			<strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+																			<h4 class="h4">{-----$titulo_D2-----}</h4>
+																			{-----$contenido_D2-----}
 																		</div>
 																	</td>
 																</tr>

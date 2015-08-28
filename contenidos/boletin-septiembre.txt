@@ -1,3 +1,5 @@
+TITULO_MAIL='ATAM / Boletín Semptiembre'
+
 TITULO_A='CURSOS DE EXTENSIÓN'
 
 titulo_A1='Programación Módulo Wifi ESP8266 Arduino - MySQL000Webhost - Thingspeak'
