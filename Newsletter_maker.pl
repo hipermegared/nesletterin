@@ -19,7 +19,7 @@ my %coso_loco      = ();
 my $t_banana       = strftime( "%d_%B_%Y_%H_%M_%S", localtime( time() ) );
 my $salida_archivo = $t_banana . 'Newsletter_premailer.html';
 my $cifrado_enter  = '__ENTER__';
-my $cifrado_br     = '___BR___';
+my $cifrado_br     = '__BR__';
 say "El archivo de salida es: $salida_archivo" if $debug;
 my $salida_archivo_perl         = $t_banana . 'Newsletter_WebFormat.html';
 my $salida_archivo_carpeta_perl = $salida_archivo_perl;
