@@ -297,6 +297,29 @@ Opcionalmente se puede usar la opcion -d (sin argumentos), para activar el debug
 
 =back
 
+
+=head2 Cambios
+
+Se agrego soporte para B<br>.
+
+Utilizar la siguiente notacion : __BR__ y sera reemplazado por la etiqueta HTML 
+correspondiente.
+
+
+Se agrego soporte para B<URLs> y B<negrita>.
+
+Para Urls:
+----------------
+
+Escribir con esta sintaxis [un link](pagina.com); se puede omitir el contenido 
+entre parentesis o corchetes pero no ambos.
+
+Para bold:
+----------------
+
+Utilizar **esta sintaxis**.
+
+
 B<Si estamos viendo esta ayuda sin pedirla, quiere decir que faltaron alguna de las opciones de arriba.>
 
 
