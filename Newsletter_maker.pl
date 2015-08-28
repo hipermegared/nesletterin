@@ -220,18 +220,18 @@ sub linkeame_el_texto {
     foreach my $linkinside (@linkis) {
         my ( $texto_link, $url_link, $sacar );
         if ( $linkinside =~ m/$rgx_solo_URL_corchetes/g ) {
-            $texto_link = $1;
-            $url_link   = $1;
+            $texto_link = quotemeta $1;
+            $url_link   = quotemeta $1;
             $sacar      = '\[' . $1 . '\]\(' . '\)';
         }
         if ( $linkinside =~ m/$rgx_solo_URL_parentesis/g ) {
-            $texto_link = $1;
-            $url_link   = $1;
+            $texto_link = quotemeta $1;
+            $url_link   = quotemeta $1;
             $sacar      = '\[' . '\]\(' . $1. '\)';
         }
         if ( $linkinside =~ m/$rgx_tutti_inside/g ) {
             $texto_link = quotemeta $1;
-            $url_link   = $2;
+            $url_link   = quotemeta $2;
             $sacar      = '\[' . $texto_link . '\]\(' . $url_link . '\)';
         }
         my $salida_link = '<a href="' . $url_link . '" target="_blank">' . 
