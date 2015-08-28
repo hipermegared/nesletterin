@@ -130,7 +130,7 @@ sub sacar_comillas {
     say "SACAR_COMILLAS $strng" if $debug;
     my ($coso_locoloto) = $strng =~ m/^\s*'(.+)'$/g;
     say "coso_locoloto == $coso_locoloto" if $debug;
-    die unless $coso_locoloto;
+    #die unless $coso_locoloto;
     return $coso_locoloto;
 }
 
