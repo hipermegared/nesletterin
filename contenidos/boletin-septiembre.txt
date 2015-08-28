@@ -93,8 +93,8 @@ TITULO_D='NOTICIAS'
 
 img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
 titulo_D1='Jóvenes en Primer Plano. Séptima Edición'
-contenido_D1='Hasta el 28/08 Jóvenes en Primer Plano nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Pueden presentarse fotografías, cortos, videominutos o piezas audiovisuales de su factoría. No hay límite de edad.___BR___Les acercamos [http://moreno.gob.ar/noticia.aspx?id=6104](las bases) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [festivaljovenesenprimerplano@gmail.com](mailto:festivaljovenesenprimerplano@gmail.com).'
+contenido_D1='Hasta el 28/08 Jóvenes en Primer Plano nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Pueden presentarse fotografías, cortos, videominutos o piezas audiovisuales de su factoría. No hay límite de edad.___BR___Les acercamos [las bases](http://moreno.gob.ar/noticia.aspx?id=6104) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [festivaljovenesenprimerplano@gmail.com](mailto:festivaljovenesenprimerplano@gmail.com).'
 
 img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-exptoons.jpg'
 titulo_D2='NUEVOS TALENTOS PARA LA CREACION DE VIDEOSMUSICALES 2015'
-contenido_D2='Leader Entertainment y Expotoons lanzan el Concurso de Animación “NUEVOS TALENTOS PARA LA CREACION DE VIDEOS MUSICALES 2015"__ENTER___en este [link](http://www.expotoons.com/home/web/es/news/v/show/242.html) se encuentran las bases para la inscripción gratuita.'
+contenido_D2='Leader Entertainment y Expotoons lanzan el Concurso de Animación “NUEVOS TALENTOS PARA LA CREACION DE VIDEOS MUSICALES 2015"___BR___en este [link](http://www.expotoons.com/home/web/es/news/v/show/242.html) se encuentran las bases para la inscripción gratuita.'
