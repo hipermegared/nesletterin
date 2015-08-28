@@ -36,7 +36,7 @@ titulo_A5='Introducción a la animación tradicional 2D'
 
 resumen_A5='Conocer y aplicar los fundamentos del dibujo animado como recurso narrativo.___BR___Entender  la mecánica del movimiento a través del dibujo.___BR___Experimentar posibilidades expresivas del dibujo aplicado a la animación.___BR___Este taller pretende abarcar los lineamientos  principales que constituyen la técnica del dibujo animado y sus posibilidades expresivas.'
 
-cierre_A5='**Inicio:** 3 de septiembre | **8 clases:** jueves de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2531-introduccion-a-la-animacion-tradicional-2d)'
+cierre_A5='**Inicio:** 24 de septiembre | **8 clases:** jueves de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2531-introduccion-a-la-animacion-tradicional-2d)'
 
 
 titulo_A6='Composición Fotográfica'
@@ -50,7 +50,7 @@ titulo_A7='Taller de Experimentación Audiovisual'
 
 resumen_A7='La propuesta es crear un espacio de desarrollo creativo, buscando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, el uso que cada uno le presta, y la búsqueda de representaciones.___BR___El uso básico de elementos de filmación, con los dispositivos con los que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara.'
 
-cierre_A7='**Inicio:** 7 de septiembre | **8 clases:** lunes de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2540-taller-de-experimentacion-audiovisual)'
+cierre_A7='**Inicio:** 14 de septiembre | **8 clases:** lunes de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2540-taller-de-experimentacion-audiovisual)'
 
 
 TITULO_CIERRE_A='Inscripciones y Consultas'
