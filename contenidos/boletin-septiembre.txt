@@ -6,7 +6,7 @@ TITULO_A='CURSOS DE EXTENSIÓN'
 
 titulo_A1='Programación Módulo Wifi ESP8266 Arduino - MySQL000Webhost - Thingspeak'
 
-resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a OyT en cuestión de monitoreo y registros.___BR___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor (www.000webhost.com MySQL), como también la implementación de un monitoreo online [thinspeaks.com](http://www.thinspeaks.com).'
+resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a OyT en cuestión de monitoreo y registros.___BR___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor (000webhost / MySQL), como también la implementación de un monitoreo online [thinspeaks.com](http://www.thinspeaks.com).'
 
 cierre_A1='**Inicio:** 1 de octubre | **8 clases:** jueves de 18 a 20hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2537-programacion-modulo-wifi-esp8266-arduino-mysql000webhost-thingspeak)'
 
