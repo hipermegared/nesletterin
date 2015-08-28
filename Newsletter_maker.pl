@@ -230,13 +230,14 @@ sub linkeame_el_texto {
             $sacar      = '\[' . '\]\(' . $1. '\)';
         }
         if ( $linkinside =~ m/$rgx_tutti_inside/g ) {
-            $texto_link = $1;
+            $texto_link = quotemeta $1;
             $url_link   = $2;
             $sacar      = '\[' . $texto_link . '\]\(' . $url_link . '\)';
         }
         my $salida_link = '<a href="' . $url_link . '" target="_blank">' . 
                             $texto_link . '</a>';
         $string_out =~ s/$sacar/$salida_link/g;
+        $string_out =~ s/\\//g;
     }
     say $string_out if $debug;
     return $string_out;
