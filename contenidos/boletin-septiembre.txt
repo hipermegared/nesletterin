@@ -56,44 +56,40 @@ CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | 
 TITULO_B='MUESTRAS'
 
 img_B1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-desposito.jpg'
-titulo_B1=''
-contenido_B1=''
+titulo_B1='LAS DOS VALDRADAS'
+contenido_B1='Proyecto de graduación de Mercedes d´Espósito.___ENTER___Las dos Valdradas invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad.___ENTER___La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.___ENTER__Viernes 28/0815, 20:00 a 22:00hs. 1er Piso Aula Magna. Av. Don Pedro de Mendoza 679'
 
 img_B2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-portillo.jpg'
-titulo_B2=''
-contenido_B2=''
+titulo_B2='Muestra Homenaje Alfredo Portillos'
+contenido_B2='La muestra Alfredo Portillos “Materias, formas, espacios. Un recorrido por el arte, la magia y los misterios” es la segunda del Ciclo de Exposiciones Temporarias de artistas argentinos, especialmente dedicadas a maestros de reconocida trayectoria, que han sido parte de la institución. En esta oportunidad el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova” se enorgullece de abrir sus puertas al maestro Portillos, cuya obra es exhibida después de varios años.___ENTER___***Inauguración:*** Viernes 28 de agosto a las 13 hs. Elvira Rawson de Dellepiane, a mts. de Av. España.'
 
-img_B3=''
+img_B3='Cerámica Interactiva & Multimedial'
 titulo_B3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-ceramica.jpg'
-contenido_B3=''
+contenido_B3='Del 24/08 al 30/09 se puede visitar la muestra de Cerámica Interactiva & Multimedial de la que participan los colectivos 'Tako' y 'Electrónica para el Arte'. Ambos se formaron en el marco de los talleres de Extensión de Artes Multimediales - UNA (Taller de Aplicación de Kinect en obras interactivas y La electrónica como herramienta aplicada al Arte). La muestra es en el marco de Laberintos Borgeanos. Casa Borges (Plaza Brown 301, Adrogué).'
 
-#########
+
 
 
 TITULO_C='CURSOS DE POSGRADO'
 
-titulo_C1=''
-resumen_C1=''
-cierre_C1='[ **Inicio:** 1 de mayo | **8 clases:** lunes de 18 a 20hrs | [url](+ info) ]'
+titulo_C1='Fundamentos de electrónica para el desarrollo tecnológico aplicado al arte'
+resumen_C1='Este curso está diseñado como un recorrido por diversas técnicas de desarrollo electrónico que permiten el abordaje a la construcción de dispositivos tecnológicos aplicados al arte, desde circuitos de funcionamiento autómata hasta desarrollos interactivos. Lo ecléctico de los contenidos responde a una continua necesidad del artista de nutrirse y formarse en diversas aéreas que permitan el control y expansión de las ideas, pensando en un no-limite como meta. Partiendo desde conceptos de electrónica, el desarrollo de software mediante herramientas como Processing y Pure Data, hasta la construcción de ropa inteligente o combinada con la manufactura de circuitos electrónicos y el manejo de microprocesadores Arduino, este curso intenta abordar diversas tecnologías y poder guiarnos intuitivamente hacía su entendimiento y uso en nuestro arte.'
+cierre_C1='[ **Inicio:** 14 de septiembre | **40 horas:** lunes de 18 a 22hrs | [http://multimedia.una.edu.ar/posgrados/cursos/2525-fundamentos-de-electronica-para-el-desarrollo-tecnologico-aplicado-al-arte](+ info) ]'
 
-titulo_C2=''
-resumen_C2=''
-cierre_C2='[ **Inicio:** 1 de mayo | **8 clases:** lunes de 18 a 20hrs | [url](+ info) ]'
+titulo_C2='Introducción a la programación para el arte interactivo y la escena.'
+resumen_C2='El objetivo de este curso es capacitar al alumno en la programación con fines artísticos, de forma que éste pueda desarrollar conceptos a ser transmitidos tanto en trabajos artísticos, instalaciones, performance, como en desarrollos para la escena artística, como el Vjing, paisajismo interactivo y trabajos de arte interactivo en general. Con tal fin, la meta es enseñar al alumno el lenguaje de programación Processing (lenguaje basado en Java desarrollado en el M.I.T. por Fry y Reas), el cual fue diseñado para contemplar las necesidades de los artistas relacionados con las nuevas tecnologías.'
+cierre_C2='[ **Inicio:** 15 de septiembre | **48 horas:** martes y jueves de 18 a 20hrs | [http://multimedia.una.edu.ar/posgrados/cursos/2524-introduccion-a-la-programacion-para-el-arte-interactivo-y-la-escena](+ info) ]'
 
 TITULO_CIERRE_C='Inscripciones y Consultas'
 CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado___ENTER___[ Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [mailto:multimedia.investigacion@una.edu.ar](multimedia.investigacion@una.edu.ar) ]'
 
-#########
-
 
 TITULO_D='NOTICIAS'
 
-img_D1=''
-titulo_D1=''
-contenido_D1=''
+img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
+titulo_D1='Jóvenes en Primer Plano. Séptima Edición'
+contenido_D1='Hasta el 28/08 Jóvenes en Primer Plano nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Pueden presentarse fotografías, cortos, videominutos o piezas audiovisuales de su factoría. No hay límite de edad.___ENTER___Les acercamos [http://moreno.gob.ar/noticia.aspx?id=6104'](las bases) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [mailto:festivaljovenesenprimerplano@gmail.com](festivaljovenesenprimerplano@gmail.com).'
 
-img_D2=''
-titulo_D2=''
-contenido_D2=''
-
-#########
+img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-exptoons.jpg'
+titulo_D2='NUEVOS TALENTOS PARA LA CREACION DE VIDEOSMUSICALES 2015'
+contenido_D2='Leader Entertainment y Expotoons lanzan el Concurso de Animación “NUEVOS TALENTOS PARA LA CREACION DE VIDEOS MUSICALES 2015__ENTER___en este [http://www.expotoons.com/home/web/es/news/v/show/242.html](link) se encuentran las bases para la inscripción gratuita.'
