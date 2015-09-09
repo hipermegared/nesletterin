@@ -7,8 +7,17 @@ use Getopt::Std;
 use Pod::Usage;
 use autodie;
 use feature         q|say|;
-use Text::Template;
 use POSIX           q|strftime|;
+
+use Text::Template;
+
+# Necesario si y solo si no se va a usar premailer.
+# Solamente funka si el css esta dentro del html.
+use HTML::Restrict;
+use HTML::Element;
+use CSS::Inliner;
+use File::Slurp     qw'read_file write_file';
+
 
 my $debug          = 0;
 my %opts           = ();
@@ -29,8 +38,9 @@ my $salida_archivo_carpeta_perl = $salida_archivo_perl;
 my $carpeteame_esta = 'NEWSLETTER_DIR';
 my $carpete         = '.';
 
-getopts( 'hdt:c:', \%opts );
+getopts( 'hdpt:c:', \%opts );
 $debug = $opts{d};
+my $backend_perlino = $opts{p};
 ayudas() if $opts{h};
 
 # Este programa __NECESITA__ que se le pasen los argumentos -t y -c.
@@ -146,14 +156,29 @@ sub parrafear {
 }
 
 sub premailear {
-    my $salida_ruby = '';
-    unless ( $carpete eq '.' ) {
-        $salida_ruby = $carpete . '/' . $salida_archivo;
+    if ($backend_perlino) {
+        my $salida_perl = '';
+        unless ( $carpete eq '.' ) {
+            $salida_perl = $carpete . '/' . $salida_archivo;
+        }
+        my $CONTENT_salida_archivo_carpeta_perl =
+          read_file( $salida_archivo_carpeta_perl, binmode => ':utf8' );
+        my $salida_inline_css =
+          Css_inliner($CONTENT_salida_archivo_carpeta_perl);
+        say $salida_inline_css if $debug;
+        write_file( $salida_perl, { binmode => ':utf8' }, $salida_inline_css );
     }
-    my $comm =  'ruby pp.rb' . 
-                ' ' . $salida_archivo_carpeta_perl . 
-                ' ' . $salida_ruby;
-    say `$comm`;
+    else {
+        my $salida_ruby = '';
+        unless ( $carpete eq '.' ) {
+            $salida_ruby = $carpete . '/' . $salida_archivo;
+        }
+        my $comm =
+            'ruby pp.rb' . ' '
+          . $salida_archivo_carpeta_perl . ' '
+          . $salida_ruby;
+        say `$comm`;
+    }
 }
 
 sub ayudas {
@@ -242,6 +267,32 @@ sub linkeame_el_texto {
     say $string_out if $debug;
     return $string_out;
 }
+######################################################################
+# Subs AGREGADAS PARA REEMPLAZAR PREMAILER!
+######################################################################
+
+# Por el momento, sin uso...
+sub html2text {
+    my $html_in        = shift;
+    my $hr             = HTML::Restrict->new();
+    my $solo_texto     = $hr->process($html_in);
+    my @texto_html_pre = split( /\n/, $solo_texto );
+    my $solo_texto_final;
+    foreach my $ln_texto_final (@texto_html_pre) {
+        if ( $ln_texto_final =~ m/\w+/ ) {
+            $solo_texto_final .= $ln_texto_final . "\n";
+        }
+    }
+    return $solo_texto_final;
+}
+
+sub Css_inliner {
+    my $html = shift;
+    my $inliner = new CSS::Inliner( { strip_attrs => "true" } );
+    $inliner->read( { html=>$html } );
+    return $inliner->inlinify();
+}
+
 ######################################################################
 # Pods
 ######################################################################
