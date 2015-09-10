@@ -330,6 +330,8 @@ Opcionalmente se puede usar la opcion -d (sin argumentos), para activar el debug
 
 =item * -t [ARCHIVO PLANTILLA]          OBLIGATORIO! Especifica el archivo en donde las variables van a ser reemplazadas.
 
+=item * -b                              OPCIONAL - por el momento - Backend sin premailer, en Perl. [NUEVO]
+
 =item * -h                              Esta ayuda
 
 =back
@@ -355,6 +357,16 @@ Para bold:
 ----------------
 
 Utilizar **esta sintaxis**.
+
+
+=head2
+
+Se agrego un backend en Perl, que permite no utilizar a Ruby (premailer, en realidad).
+Para utilizar el backend, hay que pasar el flag -p (por el momento).
+
+Ahora, como efecto colateral, hay que instalar mas modulines.
+
+=head2 NOTA
 
 
 B<Si estamos viendo esta ayuda sin pedirla, quiere decir que faltaron alguna de las opciones de arriba.>

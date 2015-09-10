@@ -1,9 +1,32 @@
-Perl
-* Text::Template
-    ** Getopt::Std
-    ** Pod::Usage
-    ** Text::FindLinks
+# DEPENDENCIAS
 
-Ruby
-* premailer
-    * hpricot  
+# Perl
+
+Requiere las siguientes dependencias (modulos de Perl).
+
+Generalmente en el core :
+
+*  Getopt::Std;
+*  Pod::Usage;
+*  autodie;
+*  feature;
+*  POSIX;        
+
+Generalmente adicionales:
+
+*  Text::Template;
+*  HTML::Restrict;
+*  HTML::Element;
+*  CSS::Inliner;
+*  File::Slurp;
+
+Se pueden instalar asi:
+    >> cpanp i Text::Template HTML::Restrict HTML::Element CSS::Inliner File::Slurp
+
+# Ruby
+
+Necesita hpricot y premailer.
+
+Se pueden instalar asi:
+    >> gem install hpricot premailer 
+
