@@ -6,9 +6,9 @@ TITULO_A='CURSOS DE EXTENSIÓN'
 
 titulo_A1='Programación Módulo Wifi ESP8266 Arduino - MySQL000Webhost - Thingspeak'
 
-resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a OyT en cuestión de monitoreo y registros.___BR___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor (www.000webhost.com MySQL), como también la implementación de un monitoreo online [thinspeaks.com](http://www.thinspeaks.com).'
+resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a OyT en cuestión de monitoreo y registros.___BR___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor (000webhost / MySQL), como también la implementación de un monitoreo online [thinspeaks.com](http://www.thinspeaks.com).'
 
-cierre_A1='**Inicio:** 1º de octubre | **8 clases:** jueves de 18 a 20hrs | [mas info](http://multimedia.una.edu.ar/extension/cursos/2537-programacion-modulo-wifi-esp8266-arduino-mysql000webhost-thingspeak)'
+cierre_A1='**Inicio:** 1 de octubre | **8 clases:** jueves de 18 a 20hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2537-programacion-modulo-wifi-esp8266-arduino-mysql000webhost-thingspeak)'
 
 
 
@@ -16,41 +16,41 @@ titulo_A2='Taller de Aplicación de Kinect en Obras Interactivas'
 
 resumen_A2='El Taller de Aplicación de Kinect en Obras Interactivas tiene como objetivo capacitar a los alumnos en la aplicación del sensor Kinect al diseño de contenidos interactivos, a partir de la librería SimpleOpenNI del lenguaje de programación Processing.___BR___Las clases del taller serán teórico-prácticas, centradas fuertemente en la resolución de problemas.Esto es, las exposiciones teóricas serán sencillas y estarán al servicio de generar herramientas para abordar problemáticas concretas de la construcción de sistemas interactivos. El último período del curso estará dedicado a la planificación y el prototipado de obras por parte de los alumnos, que servirán también como instancia de evaluación.'
 
-cierre_A2='**Inicio:** 11 de septiembre | **8 clases:** viernes de 18 a 20hrs | [mas info](http://multimedia.una.edu.ar/extension/cursos/2532-taller-de-aplicacion-de-kinect-en-obras-interactivas)'
+cierre_A2='**Inicio:** 11 de septiembre | **8 clases:** viernes de 18 a 20hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2532-taller-de-aplicacion-de-kinect-en-obras-interactivas)'
 
 
 titulo_A3='Fotografía sin objetivo, módulo Papel'
 resumen_A3='Taller teórico práctico de fotografía estenopoeica.___BR___La propuesta está orientada a todas aquellas personas que estén interesadas en experimentar en el campo de la fotografía de una manera no convencional. Reciclando objetos, cajas, latas, o cualquier espacio estanco de luz, transformándolos en cámaras y desarrollando la creatividad.___BR___Se construirán cámaras que se adecuen al tipo de imagen que el alumno desee obtener, tomando una postura crítica y reflexiva sobre la misma.'
 
-cierre_A3='**Inicio:** 10 de septiembre | **4 clases:** jueves de 16:30 a 19hrs | [mas info](http://multimedia.una.edu.ar/extension/cursos/2538-fotografia-sin-objetivo-modulo-papel)'
+cierre_A3='**Inicio:** 10 de septiembre | **4 clases:** jueves de 16:30 a 19hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2538-fotografia-sin-objetivo-modulo-papel)'
 
 
 titulo_A4='Fotografía sin objetivo, módulo película'
 
 resumen_A4='La propuesta está orientada a todos aquellos que tengan conocimientos básicos de fotografía estenopeica y quieran experimentar con la fotografía de una manera no convencional.___BR___Los participantes podrán construir cámaras para película 35mm y formato medio con cartón, foamboard y madera balsa, diseñando y pensando el dispositivo fotográfico acorde con sus propias necesidades y con el tipo de imagen que deseen obtener.'
 
-cierre_A4='**Inicio:** 8 de octubre | **4 clases:** jueves de 16:30 a 19hrs | [mas info](http://multimedia.una.edu.ar/extension/cursos/2539-fotografia-sin-objetivo-modulo-pelicula)'
+cierre_A4='**Inicio:** 8 de octubre | **4 clases:** jueves de 16:30 a 19hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2539-fotografia-sin-objetivo-modulo-pelicula)'
 
 
 titulo_A5='Introducción a la animación tradicional 2D'
 
 resumen_A5='Conocer y aplicar los fundamentos del dibujo animado como recurso narrativo.___BR___Entender  la mecánica del movimiento a través del dibujo.___BR___Experimentar posibilidades expresivas del dibujo aplicado a la animación.___BR___Este taller pretende abarcar los lineamientos  principales que constituyen la técnica del dibujo animado y sus posibilidades expresivas.'
 
-cierre_A5='**Inicio:** 3 de septiembre | **8 clases:** jueves de 19 a 21hrs | [mas info](http://multimedia.una.edu.ar/extension/cursos/2531-introduccion-a-la-animacion-tradicional-2d)'
+cierre_A5='**Inicio:** 24 de septiembre | **8 clases:** jueves de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2531-introduccion-a-la-animacion-tradicional-2d)'
 
 
 titulo_A6='Composición Fotográfica'
 
 resumen_A6='El taller se propone introducir al alumno a los conceptos básicos de fotografía para pensar luego el cruce con otras disciplinas.___BR___Se le brindarán conceptos tanto teóricos como técnicos que le permitan reflexionar acerca de la situación actual de la fotografía en su carácter experimental,mediante diferentes ejercicios grupales y el desarrollo de un proyecto personal.'
 
-cierre_A6='**Inicio:** 10 de septiembre | **8 clases:** jueves de 19 a 21hrs | [mas info](http://multimedia.una.edu.ar/extension/cursos/2541-composicion-fotografica)'
+cierre_A6='**Inicio:** 10 de septiembre | **8 clases:** jueves de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2541-composicion-fotografica)'
 
 
 titulo_A7='Taller de Experimentación Audiovisual'
 
 resumen_A7='La propuesta es crear un espacio de desarrollo creativo, buscando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, el uso que cada uno le presta, y la búsqueda de representaciones.___BR___El uso básico de elementos de filmación, con los dispositivos con los que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara.'
 
-cierre_A7='**Inicio:** 7 de septiembre | **8 clases:** lunes de 19 a 21hrs | [mas info](http://multimedia.una.edu.ar/extension/cursos/2540-taller-de-experimentacion-audiovisual)'
+cierre_A7='**Inicio:** 14 de septiembre | **8 clases:** lunes de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2540-taller-de-experimentacion-audiovisual)'
 
 
 TITULO_CIERRE_A='Inscripciones y Consultas'
@@ -62,7 +62,7 @@ TITULO_B='MUESTRAS'
 
 img_B1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-desposito.jpg'
 titulo_B1='LAS DOS VALDRADAS'
-contenido_B1='Proyecto de graduación de Mercedes d´Espósito. [Las dos Valdradas](http://multimedia.una.edu.ar/noticias/5405-las-dos-valdradas-proyecto-de-graduacion-de-mercedes-d-esposito) invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad. La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.**Viernes 28/08/15, 20 a 22hs. Aula Magna (1º piso)** Av. Don Pedro de Mendoza 679'
+contenido_B1='Proyecto de graduación de Mercedes d´Espósito. [Las dos Valdradas](http://multimedia.una.edu.ar/noticias/5405-las-dos-valdradas-proyecto-de-graduacion-de-mercedes-d-esposito) invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad. La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.**Viernes 28/08/15, 20 a 22hs. Aula Magna** Av. Don Pedro de Mendoza 679'
 
 img_B2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-portillos.jpg'
 titulo_B2='Muestra Homenaje Alfredo Portillos'
@@ -79,11 +79,11 @@ TITULO_C='CURSOS DE POSGRADO'
 
 titulo_C1='Fundamentos de electrónica para el desarrollo tecnológico aplicado al arte'
 resumen_C1='Este curso está diseñado como un recorrido por diversas técnicas de desarrollo electrónico que permiten el abordaje a la construcción de dispositivos tecnológicos aplicados al arte, desde circuitos de funcionamiento autómata hasta desarrollos interactivos. Lo ecléctico de los contenidos responde a una continua necesidad del artista de nutrirse y formarse en diversas aéreas que permitan el control y expansión de las ideas, pensando en un no-limite como meta. Partiendo desde conceptos de electrónica, el desarrollo de software mediante herramientas como Processing y Pure Data, hasta la construcción de ropa inteligente o combinada con la manufactura de circuitos electrónicos y el manejo de microprocesadores Arduino, este curso intenta abordar diversas tecnologías y poder guiarnos intuitivamente hacía su entendimiento y uso en nuestro arte.'
-cierre_C1='**Inicio:** 14 de septiembre | **40 horas:** lunes de 18 a 22hrs | [mas info](http://multimedia.una.edu.ar/posgrados/cursos/2525-fundamentos-de-electronica-para-el-desarrollo-tecnologico-aplicado-al-arte)'
+cierre_C1='**Inicio:** 14 de septiembre | **40 horas:** lunes de 18 a 22hrs | [+ info](http://multimedia.una.edu.ar/posgrados/cursos/2525-fundamentos-de-electronica-para-el-desarrollo-tecnologico-aplicado-al-arte)'
 
 titulo_C2='Introducción a la programación para el arte interactivo y la escena.'
 resumen_C2='El objetivo de este curso es capacitar al alumno en la programación con fines artísticos, de forma que éste pueda desarrollar conceptos a ser transmitidos tanto en trabajos artísticos, instalaciones, performance, como en desarrollos para la escena artística, como el Vjing, paisajismo interactivo y trabajos de arte interactivo en general. Con tal fin, la meta es enseñar al alumno el lenguaje de programación Processing (lenguaje basado en Java desarrollado en el M.I.T. por Fry y Reas), el cual fue diseñado para contemplar las necesidades de los artistas relacionados con las nuevas tecnologías.'
-cierre_C2='**Inicio:** 15 de septiembre | **48 horas:** martes y jueves de 18 a 20hrs | [mas info](http://multimedia.una.edu.ar/posgrados/cursos/2524-introduccion-a-la-programacion-para-el-arte-interactivo-y-la-escena)'
+cierre_C2='**Inicio:** 15 de septiembre | **48 horas:** martes y jueves de 18 a 20hrs | [+ info](http://multimedia.una.edu.ar/posgrados/cursos/2524-introduccion-a-la-programacion-para-el-arte-interactivo-y-la-escena)'
 
 TITULO_CIERRE_C='Inscripciones y Consultas'
 CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a viernes 10 a 15hrs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [multimedia.investigacion@una.edu.ar](mailto:multimedia.investigacion@una.edu.ar)'
