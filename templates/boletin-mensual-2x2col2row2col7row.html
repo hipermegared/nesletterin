@@ -1,0 +1,1080 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- Facebook sharing information tags -->
+	<meta property="og:title" content="*|MC:SUBJECT|*" />
+
+	<title>{-----$TITULO_MAIL-----}</title>
+	<style type="text/css">
+		/* Client-specific Styles */
+		#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+		body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+		body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+		/* Reset Styles */
+		body{margin:0; padding:0;}
+		img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+		table td{border-collapse:collapse;}
+		#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+		/* Template Styles */
+		/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable{
+				/*@editable*/ background-color:#e1e4e1;
+			}
+			
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border: 1px solid #DDDDDD;
+			}
+			
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#444A4F;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+				text-transform: uppercase;
+			}
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#444A4F;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:30px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+				text-transform: uppercase;
+			}
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#444A4F;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+				text-transform: uppercase;
+			}
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:#444A4F;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:18px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+				text-transform: uppercase;
+			}
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h5, .h5{
+				/*@editable*/ color:#444A4F;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+				text-transform: uppercase;
+			}
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color for your email's preheader area.
+			* @theme page
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#004840;
+			}
+			
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent div{
+				/*@editable*/ color:#D3D1C0;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and border for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#D3D1C0;
+				/*@editable*/ border-bottom:0;
+			}
+			
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding:0;
+				/*@editable*/ text-align:center;
+				/*@editable*/ vertical-align:middle;
+			}
+			
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			#headerImage{
+				height:auto;
+				max-width:600px !important;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color for your email's body area.
+			*/
+			#templateContainer, .bodyContent{
+				/*@editable*/ background-color:#D3D1C0;
+			}
+			
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent div{
+				/*@editable*/ color:#444A4F;
+				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
+				/*@editable*/ text-align:left;
+				
+			}
+			.bodyContent h4{
+			}
+			
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			.bodyContent img{
+				display:inline;
+				height:auto;
+			}
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: TITLES /\/\/\/\/\/\/\/\/\/\ */
+			.sectionTitle{
+				background-color:#5D9C7E;
+				color: #D3D1C0;
+			}
+			.sectionTitle h2{
+				color: #004840;
+				text-transform: uppercase;
+				margin: 0px 0;
+			}
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: ROW /\/\/\/\/\/\/\/\/\/\ */
+			.rowContent.curso.first td{
+				padding: 20px 20px 10px;
+			}
+			.rowContent.curso td{
+				padding: 5px 20px 10px;
+			}
+			.rowContent.curso div{
+				/*border-bottom: 1px solid #E1E4E1;*/
+				/*padding-bottom: 20px;*/
+			}
+			.rowContent.curso.last div{
+				border-bottom: 0px solid transparent;
+				/*padding-bottom: 10px;*/
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ CUSTOM CONTENT: CURSO /\/\/\/\/\/\/\/\/\/\ */
+			.curso .resumen{
+				margin-bottom: 10px;
+			}
+			.curso .data{
+				background: #E1E4E1;
+				padding: 3px;
+			}
+			.curso .data a{
+				/*font-size: 12px;*/
+				text-decoration: none;
+				font-weight: bold !important;
+				color:#5D9C7E;
+			}
+			.infoCursos td{
+				/*padding-top: 0px;*/
+				padding-bottom: 20px;
+			}
+			.infoCursos div{
+				background-color: #004840;
+				padding: 10px;
+				color: #E1E4E1;
+			}
+			.infoCursos div h5{
+				color: #E1E4E1;
+				border-bottom: 1px solid #5D9C7E;
+				line-height: 150%;
+			}
+			.infoCursos a:link, 
+			.infoCursos a:visited, 
+			.infoCursos a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COLUMNS; LEFT, CENTER, RIGHT /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent div{
+				/*@editable*/ color:#444A4F;
+				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent div a:link, 
+			.leftColumnContent div a:visited, 
+			/* Yahoo! Mail Override */ .leftColumnContent div a .yshortcuts{
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			.leftColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/**
+			* @tab Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column text. Choose a size and color that is easy to read.
+			*/
+			.centerColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column text. Choose a size and color that is easy to read.
+			*/
+			.centerColumnContent div{
+				/*@editable*/ color:#444A4F;
+				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Columns
+			* @section center column link
+			* @tip Set the styling for your email's center column links. Choose a color that helps them stand out from your text.
+			*/
+			.centerColumnContent div a:link, 
+			.centerColumnContent div a:visited,
+			.centerColumnContent div a .yshortcuts /* Yahoo! Mail Override */ {
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			.centerColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent div{
+				/*@editable*/ color:#444A4F;
+				/*@editable*/ font-family: Arial,Helvetica,sans-serif;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent div a:link, 
+			.rightColumnContent div a:visited, 
+			.rightColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			.rightColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			.columnContent {
+				padding: 10px 0px 20px;
+				background-color:#D3D1C0; 
+			}
+			.columnContent div{
+				margin-top: 10px;
+			}
+			.columnContent.odd table{
+				background-color:#E1E4E1; 
+			}
+			.columnContent.even table{
+				background-color:#D3D1C0; 
+			}
+			#otrasNoticias {
+				/*padding: 20px 0;*/
+			}
+			#otrasNoticias .columnContent {
+				background-color:#D3D1C0; 
+			}
+			#otrasNoticias .leftColumnContent td {
+				border-right: 1px solid #E1E4E1;
+				padding:20px 20px 20px 19px;
+			}
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#004840;
+				/*@editable*/ border-top:0;
+			}
+			
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent div{
+				/*@editable*/ color:#D3D1C0;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:11px;
+				/*@editable*/ line-height:130%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#D3D1C0;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			.footerContent img{
+				display:inline;
+			}
+			
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			* @theme footer
+			*/
+			#social{
+				/*@editable*/ background-color:#5D9C7E;
+				/*@editable*/ border:0;
+			}
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			#social a:link, 
+			#social a:visited, 
+			#social a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#004840;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			*/
+			#social div{
+				/*@editable*/ text-align:center;
+			}
+			
+			#atam-datos a:link, 
+			#atam-datos a:visited, 
+			#atam-datos a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#5D9C7E;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:none;
+			}
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			* @theme footer
+			*/
+			#utility{
+				/*@editable*/ background-color:#5D9C7E;
+				/*@editable*/ border:0;
+			}
+			
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			*/
+			#utility div{
+				/*@editable*/ text-align:center;
+			}
+			
+			#monkeyRewards img{
+				max-width:190px;
+			}
+		</style>
+	</head>
+	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+		<center>
+			<table border="0" cellpadding="10" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+				<tr>
+					<td align="center" valign="top">
+						
+						<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateContainer">
+							<tr>
+								<td align="center" valign="top">
+									<!-- // Begin Template Header \\ -->
+									<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+										<tr>
+											<td class="headerContent">
+
+												<!-- // Begin Module: Standard Header Image \\ -->
+												<img src="http://extension.iuna-atam.com.ar/newsletter/images/boletin-septimbre.png" style="max-width:600px;" id="headerImage" title="{-----$TITULO_MAIL-----}"  alt="{------$TITULO_MAIL-----}"/>
+												<!-- // End Module: Standard Header Image \\ -->
+
+											</td>
+										</tr>
+									</table>
+									<!-- // End Template Header \\ -->
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+									<!-- // Begin Template Body \\ -->
+									<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+
+										<!--////////////////////////////////////////////////////// INICIO BLOKE D  //////////////////////////////////////////////////////////////////////-->
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent sectionTitle">
+												<!-- // Begin Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" >
+													<tr>
+														<td valign="top">
+															<div >
+																<h2 class="h2">{-----$TITULO_D-----}</h2>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Title \\ -->
+
+											</td>
+										</tr>
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
+
+
+													<tr>
+														<td valign="top" width="280" class="leftColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top" class="cellBorderRight">
+																		<img src="{-----$img_D1-----}" style="max-width:260px;" title="{-----$titulo_D1-----}"  alt="{-----$titulo_D1-----}"/>
+																		<div >
+																			<h4 class="h4">{-----$titulo_D1-----}</h4>
+																			{-----$contenido_D1-----}
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+														<td valign="top" width="280" class="rightColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top">
+																		<img src="{-----$img_D2-----}" style="max-width:260px;" title="{-----$titulo_D2-----}" alt="{-----$titulo_D2-----}" />
+																		<div >
+																			<h4 class="h4">{-----$titulo_D2-----}</h4>
+																			{-----$contenido_D2-----}
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+													</tr>
+
+
+												</table>
+												<!-- // End Section: otras noticias \\ -->
+											</td>
+										</tr>
+
+
+										<!--////////////////////////////////////////////////////// FINAL BLOKE D  //////////////////////////////////////////////////////////////////////--> 
+
+										<!--////////////////////////////////////////////////////// INICIO BLOKE D (sin titulo) //////////////////////////////////////////////////////////////////////-->
+										
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
+
+
+													<tr>
+														<td valign="top" width="280" class="leftColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top" class="cellBorderRight">
+																		<img src="{-----$img_D3-----}" style="max-width:260px;" title="{-----$titulo_D3-----}"  alt="{-----$titulo_D3-----}"/>
+																		<div >
+																			<h4 class="h4">{-----$titulo_D3-----}</h4>
+																			{-----$contenido_D3-----}
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+														<td valign="top" width="280" class="rightColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top">
+																		<img src="{-----$img_D4-----}" style="max-width:260px;" title="{-----$titulo_D4-----}" alt="{-----$titulo_D4-----}" />
+																		<div >
+																			<h4 class="h4">{-----$titulo_D4-----}</h4>
+																			{-----$contenido_D4-----}
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+													</tr>
+
+
+												</table>
+												<!-- // End Section: otras noticias \\ -->
+											</td>
+										</tr>
+
+
+										<!--////////////////////////////////////////////////////// FINAL BLOKE D (sin titulo)  //////////////////////////////////////////////////////////////////////--> 
+
+										
+
+
+										
+
+
+										<!--////////////////////////////////////////////////////// INICIO BLOKE C//////////////////////////////////////////////////////////////////////-->
+
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+
+												<!-- // Begin Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%">
+													<tr>
+														<td valign="top" class="sectionTitle">
+															<div >
+																<h2 class="h2">{-----$TITULO_C-----}</h2>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Title \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_C1-----}</h4>
+																<p class="resumen">{-----$resumen_C1-----}</p>
+																<div class="data">{-----$data_C1-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso even last">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_C2-----}</h4>
+																<p class="resumen">{-----$resumen_C2-----}</p>
+																<div class="data">{-----$data_C2-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												
+												<table border="0" cellpadding="10" cellspacing="0" width="100%" class="rowContent infoCursos">
+													<tr>
+														<td valign="top">
+															<div class="inscripciones">				
+																<h5 class="h5">{-----$TITULO_CIERRE_C-----}</h5>
+																{-----$CONTENIDO_CIERRE_C-----}																
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Info \\ -->
+											</td>
+										</tr>
+									
+										<!--////////////////////////////////////////////////////// FINAL BLOKE C//////////////////////////////////////////////////////////////////////-->
+
+
+
+
+
+
+										<!--////////////////////////////////////////////////////// INICIO BLOKE F //////////////////////////////////////////////////////////////////////-->
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent sectionTitle">
+												<!-- // Begin Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" >
+													<tr>
+														<td valign="top">
+															<div >
+																<h2 class="h2">{-----$TITULO_F-----}</h2>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Title \\ -->
+												
+											</td>
+										</tr>
+
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+											
+												<!-- // Begin Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso even last">
+													<tr>
+														<td valign="top">
+															<div  class="intro">				
+																<p class="resumen">{-----$RESUMEN_F1-----}</p>
+																<div class="data">{-----$DATA_F1-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Intro \\ -->
+
+											</td>
+										</tr>
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
+
+
+													<tr>
+														<td valign="top" width="280" class="leftColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top" class="cellBorderRight">
+																		<img src="{-----$img_F1-----}" style="max-width:260px;" title="{-----$titulo_F1-----}"  alt="{-----$titulo_F1-----}"/>
+																		<div class="curso" >
+																			<h4 class="h4">{-----$titulo_F1-----}</h4>
+																			<p class="resumen">{-----$resumen_F1-----}</p>
+																			<div class="data">{-----$data_F1-----}</div>
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+														<td valign="top" width="280" class="rightColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top">
+																		<img src="{-----$img_F2-----}" style="max-width:260px;" title="{-----$titulo_F2-----}" alt="{-----$titulo_F2-----}" />
+																		<div class="curso">
+																			<h4 class="h4">{-----$titulo_F2-----}</h4>
+																			<p class="resumen">{-----$resumen_F2-----}</p>
+																			<div class="data">{-----$data_F1-----}</div>														
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+													</tr>
+
+
+												</table>
+												<!-- // End Section: otras noticias \\ -->
+											</td>
+										</tr>
+
+
+										<!--////////////////////////////////////////////////////// FINAL BLOKE F  //////////////////////////////////////////////////////////////////////--> 
+
+
+
+
+										<!--////////////////////////////////////////////////////// INICIO BLOKE A //////////////////////////////////////////////////////////////////////-->
+										
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+
+												<!-- // Begin Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%">
+													<tr>
+														<td valign="top" class="sectionTitle">
+															<div >
+																<h2 class="h2">{-----$TITULO_A-----}</h2>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Title \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_A1-----}</h4>
+																<p class="resumen">{-----$resumen_A1-----}</p>
+																<div class="data">{-----$data_A1-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_A2-----}</h4>
+																<p class="resumen">{-----$resumen_A2-----}</p>
+																<div class="data">{-----$data_A2-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_A3-----}</h4>
+																<p class="resumen">{-----$resumen_A3-----}</p>
+																<div class="data">{-----$data_A3-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_A4-----}</h4>
+																<p class="resumen">{-----$resumen_A4-----}</p>
+																<div class="data">{-----$data_A4-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_A5-----}</h4>
+																<p class="resumen">{-----$resumen_A5-----}</p>
+																<div class="data">{-----$data_A5-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_A6-----}</h4>
+																<p class="resumen">{-----$resumen_A6-----}</p>
+																<div class="data">{-----$data_A6-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
+													<tr>
+														<td valign="top">
+															<div  class="curso">				
+																<h4 class="h4">{-----$titulo_A7-----}</h4>
+																<p class="resumen">{-----$resumen_A7-----}</p>
+																<div class="data">{-----$data_A7-----}</div>
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Content \\ -->
+												<table border="0" cellpadding="10" cellspacing="0" width="100%" class="rowContent infoCursos">
+													<tr>
+														<td valign="top">
+															<div  class="inscripciones">				
+																<h5 class="h5">{-----$TITULO_data_A-----}</h5>
+                                  {-----$CONTENIDO_CIERRE_A-----}
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Info \\ -->
+											</td>
+										</tr>
+
+										<!--////////////////////////////////////////////////////// FINAL BLOKE A //////////////////////////////////////////////////////////////////////-->
+										
+
+
+
+
+
+
+
+									</table>
+									<!-- // End Template Body \\ -->
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valign="top">
+									<!-- // Begin Template Footer \\ -->
+									<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+										<tr>
+											<td valign="top" class="footerContent">
+
+												<!-- // Begin Module: Standard Footer \\ -->
+												<table border="0" cellpadding="10" cellspacing="0" width="100%">
+													<tr>
+														<td colspan="2" valign="middle" id="social">
+															<div >
+																&nbsp;<a href="http://www.multimedia.una.edu.ar">sitio oficial</a> | <a href="https://twitter.com/UNAmultimedial">twitter</a> | <a href="https://www.facebook.com/una.multimediales">facebook</a>&nbsp;
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td valign="top" width="350"  id="atam-datos">
+															<div >
+																<strong>Departamento de Alumnos</strong>
+																<br/>
+																43070624 | <a href="mailto:multimedia.academica@una.edu.ar">multimedia.academica@una.edu.ar</a>
+																<br/>
+																<strong>Direccion de Extensión y Bienestar Estudiantil</strong>
+																<br/>
+																4307­0622 int 103 | <a href="mailto:multimedia.extension@una.edu.ar">multimedia.extension@una.edu.ar</a>
+																<br/>															
+																<strong>Coordinación de Investigación y Posgrado</strong>
+																<br/>
+																43070622 int 107 | <a href="mailto:multimedia.investigacion@una.edu.ar">multimedia.investigacion@una.edu.ar</a>
+
+															</div>
+														</td>
+														<td valign="top" width="190" id="monkeyRewards">
+															<div >
+																Universidad Nacional de las Artes
+																<br/>
+																Artes Multimediales
+																<br/>
+																Av. Don Pedro de Mendoza 679
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="2" valign="middle" id="utility">
+															<div >
+																&nbsp;<a href="https://docs.google.com/forms/d/18W0SGXf-9sQSBQ17DOaHYCO0wq80V6Mbay2KNnpnJZI/viewform">desuscribime de esta lista</a> | <a href="mailto:contenidos@cpamvirtual.com.ar?subject=Quiero%20agregarme%20a%20la%20lista%20de%20difusión">agregarme a esta lista</a>&nbsp;
+															</div>
+														</td>
+													</tr>
+												</table>
+												<!-- // End Module: Standard Footer \\ -->
+
+											</td>
+										</tr>
+									</table>
+									<!-- // End Template Footer \\ -->
+								</td>
+							</tr>
+						</table>
+						<br />
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+	</html>
