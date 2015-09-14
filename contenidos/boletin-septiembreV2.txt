@@ -9,7 +9,7 @@ TITULO_A='CURSOS DE EXTENSIÓN'
 
 titulo_A1='Programación Módulo Wifi ESP8266 Arduino - MySQL000Webhost - Thingspeak'
 
-resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a OyT en cuestión de monitoreo y registros.___BR___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor (000webhost / MySQL), como también la implementación de un monitoreo online [thinspeaks.com](http://www.thinspeaks.com).'
+resumen_A1='El objetivo principal es que el alumno conozca todas las prestaciones del dispositivo Wifi ESP8266, su programación y sentencias mas útiles, de manera de darle al alumno las herramientas claves para que pueda desarrollar cualquier aplicación orientada a IoT en cuestión de monitoreo y registros.___BR___El curso es teórico práctico en el cual el alumno programará y desarrollará in-situ  un sistema de medición de temperatura y humedad relativa ambiente, el mismo deberá grabar periódicamente dichos valores en una base de datos de un servidor [000webhost](http://www.000webhost.com/) / [MySQL](https://www.mysql.com/), como también la implementación de el monitoreo online [thingspeak.com](http://www.thingspeak.com).'
 
 data_A1='**Inicio:** 1 de octubre | **8 clases:** jueves de 18 a 20hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2537-programacion-modulo-wifi-esp8266-arduino-mysql000webhost-thingspeak)'
 
@@ -19,13 +19,13 @@ titulo_A2='Taller de Aplicación de Kinect en Obras Interactivas'
 
 resumen_A2='El Taller de Aplicación de Kinect en Obras Interactivas tiene como objetivo capacitar a los alumnos en la aplicación del sensor Kinect al diseño de contenidos interactivos, a partir de la librería SimpleOpenNI del lenguaje de programación Processing.___BR___Las clases del taller serán teórico-prácticas, centradas fuertemente en la resolución de problemas.Esto es, las exposiciones teóricas serán sencillas y estarán al servicio de generar herramientas para abordar problemáticas concretas de la construcción de sistemas interactivos. El último período del curso estará dedicado a la planificación y el prototipado de obras por parte de los alumnos, que servirán también como instancia de evaluación.'
 
-data_A2='**Inicio:** 11 de septiembre | **8 clases:** viernes de 18 a 20hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2532-taller-de-aplicacion-de-kinect-en-obras-interactivas)'
+data_A2='**Inicio:** 26 de septiembre | **8 clases:** viernes de 18 a 20hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2532-taller-de-aplicacion-de-kinect-en-obras-interactivas)'
 
 
 titulo_A3='Fotografía sin objetivo, módulo Papel'
 resumen_A3='Taller teórico práctico de fotografía estenopoeica.___BR___La propuesta está orientada a todas aquellas personas que estén interesadas en experimentar en el campo de la fotografía de una manera no convencional. Reciclando objetos, cajas, latas, o cualquier espacio estanco de luz, transformándolos en cámaras y desarrollando la creatividad.___BR___Se construirán cámaras que se adecuen al tipo de imagen que el alumno desee obtener, tomando una postura crítica y reflexiva sobre la misma.'
 
-data_A3='**Inicio:** 10 de septiembre | **4 clases:** jueves de 16:30 a 19hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2538-fotografia-sin-objetivo-modulo-papel)'
+data_A3='**Inicio:** 24 de septiembre | **4 clases:** jueves de 16:30 a 19hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2538-fotografia-sin-objetivo-modulo-papel)'
 
 
 titulo_A4='Fotografía sin objetivo, módulo película'
@@ -46,14 +46,14 @@ titulo_A6='Composición Fotográfica'
 
 resumen_A6='El taller se propone introducir al alumno a los conceptos básicos de fotografía para pensar luego el cruce con otras disciplinas.___BR___Se le brindarán conceptos tanto teóricos como técnicos que le permitan reflexionar acerca de la situación actual de la fotografía en su carácter experimental,mediante diferentes ejercicios grupales y el desarrollo de un proyecto personal.'
 
-data_A6='**Inicio:** 10 de septiembre | **8 clases:** jueves de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2541-composicion-fotografica)'
+data_A6='**Inicio:** 24 de septiembre | **8 clases:** jueves de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2541-composicion-fotografica)'
 
 
 titulo_A7='Taller de Experimentación Audiovisual'
 
 resumen_A7='La propuesta es crear un espacio de desarrollo creativo, buscando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, el uso que cada uno le presta, y la búsqueda de representaciones.___BR___El uso básico de elementos de filmación, con los dispositivos con los que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara.'
 
-data_A7='**Inicio:** 14 de septiembre | **8 clases:** lunes de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2540-taller-de-experimentacion-audiovisual)'
+data_A7='**Inicio:** 28 de septiembre | **8 clases:** lunes de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2540-taller-de-experimentacion-audiovisual)'
 
 
 TITULO_CIERRE_A='Inscripciones y Consultas'
@@ -107,24 +107,24 @@ CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a viernes
 
 
 
-TITULO_D='MUESTRAS'
+TITULO_D='MUESTRAS Y SEMINARIOS'
 
-img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra_marcheti.png'
+img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-marchetti.png'
 titulo_D1='LAY'
-contenido_D1='**Proyecto de graduación de Romina Marchetti.**__BR__Dicen los libros de medicina que el cáncer es una enfermedad provocada por un grupo de células defectuosas que se caracterizan por multiplicarse autónoma e ilimitadamente afectando al tejido sano. “Lay” es una instalación que relata la experiencia de mi madre como paciente de cáncer de mama. Busca introducir al espectador en sus vivencias físicas y anímicas a fin de exponer los distintos climas a los que su cuerpo fue sometido.___BR___**Jueves 17 sep 20hs. Entrada libre y gratuita. AV. Don Pedro de Mendoza 679.**'
+contenido_D1='**Proyecto de graduación de Romina Marchetti.** Dicen los libros de medicina que el cáncer es una enfermedad provocada por un grupo de células defectuosas que se caracterizan por multiplicarse autónoma e ilimitadamente afectando al tejido sano.___BR______BR___“Lay” es una instalación que relata la experiencia de mi madre como paciente de cáncer de mama. Busca introducir al espectador en sus vivencias físicas y anímicas a fin de exponer los distintos climas a los que su cuerpo fue sometido.___BR______BR___**Jueves 17 sep 20hs. Entrada libre y gratuita. AV. Don Pedro de Mendoza 679.**'
 
 
 
 img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
 titulo_D2='Jóvenes en Primer Plano'
-contenido_D2='La carrera de Artes Multimediales invita a docentes, estudiantes y graduados a participar del Festival “Jóvenes en Primer Plano”. Esta actividad, de la cual el **miércoles 16 de septiembre ATAM será sede**, se desarrollará en el marco de “Moreno Cine, Festival y Muestra Audiovisual”. Entrada libre y gratuita. Actividades con inscripción previa.___BR___Desde las 14 y hasta las 20 hs. podrán disfrutar de las [estas actividades](http://multimedia.una.edu.ar/noticias/5456-festival-jovenes-en-primer-plano-en-artes-multimediales).'
+contenido_D2='La carrera de Artes Multimediales invita a docentes, estudiantes y graduados a participar del Festival “Jóvenes en Primer Plano”. Esta actividad, de la cual el **miércoles 16 de septiembre ATAM será sede**, se desarrollará en el marco de “Moreno Cine, Festival y Muestra Audiovisual”. Entrada libre y gratuita con inscripción previa.___BR___Podrán disfrutar de las [estas actividades](http://multimedia.una.edu.ar/noticias/5456-festival-jovenes-en-primer-plano-en-artes-multimediales).___BR___**14 a 20 hs. en continuado //** Muestra de Trabajos de Cátedra en el Festival Jóvenes en Primer Plano. **14 hs. //** Workshop de Animación Tradicional 2D. **15 hs. //** Alt Games y Not Games. Cuando se juega rompiendo las reglas. **17 hs. //** Mesa de Cine-Debate: Harun Farocki'
 
 
-img_D3='http://multimedia.una.edu.ar/userfiles/noticias/imagenes/1442250704_2015-mm-graduadismo-home.jpg'
+img_D3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-graduados.png'
 titulo_D3='GRADUADISMO'
-contenido_D3='El día sábado 19 de septeimbre de 18 a 20 hs. se realizará la Muestra graduados, en la sede de Artes Multimediales, Av. Don Pedro de Mendoza 679, con entrada libre y gratuita.___BR___Charlas / Objetos / Instalaciones / Performance___BR___**Participan:**___BR___Francisco Beltramino, Mercedes D' Espósito, Ayelén C. García, Agustín Genoud, Mauricio Gutiérrez, Lucas Jara, Romina Marchetti, Natalia Monserrat, Manuel Reyes, Carmín Santos y Pablo A. Varela.'
+contenido_D3='El día sábado 19 de septeimbre de 18 a 20 hs. se realizará la Muestra graduados, en la sede de Artes Multimediales, Av. Don Pedro de Mendoza 679, con entrada libre y gratuita.___BR___Charlas // Objetos // Instalaciones // Performance___BR___**Participan:** Francisco Beltramino, Mercedes D' Espósito, Ayelén C. García, Agustín Genoud, Mauricio Gutiérrez, Lucas Jara, Romina Marchetti, Natalia Monserrat, Manuel Reyes, Carmín Santos y Pablo A. Varela.'
 
 
 img_D4='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/nht_news.jpg'
 titulo_D4='Seminario Int. NH/T'
-contenido_D4='El Seminario Internacional de Narrativas Hiper/Textuales (NH/T) tiene como finalidad generar un punto de encuentro regional e internacional para discutir y presentar reflexiones e investigaciones en el campo de las artes digitales, la educación con nuevos medios, la museografía interactiva, la propiedad intelectual en la era digital, los videojuegos los relatos transmedia y otras manifestaciones de la Cultura Digital. + info: [seminarionht.org/nht](http://seminarionht.org/nht/)'
+contenido_D4='El Seminario Internacional de Narrativas Hiper/Textuales (NH/T) tiene como finalidad generar un punto de encuentro regional e internacional para discutir y presentar reflexiones e investigaciones en el campo de las artes digitales, la educación con nuevos medios, la museografía interactiva, la propiedad intelectual en la era digital, los videojuegos los relatos transmedia y otras manifestaciones de la Cultura Digital.___BR___+ info: [seminarionht.org/nht](http://seminarionht.org/nht/)'
