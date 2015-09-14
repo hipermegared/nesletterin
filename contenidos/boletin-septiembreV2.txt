@@ -63,22 +63,23 @@ CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | 
 
 TITULO_B='TALLERES DE EXTENSiÓN'
 
-RESUMEN_B='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+RESUMEN_B='Tenemos el agrado de anunciar los nuevos talleres de Extensión de la carrera. Los mismos son libres y gratuitos, con una modalidad diferente a los cursos de extensión, ya que si bien inician, no tienen un cierre propuesto por el taller sino por la propia exploración de quienes asistan a ellos. Los mismos son dictados por profesores de la carrera de Artes Multimediales. Dentro de este programa queremos presentar los dos primeros talleres que estaremos dictando a partir del  jueves 10 de Septiembre.'
 
-DATA_B='**Inicio:** 14 de septiembre | **40 horas:** lunes de 18 a 22hrs | [+ info](http://multimedia.una.edu.ar/posgrados/cursos/2525-fundamentos-de-electronica-para-el-desarrollo-tecnologico-aplicado-al-arte)'
-
-
-img_B1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-desposito.jpg'
-titulo_B1='LAS DOS VALDRADAS'
-resumen_B1='Proyecto de graduación de Mercedes d´Espósito. [Las dos Valdradas](http://multimedia.una.edu.ar/noticias/5405-las-dos-valdradas-proyecto-de-graduacion-de-mercedes-d-esposito) invita a jugar con la ambigüedad, explorar la abstracción a gran escala y desentrañar la figuración en el detalle de la imagen, desenfocándola de la realidad. La instalación pone de manifiesto la deconstrucción de las estructuras arquitectónicas, desde una visión transformadora, imaginaria, erosionada, compuesta por figuras imposibles, expresada a través de distintos dispositivos de visualización para su proyección.**Viernes 28/08/15, 20 a 22hs. Aula Magna** Av. Don Pedro de Mendoza 679'
-data_B1='**Inicio:** 14 de septiembre | **40 horas:** lunes de 18 a 22hrs | [+ info](http://multimedia.una.edu.ar/posgrados/cursos/2525-fundamentos-de-electronica-para-el-desarrollo-tecnologico-aplicado-al-arte)'
+DATA_B='**Arancel**: Bono contribución sugerido de $30.___BR___**Destinatarios**: Público en general.___BR___**Modalidad**:  Practica.___BR___**Consultas, Inscripción y Reserva de vacantes:**___BR___Lunes a Viernes de 9.30 a 15hs.___BR___[multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar) // 4307-0622 int 106.___BR___Dir. Extensión, Av Pedro de Mendoza 679.'
 
 
+titulo_B1='TALLER DE IMAGEN'
 
-img_B2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra-portillos.jpg'
-titulo_B2='Muestra Homenaje Alfredo Portillos'
-resumen_B2='La muestra Alfredo Portillos [“Materias, formas, espacios. Un recorrido por el arte, la magia y los misterios”](http://museodelacarcova.una.edu.ar/noticias/5395-alfredo-portillos-materias-formas-espacios-un-recorrido-por-el-arte-la-magia-y-los-misterios) es la segunda del Ciclo de Exposiciones Temporarias de artistas argentinos, especialmente dedicadas a maestros de reconocida trayectoria, que han sido parte de la institución. En esta oportunidad el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova” se enorgullece de abrir sus puertas al maestro Portillos.___BR___**Inauguración:** Viernes 28 de agosto a las 13 hs. Elvira Rawson de Dellepiane'
-data_B2='**Inicio:** 14 de septiembre | **40 horas:** lunes de 18 a 22hrs | [+ info](http://multimedia.una.edu.ar/posgrados/cursos/2525-fundamentos-de-electronica-para-el-desarrollo-tecnologico-aplicado-al-arte)'
+resumen_B1='**Orientado a la pintura y al dibujo.**___BR___La propuesta es generar un espacio libre, abierto y gratuito en el que tanto los estudiantes de la carrera, así como posibles ingresantes, o bien la comunidad barrial, encuentren un lugar para desarrollar sus inquietudes con respecto a la génesis de imagen. ___BR___Los interesados pueden acercarse al taller en el horario de dictado con su propuesta individual para ser considerada y abordada en conjunto con la docente y sus compañeros.___BR______BR___El taller invita a explorar un recorrido individual a lo largo de 3 meses, en los que no hay una fecha de inicio y finalización de las actividades salvo aquella que decante de lo que proponga el experimentar el asistente. Pudiendo incorporarse o retirarse del taller en cualquier instancia. Debido a esta modalidad, no se entregarán certificados de asistencia.'
+
+data_B1='**Profesora:** Estela Domergue | **Inicio:** 10 de Septiembre | **Encuentros:** jueves de 14 a 18hrs'
+
+
+
+titulo_B2='LECTURA, ESCRITURA y CRÍTICA'
+resumen_B2='**Como leer y como escribir sobre lo que leemos. Las letras como herramienta de transformación del artista.**___BR___Se trata de un taller de socialización de la escritura, donde la puesta en común de cada consigna de trabajo permite que los estudiantes compartan la diversidad de sus experiencias. De este encuentro, en las diferencias expuestas por cada uno en la resolución de las consignas, surge el verdadero enriquecimiento del aprendizaje del taller. Al mismo tiempo, se introducirá a los estudiantes en la problemática hermenéutica, atendiendo al desarrollo de estrategias de lectura y comprensión de textos académicos y literarios. Entre los distintos géneros que se practicarán en el taller, destacamos: artículos especializados, ensayo, relato, crónica, reseña bibliográfica.'
+
+data_B2='**Profesor:** Mariano Dorr| **Inicio:** 15 de Septiembre | **Encuentros:** Martes de 16 a 18hs'
 
 
 
@@ -109,19 +110,21 @@ CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a viernes
 TITULO_D='MUESTRAS'
 
 img_D1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/muestra_marcheti.png'
-titulo_D1='LAY. Proyecto de graduación de Romina Marchetti'
-contenido_D1='Dicen los libros de medicina que el cáncer es una enfermedad provocada por un grupo de células defectuosas que se caracterizan por multiplicarse autónoma e ilimitadamente afectando al tejido sano. “Lay” es una instalación que relata la experiencia de mi madre como paciente de cáncer de mama. Busca introducir al espectador en sus vivencias físicas y anímicas a fin de exponer los distintos climas a los que su cuerpo fue sometido. La obra narra la enfermedad planteando un recorrido por sus variados estadios: desde el intento por sobrevivir hasta la muerte; transitando el miedo, dolor y lucha, enfatizando cada uno de ellos desde la puesta en escena, la materialidad y los distintos métodos de reproducción de la imagen.___BR___Jueves 17 sep 20hs. Entrada libre y gratuita. AV. Don Pedro de Mendoza 679.'
-
-img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-expotoons.png'
-titulo_D2='CONCURSO EXPOTOONS 2015'
-contenido_D2='Leader Entertainment y Expotoons lanzan el Concurso de Animación: **Nuevos Talentos Para La Creacion De Videos Musicales 2015**.___BR___En este [link](http://www.expotoons.com/home/web/es/news/v/show/242.html) se encuentran las bases para la inscripción gratuita.'
+titulo_D1='LAY'
+contenido_D1='**Proyecto de graduación de Romina Marchetti.**__BR__Dicen los libros de medicina que el cáncer es una enfermedad provocada por un grupo de células defectuosas que se caracterizan por multiplicarse autónoma e ilimitadamente afectando al tejido sano. “Lay” es una instalación que relata la experiencia de mi madre como paciente de cáncer de mama. Busca introducir al espectador en sus vivencias físicas y anímicas a fin de exponer los distintos climas a los que su cuerpo fue sometido.___BR___**Jueves 17 sep 20hs. Entrada libre y gratuita. AV. Don Pedro de Mendoza 679.**'
 
 
-img_D3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
-titulo_D3='Jóvenes en Primer Plano. 7ma Edición'
-contenido_D3='Hasta el 28 de agosto **Jóvenes en Primer Plano 7ma Edición** nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Les acercamos [las bases](http://bit.ly/1UiGOa8) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [festivaljovenesenprimerplano@gmail.com](mailto:festivaljovenesenprimerplano@gmail.com).'
+
+img_D2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
+titulo_D2='Jóvenes en Primer Plano'
+contenido_D2='La carrera de Artes Multimediales invita a docentes, estudiantes y graduados a participar del Festival “Jóvenes en Primer Plano”. Esta actividad, de la cual el **miércoles 16 de septiembre ATAM será sede**, se desarrollará en el marco de “Moreno Cine, Festival y Muestra Audiovisual”. Entrada libre y gratuita. Actividades con inscripción previa.___BR___Desde las 14 y hasta las 20 hs. podrán disfrutar de las [estas actividades](http://multimedia.una.edu.ar/noticias/5456-festival-jovenes-en-primer-plano-en-artes-multimediales).'
 
 
-img_D4='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/concurso-jovenes.jpg'
-titulo_D4='Jóvenes en Primer Plano. 7ma Edición'
-contenido_D4='Hasta el 28 de agosto **Jóvenes en Primer Plano 7ma Edición** nos ha extendido la presentación de propuestas exclusivamente para los estudiantes de Artes Multimediales. Les acercamos [las bases](http://bit.ly/1UiGOa8) a los interesados, y cualquier duda o pedido de información pueden comunicarse con: [festivaljovenesenprimerplano@gmail.com](mailto:festivaljovenesenprimerplano@gmail.com).'
+img_D3='http://multimedia.una.edu.ar/userfiles/noticias/imagenes/1442250704_2015-mm-graduadismo-home.jpg'
+titulo_D3='GRADUADISMO'
+contenido_D3='El día sábado 19 de septeimbre de 18 a 20 hs. se realizará la Muestra graduados, en la sede de Artes Multimediales, Av. Don Pedro de Mendoza 679, con entrada libre y gratuita.___BR___Charlas / Objetos / Instalaciones / Performance___BR___**Participan:**___BR___Francisco Beltramino, Mercedes D' Espósito, Ayelén C. García, Agustín Genoud, Mauricio Gutiérrez, Lucas Jara, Romina Marchetti, Natalia Monserrat, Manuel Reyes, Carmín Santos y Pablo A. Varela.'
+
+
+img_D4='http://extension.iuna-atam.com.ar/newsletter/images/boletin-septiembre/nht_news.jpg'
+titulo_D4='Seminario Int. NH/T'
+contenido_D4='El Seminario Internacional de Narrativas Hiper/Textuales (NH/T) tiene como finalidad generar un punto de encuentro regional e internacional para discutir y presentar reflexiones e investigaciones en el campo de las artes digitales, la educación con nuevos medios, la museografía interactiva, la propiedad intelectual en la era digital, los videojuegos los relatos transmedia y otras manifestaciones de la Cultura Digital. + info: [seminarionht.org/nht](http://seminarionht.org/nht/)'
