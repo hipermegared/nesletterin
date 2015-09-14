@@ -1,9 +1,6 @@
-NEWSLETTER_DIR='output-boletinv2'
+NEWSLETTER_DIR='output-boletinV2'
 
-TITULO_MAIL='ATAM / Boletín Semptiembre v2'
-
-
-
+TITULO_MAIL='ATAM // Boletín Septiembre V2'
 
 TITULO_A='CURSOS DE EXTENSIÓN'
 
