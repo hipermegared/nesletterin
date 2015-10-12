@@ -12,7 +12,7 @@ SUBTITULO='Muestra fotográfica.'
 SUB_SUBTITULO='Autores, Luis María Herr y Gabriela García.'
 
 
-CONTENIDO='"Lo que va a pasar hoy pasó hace tanto__ENTER__me desperté diciendo esta mañana__ENTER__no vi las predicciones del espanto__ENTER__que le arrancaba al sueño mi palabra.__ENTER__En este invierno que pega tan duro__ENTER__está lejos tu boca que me ama__ENTER__y se me desdibuja en el futuro,__ENTER__y junio me arde rojo aquí en la espalda. "__ENTER__Extracto de la canción Junio de Jorge Fandermole.'
+CONTENIDO='"[Lo](www.google.com) [](www.sabaduba.org)que va a pasar hoy [www.sabaduba.org]()pasó hace tanto__ENTER__me [desperté](pp.org) diciendo esta mañana__ENTER__no vi las predicciones del espanto__ENTER__que le arrancaba al sueño mi palabra.__ENTER__En este invierno que pega tan duro__ENTER__está lejos tu boca que me ama__ENTER__y se me desdibuja en el futuro,__ENTER__y junio me arde rojo aquí en la espalda. "__ENTER__Extracto de la canción Junio de Jorge Fandermole.'
 
 
 CIERRE_titulo='PRESENTACIÓN'
