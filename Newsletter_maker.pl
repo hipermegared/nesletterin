@@ -11,12 +11,15 @@ use POSIX           q|strftime|;
 
 use Text::Template;
 
+# Lifillo : vuelo el backen perlistico por ahora, 
+# va a ir a parar al otro branch --> backend_perlish
+
 # Necesario si y solo si no se va a usar premailer.
 # Solamente funka si el css esta dentro del html.
-use HTML::Restrict;
-use HTML::Element;
-use CSS::Inliner;
-use File::Slurp     qw'read_file write_file';
+#use HTML::Restrict;
+#use HTML::Element;
+#use CSS::Inliner;
+#use File::Slurp     qw'read_file write_file';
 
 
 my $debug          = 0;
@@ -40,7 +43,7 @@ my $carpete         = '.';
 
 getopts( 'hdpt:c:', \%opts );
 $debug = $opts{d};
-my $backend_perlino = $opts{p};
+#my $backend_perlino = $opts{p};
 ayudas() if $opts{h};
 
 # Este programa __NECESITA__ que se le pasen los argumentos -t y -c.
@@ -155,30 +158,17 @@ sub parrafear {
     return $parrafo;
 }
 
+# Notese que ahora usa exclusivamente premailer-ruby-hpricot-y-la-gran-put+.
 sub premailear {
-    if ($backend_perlino) {
-        my $salida_perl = '';
-        unless ( $carpete eq '.' ) {
-            $salida_perl = $carpete . '/' . $salida_archivo;
-        }
-        my $CONTENT_salida_archivo_carpeta_perl =
-          read_file( $salida_archivo_carpeta_perl, binmode => ':utf8' );
-        my $salida_inline_css =
-          Css_inliner($CONTENT_salida_archivo_carpeta_perl);
-        say $salida_inline_css if $debug;
-        write_file( $salida_perl, { binmode => ':utf8' }, $salida_inline_css );
+    my $salida_ruby = '';
+    unless ( $carpete eq '.' ) {
+        $salida_ruby = $carpete . '/' . $salida_archivo;
     }
-    else {
-        my $salida_ruby = '';
-        unless ( $carpete eq '.' ) {
-            $salida_ruby = $carpete . '/' . $salida_archivo;
-        }
-        my $comm =
-            'ruby pp.rb' . ' '
-          . $salida_archivo_carpeta_perl . ' '
-          . $salida_ruby;
-        say `$comm`;
-    }
+    my $comm =
+        'ruby pp.rb' . ' '
+        . $salida_archivo_carpeta_perl . ' '
+        . $salida_ruby;
+    say `$comm`;
 }
 
 sub ayudas {
@@ -330,7 +320,6 @@ Opcionalmente se puede usar la opcion -d (sin argumentos), para activar el debug
 
 =item * -t [ARCHIVO PLANTILLA]          OBLIGATORIO! Especifica el archivo en donde las variables van a ser reemplazadas.
 
-=item * -b                              OPCIONAL - por el momento - Backend sin premailer, en Perl. [NUEVO]
 
 =item * -h                              Esta ayuda
 
@@ -358,20 +347,25 @@ Para bold:
 
 Utilizar **esta sintaxis**.
 
-
-=head2
-
-Se agrego un backend en Perl, que permite no utilizar a Ruby (premailer, en realidad).
-Para utilizar el backend, hay que pasar el flag -p (por el momento).
-
-Ahora, como efecto colateral, hay que instalar mas modulines.
-
 =head2 NOTA
 
-
 B<Si estamos viendo esta ayuda sin pedirla, quiere decir que faltaron alguna de las opciones de arriba.>
-
 
 ~ GsTv ~ 2014,2015... y contando.                            Zaijian.
 
 =cut
+__DATA__
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2014-2015 MarxBro <allthemarxbrothers@gmail.com>
+ 
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
