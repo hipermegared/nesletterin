@@ -6,24 +6,26 @@ TITULO_MAIL='ATAM // Boletín Octubre'
 
 TITULO_A='NOTICIAS'
 
-img_A1=' '
+img_A1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_paede.jpg'
 titulo_A1='Becas Paede 2016'
-contenido_A1='A partir del 13 de Octubre, y hasta el 13 de Noviembre del corriente año, se abre la convocatoria para que estudiantes regulares de la UNA se presenten a las becas  PAEDE en las categorías de ayuda Económica y Estimulo Académico para el ciclo lectivo 2016.'
+contenido_A1='A partir del 13 de Octubre, y hasta el 13 de Noviembre del corriente año, se abre la convocatoria para que estudiantes regulares de la UNA se presenten a las becas  PAEDE 2016.___BR___El Programa de Ayuda Económica para el Desarrollo Educativo (PAEDE) de la Universidad Nacional de las Artes (UNA) tiene como objetivo apoyar y promover la continuidad en sus carreras a los estudiantes de nuestra Universidad que necesiten apoyo económico y demuestren su compromiso académico y regularidad en sus estudios. Los estudiantes interesados en postular a la beca deberán realizar una pre-inscripción completando el formulario. Una vez completado el formulario online, para concretar la inscripción, deberán imprimirlo y presentarlo junto con la documentación requerida en el Área de Bienestar de la Unidad Académica respectiva.'
 
 
-img_A2=' '
+img_A2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_fauna.jpg'
 titulo_A2='Seleccionados en Fauna'
-contenido_A2='El próximo 29 de Noviembre inaugura el Festival FAUNA de la UNA. Será un espacio abierto en el que convivirán obras producidas por estudiantes y graduados de la UNA, tendrá lugar en la Ciudad Cultural Konex desde el 29 de octubre y hasta el 1 de noviembre, inclusive. Durante los cuatro días del festival, el FAUNA presentará espectáculos de teatro y de danza, conciertos de música académica, electroacústica y popular, performances, muestras de cine y video, exposiciones de artes visuales, instalaciones, intervenciones, producciones objetuales y digitales en una propuesta que pretende hacer del arte un espacio propicio para poner en crisis los límites y las fronteras disciplinares, cuestionar los cánones tradicionales, promover la experimentación y la relación del arte con la tecnología y la ciencia.___BR___Desde la carrera de Artes Multimediales queremos felicitar a nuestros graduados y estudiantes que fueron seleccionados para esta edición del festival, así como a todos aquellos que participaron, que sabemos, fueron muchos!'
+contenido_A2='Se viene el Festival Artístico de la Universidad Nacional de las Artes___BR___El próximo 29 de Noviembre inaugura el Festival FAUNA de la UNA. Será un espacio abierto en el que convivirán obras producidas por estudiantes y graduados de la UNA, tendrá lugar en la Ciudad Cultural Konex desde el 29 de octubre y hasta el 1 de noviembre, inclusive.___BR___Desde la carrera de Artes Multimediales queremos felicitar a nuestros graduados y estudiantes que fueron seleccionados para esta edición del festival: Armoa Andrea, Beltramino Juan Francisco, Cuestas Moncada José Camilo,  Diaz Espejo, Isaac Doque, García Di Yorio Bárbara, Giri Pía Josefina, Losicer Gisela, Rivas Mariano, Zavatarelli Sebastián Axel. Así como a todos aquellos que participaron, que sabemos, fueron muchos!'
 
 
-img_A3=' '
+img_A3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_fase7.jpg'
 titulo_A3='Fase 7'
-contenido_A3='Tenemos el agrado de anunciar que la carrera de Artes Multimediales participará de la próxima edición del festival Fase 7. La propuesta de la carrera integra una instalación a cargo de Francisco Beltramino (Axioma para sueños), proyección de trabajos audiovisuales de las cátedras de Artes Multimediales 4 y Proyecto visual 1, 2 y 3, así como una serie de workshops o talleres cortos dictados por docentes, estudiantes y graduados de la carrera. El festival se llevará a cabo los días 28/10 al 01/11 en el centro cultural Recoleta, Junín 1930, Ciudad de Buenos Aires. Las actividades serán libres y gratuitas, los workshops tendrán inscripción previa a cargo de la organización del evento. ___BR___+ info: [encuentrofase.com.ar](http://encuentrofase.com.ar/)'
+contenido_A3='**Artes Multimediales participará de la próxima edición del festival Fase 7**. La propuesta de la carrera integra una instalación a cargo de Francisco Beltramino (Axioma para sueños), proyección de trabajos audiovisuales de las cátedras de Artes Multimediales 4 y Proyecto visual 1, 2 y 3, así como una serie de workshops o talleres cortos dictados por docentes, estudiantes y graduados de la carrera. El festival se llevará a cabo los días 28/10 al 01/11 en el centro cultural Recoleta, Junín 1930, Ciudad de Buenos Aires. Las actividades serán libres y gratuitas, los workshops tendrán inscripción previa a cargo de la organización del evento. ___BR___+ info: [encuentrofase.com.ar](http://encuentrofase.com.ar/)'
 
 
-img_A4=' '
-titulo_A4='Bienal de Arte Electrónico'
+img_A4='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_thewrong.jpg'
+titulo_A4='tHEwRONG Bienal Internacional'
 contenido_A4='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
+
 
 TITULO_B='TALLERES DE EXTENSIÓN'
 
@@ -44,3 +46,24 @@ titulo_B2='LECTURA, ESCRITURA y CRÍTICA'
 resumen_B2='**Como leer y como escribir sobre lo que leemos.**___BR___Las letras como herramienta de transformación del artista. Se trata de un taller de socialización de la escritura, donde la puesta en común de cada consigna de trabajo permite que los estudiantes compartan la diversidad de sus experiencias. De este encuentro, en las diferencias expuestas por cada uno en la resolución de las consignas, surge el verdadero enriquecimiento del aprendizaje del taller. Al mismo tiempo, se introducirá a los estudiantes en la problemática hermenéutica, atendiendo al desarrollo de estrategias de lectura y comprensión de textos académicos y literarios. Entre los distintos géneros que se practicarán en el taller, destacamos: artículos especializados, ensayo, relato, crónica, reseña bibliográfica.'
 
 data_B2='**Profesor:** Mariano Dorr | **Inicio:** 15 de Septiembre | **Encuentros:** Martes de 16 a 18hs'
+
+
+
+
+TITULO_C='ATAM EN FASE 7'
+
+RESUMEN_C='**Artes Multimediales participará de la próxima edición del festival Fase 7**. La propuesta de la carrera integra una instalación a cargo de Francisco Beltramino (Axioma para sueños), proyección de trabajos audiovisuales de las cátedras de Artes Multimediales 4 y Proyecto visual 1, 2 y 3, así como una serie de workshops o talleres cortos dictados por docentes, estudiantes y graduados de la carrera. El festival se llevará a cabo los días 28/10 al 01/11 en el centro cultural Recoleta, Junín 1930, Ciudad de Buenos Aires. Las actividades serán libres y gratuitas, los workshops tendrán inscripción previa a cargo de la organización del evento. ___BR___+ info: [encuentrofase.com.ar](http://encuentrofase.com.ar/)'
+DATA_C='**Bono contribución sugerido de $30.** // **Destinatarios**: Público en general. // **Modalidad**:  Practica.___BR___**Consultas e Inscripciones:** Lunes a Viernes de 9.30 a 15hs.___BR___[multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar) // 4307-0622 int 106. | Dir. Extensión, Av Pedro de Mendoza 679.'
+
+
+titulo_C1='DJ/VJ expandido'
+
+resumen_C1='**exploraciones de recursos visuales y sonoros a partir del gesto.**___BR___Conversatorio hands-on  o “manos en la obra”.___BR___Este conversatorio se plantea con el objetivo de compartir los procesos de investigación y construcción de la obra “/ˌadˈhäk/ ”, una performance audiovisual expandida. Su proceso y realización surge de una serie de performances audiovisuales previas (“Ex-natura”, realizada en la Universidad Nacional de las Artes el pasado 19/9/2015 y la serie “/ˌadˈhäk/ ”, a estrenarse en el Centro Cultural San Martín dentro del Festival Internacional de Artes Multimediales “Noviembre Electrónico 2015”). La meta de esta obra es expandir y profundizar el carácter escénico y performático de los procesos de producción de imágenes y sonidos en la performance audiovisual. Hacer visible una máquina de producción de visuales y sonidos en tiempo real, a partir de la construcción de instrumentos y técnicas ad-hoc, que formen parte de una coreografía escénica que involucre el cuerpo de los performers, las sombras del público y un sistema maquínico/escénico de producción de imágenes y sonidos en tiempo real realizado a través de síntesis digital y analógica.___BR___Durante el encuentro discutiremos las estrategias técnicas-escénicas que desarrollamos para expandir el gesto del performer manipulando imagen y sonido, haciendo hincapié en el uso del cuerpo y de interfaces que expandan las capacidades del gesto.'
+
+data_C1='Pauli Coton y Agustín Genoud | **Día:** Jueves 29/10 - 14 a 17hs | **Cupo:** 40 personas | **Destinatarios:** Abierto al público en general'
+
+
+
+titulo_C2='FALTA'
+resumen_C2='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.___BR___Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+data_C2='Lorem ipsum | **Inicio:** 15 de Septiembre | **Encuentros:** Martes de 16 a 18hs'
