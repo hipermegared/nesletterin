@@ -16,14 +16,14 @@ titulo_A2='Seleccionados en Fauna'
 contenido_A2='Se viene el Festival Artístico de la Universidad Nacional de las Artes___BR___El próximo 29 de Noviembre inaugura el Festival FAUNA de la UNA. Será un espacio abierto en el que convivirán obras producidas por estudiantes y graduados de la UNA, tendrá lugar en la Ciudad Cultural Konex desde el 29 de octubre y hasta el 1 de noviembre, inclusive.___BR___Desde la carrera de Artes Multimediales queremos felicitar a nuestros graduados y estudiantes que fueron seleccionados para esta edición del festival: Armoa Andrea, Beltramino Juan Francisco, Cuestas Moncada José Camilo,  Diaz Espejo, Isaac Doque, García Di Yorio Bárbara, Giri Pía Josefina, Losicer Gisela, Rivas Mariano, Zavatarelli Sebastián Axel. Así como a todos aquellos que participaron, que sabemos, fueron muchos!'
 
 
-img_A3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_fase7.jpg'
-titulo_A3='Fase 7'
-contenido_A3='**Artes Multimediales participará de la próxima edición del festival Fase 7**. La propuesta de la carrera integra una instalación a cargo de Francisco Beltramino (Axioma para sueños), proyección de trabajos audiovisuales de las cátedras de Artes Multimediales 4 y Proyecto visual 1, 2 y 3, así como una serie de workshops o talleres cortos dictados por docentes, estudiantes y graduados de la carrera. El festival se llevará a cabo los días 28/10 al 01/11 en el centro cultural Recoleta, Junín 1930, Ciudad de Buenos Aires. Las actividades serán libres y gratuitas, los workshops tendrán inscripción previa a cargo de la organización del evento. ___BR___+ info: [encuentrofase.com.ar](http://encuentrofase.com.ar/)'
+img_A3='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_ircam.jpg'
+titulo_A3='Invitación a Foro Ircam'
+contenido_A3='Desde la dirección del Área de Artes Sonoras de la UNSAM nos han invitado a  participar del Foro Ircam que realizaremos en UNSAM los días 29 y 30 de octubre. Hacemos extensiva la invitación a toda la comunidad de ATAM, tanto estudiantes como graduados y docentes.___BR______BR___En este marco, el director del IRCAM (Institut de Recherce et Coordination Acoustique/Musique), Frank Madlener, visitará la UNSAM junto con su equipo de investigadores y desarrolladores, integrado por Sebastien Rivas, Arshia Cont, Adrien Mamou-Mani y Joseph Miguel Fernandez. A lo largo de dos jornadas, el equipo brindará charlas, workshops y clínicas abiertas al público interesado.___BR___Entrada gratuita, con inscripción previa.___BR______BR___El formulario de inscripción para las actividades está disponible en: [unsam.edu.ar/institutos/kagel/ircam.asp](http://www.unsam.edu.ar/institutos/kagel/ircam.asp)___BR___+ info: [comunicacion.institucional@unsam.edu.ar](mailto:comunicacion.institucional@unsam.edu.ar)'
 
 
 img_A4='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_thewrong.jpg'
 titulo_A4='tHEwRONG Bienal Internacional'
-contenido_A4='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+contenido_A4='Este año, la carrera de Artes Multimediales, será curador y sede en la **Biennal Internacional de Arte Digital [The Wrong](http://thewrong.org/)**. La Misión de la misma es crear, promover e impulsar un pensamiento positivo con miras al futuro del arte digital contemporáneo, llegando desde una plataforma Online a una audiencia mundial que lleva en su agenda eventos que reúnen lo mejor de la producción en este campo, incorporando a nuevos y jóvenes talentos de la escena digital artística emergente.___BR___A partir del 17 de Octubre abre la convocatoria para la presentación de obras. Podrán participar docentes, estudiantes, técnicos y graduados de la carrera de Artes Multimediales, así como estudiantes de las carreras de postgrado en Especialización en Sonido Aplicado a las Artes Digitales y Especialización en Teatro de Objetos, Interactividad y Nuevos Medios.___BR___**Inscripción, Bases y Condiciones: [thewrong.atamvirtual.com.ar](http://thewrong.atamvirtual.com.ar/)**'
 
 
 
@@ -38,7 +38,7 @@ titulo_B1='TALLER DE IMAGEN (pintura y dibujo)'
 
 resumen_B1='**Orientado a la pintura y al dibujo.**___BR___La propuesta es generar un espacio libre, abierto y gratuito en el que tanto los estudiantes de la carrera, así como posibles ingresantes, o bien la comunidad barrial, encuentren un lugar para desarrollar sus inquietudes con respecto a la génesis de imagen. ___BR___Los interesados pueden acercarse al taller en el horario de dictado con su propuesta individual para ser considerada y abordada en conjunto con la docente y sus compañeros.___BR___El taller invita a explorar un recorrido individual a lo largo de 3 meses, en los que no hay una fecha de inicio y finalización de las actividades salvo aquella que decante de lo que proponga el experimentar el asistente. Pudiendo incorporarse o retirarse del taller en cualquier instancia. Debido a esta modalidad, no se entregarán certificados de asistencia.'
 
-data_B1='**Profesora:** Estela Domergue | **Inicio:** 10 de Septiembre | **Encuentros:** jueves de 14 a 18hrs'
+data_B1='**Profesora:** Estela Domergue | **Inicio:** 10 de Septiembre | **Encuentros:** jueves de 14 a 18hs'
 
 
 
@@ -51,19 +51,48 @@ data_B2='**Profesor:** Mariano Dorr | **Inicio:** 15 de Septiembre | **Encuentro
 
 
 TITULO_C='ATAM EN FASE 7'
-
-RESUMEN_C='**Artes Multimediales participará de la próxima edición del festival Fase 7**. La propuesta de la carrera integra una instalación a cargo de Francisco Beltramino (Axioma para sueños), proyección de trabajos audiovisuales de las cátedras de Artes Multimediales 4 y Proyecto visual 1, 2 y 3, así como una serie de workshops o talleres cortos dictados por docentes, estudiantes y graduados de la carrera. El festival se llevará a cabo los días 28/10 al 01/11 en el centro cultural Recoleta, Junín 1930, Ciudad de Buenos Aires. Las actividades serán libres y gratuitas, los workshops tendrán inscripción previa a cargo de la organización del evento. ___BR___+ info: [encuentrofase.com.ar](http://encuentrofase.com.ar/)'
-DATA_C='**Bono contribución sugerido de $30.** // **Destinatarios**: Público en general. // **Modalidad**:  Practica.___BR___**Consultas e Inscripciones:** Lunes a Viernes de 9.30 a 15hs.___BR___[multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar) // 4307-0622 int 106. | Dir. Extensión, Av Pedro de Mendoza 679.'
+IMG_C='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/seccion_fase07.jpg'
+RESUMEN_C='**Artes Multimediales participará de la próxima edición del [festival Fase 7](http://encuentrofase.com.ar/)**. La propuesta de la carrera integra una instalación a cargo de Francisco Beltramino (Axioma para sueños), proyección de trabajos audiovisuales de las cátedras de Artes Multimediales 4 y Proyecto visual 1, 2 y 3, así como una serie de workshops o talleres cortos dictados por docentes, estudiantes y graduados de la carrera. El festival se llevará a cabo los días 28/10 al 01/11 en el centro cultural Recoleta, Junín 1930, Ciudad de Buenos Aires.___BR___Las actividades serán libres y gratuitas, los workshops tendrán inscripción previa a cargo de la organización del evento. **[FORMULARIO DE INSCRIPCIÓN A LOS TALLERES](https://docs.google.com/forms/d/1cnViBDktlCcOnTIZkWKn5E_7R-vkHbbITAyZY5rcD3w)**'
+DATA_C=''
 
 
 titulo_C1='DJ/VJ expandido'
 
-resumen_C1='**exploraciones de recursos visuales y sonoros a partir del gesto.**___BR___Conversatorio hands-on  o “manos en la obra”.___BR___Este conversatorio se plantea con el objetivo de compartir los procesos de investigación y construcción de la obra “/ˌadˈhäk/ ”, una performance audiovisual expandida. Su proceso y realización surge de una serie de performances audiovisuales previas (“Ex-natura”, realizada en la Universidad Nacional de las Artes el pasado 19/9/2015 y la serie “/ˌadˈhäk/ ”, a estrenarse en el Centro Cultural San Martín dentro del Festival Internacional de Artes Multimediales “Noviembre Electrónico 2015”). La meta de esta obra es expandir y profundizar el carácter escénico y performático de los procesos de producción de imágenes y sonidos en la performance audiovisual. Hacer visible una máquina de producción de visuales y sonidos en tiempo real, a partir de la construcción de instrumentos y técnicas ad-hoc, que formen parte de una coreografía escénica que involucre el cuerpo de los performers, las sombras del público y un sistema maquínico/escénico de producción de imágenes y sonidos en tiempo real realizado a través de síntesis digital y analógica.___BR___Durante el encuentro discutiremos las estrategias técnicas-escénicas que desarrollamos para expandir el gesto del performer manipulando imagen y sonido, haciendo hincapié en el uso del cuerpo y de interfaces que expandan las capacidades del gesto.'
+resumen_C1='**Exploraciones de recursos visuales y sonoros a partir del gesto.** Durante el encuentro discutiremos las estrategias técnicas-escénicas que desarrollamos para expandir el gesto del performer manipulando imagen y sonido, haciendo hincapié en el uso del cuerpo y de interfaces que expandan las capacidades del gesto.'
 
-data_C1='Pauli Coton y Agustín Genoud | **Día:** Jueves 29/10 - 14 a 17hs | **Cupo:** 40 personas | **Destinatarios:** Abierto al público en general'
+data_C1='Pauli Coton y Agustín Genoud | **Día:** jueves 29/10 de 14 a 17hs | **Cupo:** 40 personas | **Destinatarios:** Abierto al público en general.'
 
 
 
-titulo_C2='FALTA'
-resumen_C2='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.___BR___Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-data_C2='Lorem ipsum | **Inicio:** 15 de Septiembre | **Encuentros:** Martes de 16 a 18hs'
+titulo_C2='Impresora 3d F.O.S.S.'
+resumen_C2='**Impresora 3D Open Sourse: Construcción, problemas y soluciones.**___BR___Tensiones y distensiones en la construcción, puesta en funcionamiento e implementación de una impresora 3D OpenSource.'
+data_C2='A. Ducos, M. Barreiro, M. Gutiérrez y S. Zavatarelli | **Día:** sábado 01/11 de 16 a 18:30hs | **Cupo:** 30 personas'
+
+titulo_C3='Rotoscopía y stopmotion'
+resumen_C3='**Técnicas de animación**___BR___Conceptos básicos, herramientas y técnicas para la realización y experimentación a través de estudios del movimiento y sus diferentes tipos y sus combinaciones.'
+data_C3='Pablo A. Varela | **Día:** viernes 30/10 de 15 a 18:00hs | **Cupo:** 10 personas | **Destinatarios:** Abierto al público en general.'
+
+titulo_C4='Taller de Videoarte'
+resumen_C4='Revisión de las técnicas clásicas de transcodificación y retroalimentación en videoarte analógico.'
+data_C4='Gumersindo Serrano Gómez | **Día:** jueves 29/10 de 17:30 a 19hs | **Cupo:** 40 personas | **Destinatarios:** Abierto al público en general.'
+
+
+
+TITULO_D='CURSOS DE EXTENSIÓN'
+
+titulo_D1='HISTORIA DE LA FOTOGRAFÍA 1'
+
+resumen_D1='Siendo la fotografía un dispositivo con una apretada historia de menos de dos siglos, proponemos reconstruir los más importantes de estos procesos y ejes históricos y estéticos, a fin de comprender mejor el contexto en el que cada imagen fotográfica fue producido, visto y pensado.'
+
+data_D1='**Docente:** Marina Fernandez Quiroga | **Inicio:** 5 de noviembre | **4 clases:** jueves de 19 a 22hs'
+
+
+
+titulo_D2='DESPROGRAMANDO LA MÁQUINA'
+
+resumen_D2='**Dispositivos y tecnologías en la expansión estética.**___BR___Históricamente el campo estético y las innovaciones tecnológicas han convivido paralelamente en una relación de retroalimentación. A partir de los avances y desarrollos en el área comunicacional, virtual y técnica, los artistas han logrado expandir el campo artístico aplicándolo a las distintas problemáticas que surgen en la sociedad pos capitalista.'
+
+data_D2='**Docente:** Nicolas Frank y Matias Billordo | **Inicio:** 4 de noviembre | **4 clases:** viernes de 16 a 18hs'
+
+TITULO_CIERRE_D='Inscripciones y Consultas'
+CONTENIDO_CIERRE_D='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar)'
