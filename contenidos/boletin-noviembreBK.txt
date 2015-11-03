@@ -1,0 +1,107 @@
+NEWSLETTER_DIR='output-noviembre'
+
+TITULO_MAIL='ATAM // Boletín Noviembre'
+
+IMG_HEADER='http://extension.iuna-atam.com.ar/newsletter/images/boletin-noviembre/header.png'
+
+
+TITULO_A='NOTICIAS'
+
+img_A1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_paede.jpg'
+titulo_A1='Charla Informativa Becas PAEDE 2016'
+
+contenido_A1='El miércoles 4 de Noviembre a las 13,30 la Secretaría de Extensión Cultural y Bienestar Estudiantil de la UNA brindará una charla abierta e informativa a estudiantes para informar sobre el funcionamiento y la inscripción a las Becas PAEDE 2016 en las categorías Estímulo Académico y Ayuda Económica. Se recuerda que la inscripción se realiza hasta el 13 de Noviembre del corriente año. Los estudiantes interesados en postular a la beca deberán realizar una pre-inscripción completando el formulario. Una vez completado el formulario online, para concretar la inscripción, deberán imprimirlo y presentarlo junto con la documentación requerida en el Área de Bienestar de la Unidad Académica respectiva.Por dudas y consultas podés acercarte al Área de Bienestar de tu Unidad Académica, y/o a la Secretaría de Extensión Cultural y Bienestar Estudiantil del Rectorado. También podés escribir a [rectorado.becas@una.edu.ar](mailto:rectorado.becas@una.edu.ar).___BR___**+ info:** [una.edu.ar/contenidos/143-programa-de-ayuda-economica-para-el-desarrollo-educativo-paede](http://una.edu.ar/contenidos/143-programa-de-ayuda-economica-para-el-desarrollo-educativo-paede)'
+
+
+
+img_A2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-octubre/noticia_thewrong.jpg'
+titulo_A2='Prórroga inscripciones Biennal "tHEwRONG" 2015'
+
+contenido_A2='Se prorrogan hasta el 8 de noviembre las inscripciones de la convocatoria a la Biennal Internacional de Arte Digital "The Wrong" en la que la carrera de Artes Multimediales, será curador y sede. La Misión de la misma es crear, promover e impulsar un pensamiento positivo con miras al futuro del arte digital contemporáneo, llegando desde una plataforma Online a una audiencia mundial que lleva en su agenda eventos que reúnen lo mejor de la producción en este campo, incorporando a nuevos y jóvenes talentos de la escena digital artística emergente.___BR___A partir del 17 de Octubre hasta el 8 de noviembre se encuentra abierta la convocatoria para la presentación de obras.Podrán participar docentes, estudiantes, técnicos y graduados de la carrera de Artes Multimediales, así como estudiantes de las carreras de postgrado en Especialización en Sonido Aplicado a las Artes Digitales y Especialización en Teatro de Objetos, Interactividad y Nuevos Medios.___BR___**Inscripción, Bases y Condiciones: [thewrong.atamvirtual.com.ar](http://thewrong.atamvirtual.com.ar/)**'
+
+
+
+TITULO_C='PROYECTOS DE GRADUACIÓN'
+
+img_C1='http://extension.iuna-atam.com.ar/newsletter/images/boletin-noviembre/tesis-saenz.png'
+titulo_C1='PULSO'
+contenido_C1='**Este miércoles 4 de Noviembre a las 18 hs. Carolina Saenz presenta su obra de graduación "PULSO", en la sede de ATAM.**___BR___Pulso es una performance audiovisual, cuya interfaz de acción es un dispositivo que se hace invisible al no ser necesario el contacto físico con este para que funcione; el mecanismo del dispositivo se activa por medio del movimiento corporal/gestual, produciendo sonidos que se vinculan a imágenes proyectadas en el espacio escénico, las imágenes son la representación de la forma espectral del sonido en tiempo real. El cuerpo funciona como productor de sentido, se vale de la tecnología como herramienta que potencia los movimientos corporales, haciendo que la conciencia de su corporeidad sea diferente y que conciba a su cuerpo como una extensión del entorno audiovisual que produce. Las herramientas tecnológicas ayudan a concebir un lenguaje de movimientos que derivan de una experimentación en un entorno sensible, desarrollando nuevos métodos y técnicas corporales en pos de la creación y producción en escena.'
+
+img_C2='http://extension.iuna-atam.com.ar/newsletter/images/boletin-noviembre/tesis-helman.png'
+titulo_C2='PROPAGANDA'
+contenido_C2='**El jueves 12 de noviembre a las 21:30 hs. Julián Helman presenta su obra de graduación "PROPAGANDA", en Pasco 689, C.A.B.A., Entrada libre y gratuita.**___BR___Propaganda es música, video, performance, danza. Una amalgama de lenguajes, de sentires, de opiniones, de saberes e inquietudes. Un espacio irradiando estímulos sonoros y visuales en todas direcciones.___BR___Estímulos complementarios. Contradictorios por momentos. Inabarcables en su totalidad. Un puñado de canciones interpretadas en vivo. Cada una con un tratamiento de lo visual y performático específico. Pero que al mismo tiempo, pretenden conformar una unidad.___BR___La propuesta visual se presenta como una oferta múltiple y diversa. Como una exhortación a la toma de decisiones. Al enfrentarse a Propaganda es preciso optar. Elegir entre diferentes opciones resignando parte de la propuesta. Propaganda no es panfleto. Requiere de una participación activa. De esta manera, se construyen experiencias únicas y personales.'
+
+titulo_C3='Carrera de Especialización en Sonido Aplicado a las Artes Digitales'
+contenido_C3='**Defensa pública trabajo final del Lic. Damián Anache.**___BR___ ___BR___Se invita a la comunidad académica a asistir a la defensa pública del Trabajo Final del Lic. Damián Anache, correspondiente a la Especialización en Sonido Aplicado a las Artes Digitales del ATAM UNA, a realizarse el Jueves 5 de noviembre a las 14hs en la sede de Artes Multimediales de la UNA, Av. Pedro de Mendoza 679 2º piso.___BR___El trabajo, titulado “Desarrollo e implementación de aplicaciones para composición algorítmica y generación de imagen en los entornos Pure Data y Processing” fué dirigido por el Dr. Oscar Pablo Di Liscia.___BR___**Tribunal Evualuador:** Dr. Nicolás Varchausky, Mg. Matías Zabaljáuregui y Lic. Raúl Minsburg.'
+
+data_C3='**Día:** Jueves 5 de noviembre a las 14hs | **Lugar:** Av. Pedro de Mendoza 679, Aula Magna'
+
+
+
+
+
+TITULO_D='CURSOS Y WORKSHOPS DE EXTENSIÓN'
+
+titulo_D1='HISTORIA DE LA FOTOGRAFÍA 1'
+
+resumen_D1='Siendo la fotografía un dispositivo con una apretada historia de menos de dos siglos, proponemos reconstruir los más importantes de estos procesos y ejes históricos y estéticos, a fin de comprender mejor el contexto en el que cada imagen fotográfica fue producido, visto y pensado.'
+
+data_D1='**Docente:** Marina Fernandez Quiroga | **Inicio:** 12 de noviembre | **4 clases:** jueves de 19 a 22hs'
+
+
+
+titulo_D2='DESPROGRAMANDO LA MÁQUINA'
+
+resumen_D2='**Dispositivos y tecnologías en la expansión estética.**___BR___Históricamente el campo estético y las innovaciones tecnológicas han convivido paralelamente en una relación de retroalimentación. A partir de los avances y desarrollos en el área comunicacional, virtual y técnica, los artistas han logrado expandir el campo artístico aplicándolo a las distintas problemáticas que surgen en la sociedad pos capitalista.'
+
+data_D2='**Docente:** Nicolas Frank y Matias Billordo | **Inicio:** 11 de noviembre | **4 clases:** viernes de 16 a 18hs'
+
+
+titulo_D3='TALLER CORTO DE EXPERIMENTACIÓN AUDIOVISUAL'
+
+resumen_D3='**La imagen en movimiento como expresión de sensaciones**___BR___La propuesta es crear un espacio de desarrollo creativo, buceando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, el uso que cada uno le presta, y la búsqueda de representaciones. El uso básico de elementos de filmación, con los dispositivos con que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara. Los participantes realizarán trabajos de piezas individuales y en grupo en la clase, y también en la semana tendrán un ejercicio para traer y compartir, conformando así un ciclo cronológico de ejercicios que nos permitirán atravesar diferentes etapas de búsqueda y encuentro con los materiales tangibles que conducen a representar conceptos, ideas, sensaciones más intangibles.'
+
+data_D3='**Docente:** Laura Huberman | **Encuentro:** lunes 16 de noviembre de 17 a 21hs'
+
+
+
+titulo_D4='TALLER DE INTRODUCCIÓN A KINECT Y SIMPLEOPENNI'
+
+resumen_D4='**Una aproximación a la programación de sistemas interactivos en Processing.**___BR___"Kinect es una cámara de profundidad desarrollada por Microsoft para su consola Xbox 360. Si bien fue diseñada para controlar videojuegos con movimientos corporales, en los últimos años ha sido ampliamente adoptada en la construcción de contenidos artísticos interactivos, principalmente porque hace posible analizar grandes superficies en tres dimensiones de forma poco invasiva y sin conocimientos de electrónica. En este contexto, el principal objetivo de este workshop es ayudar a los estudiantes a incorporar el sensor Kinect en sus proyectos, independientemente de sus disciplinas de origen.Las temáticas propuestas son particularmente útiles en el diseño de escenografía e iluminación interactiva para danza y teatro, en el procesamiento de imágenes y en la construcción de instalaciones interactivas. Estos desarrollos no son sólo muy requeridos en espacios artísticos, sino que también son utilizados extensamente en publicidad y eventos corporativos. De esta forma, los contenidos del curso apuntan tanto complementar prácticas artísticas como a generar salidas laborales."'
+
+data_D4='**Docente:** Fabián Sguiglia | **Encuentros:** lunes 16 y martes 17 de noviembre de 17 a 21hs'
+
+
+
+
+
+
+
+TITULO_CIERRE_D='Inscripciones y Consultas'
+CONTENIDO_CIERRE_D='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar)'
+
+
+
+
+
+
+
+TITULO_B='TALLERES DE EXTENSIÓN'
+
+RESUMEN_B='Tenemos el agrado de anunciar los nuevos talleres de Extensión de la carrera. Los mismos son **libres y gratuitos**, con una modalidad diferente a los cursos de extensión, ya que si bien inician, no tienen un cierre propuesto por el taller sino por la propia exploración de quienes asistan a ellos. Los mismos son dictados por profesores de la carrera de Artes Multimediales. Dentro de este programa queremos presentar los dos primeros talleres que estaremos dictando a partir del  jueves 10 de Septiembre.'
+
+DATA_B='**Bono contribución sugerido de $30.** // **Destinatarios**: Público en general. // **Modalidad**:  Practica.___BR___**Consultas e Inscripciones:** Lunes a Viernes de 9.30 a 15hs.___BR___[multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar) // 4307-0622 int 106. | Dir. Extensión, Av Pedro de Mendoza 679.'
+
+
+titulo_B1='TALLER DE IMAGEN (pintura y dibujo)'
+
+resumen_B1='**Orientado a la pintura y al dibujo.**___BR___La propuesta es generar un espacio libre, abierto y gratuito en el que tanto los estudiantes de la carrera, así como posibles ingresantes, o bien la comunidad barrial, encuentren un lugar para desarrollar sus inquietudes con respecto a la génesis de imagen. ___BR___Los interesados pueden acercarse al taller en el horario de dictado con su propuesta individual para ser considerada y abordada en conjunto con la docente y sus compañeros.___BR___El taller invita a explorar un recorrido individual a lo largo de 3 meses, en los que no hay una fecha de inicio y finalización de las actividades salvo aquella que decante de lo que proponga el experimentar el asistente. Pudiendo incorporarse o retirarse del taller en cualquier instancia. Debido a esta modalidad, no se entregarán certificados de asistencia.'
+
+data_B1='**Profesora:** Estela Domergue | **Inicio:** 10 de Septiembre | **Encuentros:** jueves de 14 a 18hs'
+
+
+
+titulo_B2='LECTURA, ESCRITURA y CRÍTICA'
+resumen_B2='**Como leer y como escribir sobre lo que leemos.**___BR___Las letras como herramienta de transformación del artista. Se trata de un taller de socialización de la escritura, donde la puesta en común de cada consigna de trabajo permite que los estudiantes compartan la diversidad de sus experiencias. De este encuentro, en las diferencias expuestas por cada uno en la resolución de las consignas, surge el verdadero enriquecimiento del aprendizaje del taller. Al mismo tiempo, se introducirá a los estudiantes en la problemática hermenéutica, atendiendo al desarrollo de estrategias de lectura y comprensión de textos académicos y literarios. Entre los distintos géneros que se practicarán en el taller, destacamos: artículos especializados, ensayo, relato, crónica, reseña bibliográfica.'
+
+data_B2='**Profesor:** Mariano Dorr | **Inicio:** 15 de Septiembre | **Encuentros:** Martes de 16 a 18hs'
