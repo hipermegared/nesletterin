@@ -34,7 +34,7 @@ contenido_C2='**El jueves 12 de noviembre a las 21:30 hs. Julián Helman present
 titulo_C3='Carrera de Especialización en Sonido Aplicado a las Artes Digitales'
 contenido_C3='**Defensa pública trabajo final del Lic. Damián Anache.**___BR___ ___BR___Se invita a la comunidad académica a asistir a la defensa pública del Trabajo Final del Lic. Damián Anache, correspondiente a la Especialización en Sonido Aplicado a las Artes Digitales del ATAM UNA, a realizarse el Jueves 5 de noviembre a las 14hs en la sede de Artes Multimediales de la UNA, Av. Pedro de Mendoza 679 2º piso.___BR___El trabajo, titulado “Desarrollo e implementación de aplicaciones para composición algorítmica y generación de imagen en los entornos Pure Data y Processing” fué dirigido por el Dr. Oscar Pablo Di Liscia.___BR___**Tribunal Evualuador:** Dr. Nicolás Varchausky, Mg. Matías Zabaljáuregui y Lic. Raúl Minsburg.'
 
-data_C3='**Día:** Jueves 5 de noviembre a las 14hs | **Lugar:** Av. Pedro de Mendoza 679, Aula Magna'
+data_C3='**Día:** Jueves 5 de noviembre a las 14hs | **Lugar:** Av. Don Pedro de Mendoza 679 – La Boca'
 
 
 

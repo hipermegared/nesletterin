@@ -1,19 +1,18 @@
-NEWSLETTER_DIR='output-muestragaby'
+NEWSLETTER_DIR='output-muestra2015'
 
 AREA='Multimediales__ENTER__Dirección de Extensión Cultural y Bienestar Estudiantil'
 
-ENCABEZADO='MUESTRA JUNIO 2015.'
-
-IMG_URL='http://www.extension.iuna-atam.com.ar/newsletter/images/muestrajunio.png'
-
-TITULO='JUNIO'
-
-SUBTITULO='Muestra fotográfica.'
-SUB_SUBTITULO='Autores, Luis María Herr y Gabriela García.'
+ENCABEZADO='DICIEMBRE 2015'
 
 
-CONTENIDO='"Lo que va a pasar hoy pasó hace tanto__ENTER__me desperté diciendo esta mañana__ENTER__no vi las predicciones del espanto__ENTER__que le arrancaba al sueño mi palabra.__ENTER__En este invierno que pega tan duro__ENTER__está lejos tu boca que me ama__ENTER__y se me desdibuja en el futuro,__ENTER__y junio me arde rojo aquí en la espalda. "__ENTER__Extracto de la canción Junio de Jorge Fandermole.'
+TITULO='Muestra de la Carrera de Artes Multimediales. '
+SUBTITULO='Universidad Nacional de las Artes. Ciclo Lectivo 2015.'
+
+SUB_SUBTITULO='Producción de los estudiantes y cátedras.'
 
 
-CIERRE_titulo='PRESENTACIÓN'
-CIERRE_contenido='Viernes 26-06-2015, 11:30hs. Entrada libre y gratuita.__ENTER__Sede de la Carrera de Artes Multimediales, Planta Baja__ENTER__Av. Don Pedro de Mendoza 679.'
+CONTENIDO='Dispositivos electrónicos, video-instalaciones, obras de experimentación sonora y lumínica, programaciones y proyectos colectivos, hacen de esta exposición un espacio privilegiado para la comunicación, la discusión y la construcción del conocimiento.___BR______BR___¿Qué son las artes multimediales? Son las propias obras las que responden. Las cátedras de Laboratorio de Sonido, Proyecto Visual, Filosofía y Estética, Artes Multimediales y de otras materias de la carrera, funcionan como el horizonte de sentido; verdaderas condiciones materiales de producción de las obras expuestas.___BR______BR___La Muestra de la Carrera de Artes Multimediales pone en escena la producción artística de los estudiantes y cátedras que la conforman. Es un evento fundamental para nuestra unidad académica, ya que nos permite observar el resultado del trabajo realizado a lo largo del año en las distintas materias de nuestra carrera.___BR______BR___Participan las cátedras de Artes Multimediales 1 (Groisman), Artes Multimediales 3	(Causa), Artes Multimediales 3 (Sosa), Artes Multimediales 4 (Lacabanne), Proyecto Visual 1 (Serrano Gomez), Proyecto Visual 1 (Domergue), Proyecto Visual 2	(Wolkowicz), Proyecto Visual 3 (Serrano Gomez), Laboratorio de Sonido 1	(Di Liscia), Laboratorio de Sonido 2 (Romero Costas), Laboratorio de Sonido 3	 (Cetta), Informática Aplicada 1 (Calcagno), Informática Aplicada 2 (Causa) y Filosofía y Estética (Lucero)'
+
+
+CIERRE_titulo='ENTRADA LIBRE Y GRATUITA'
+CIERRE_contenido='**Día:** viernes 18 de diciembre de 16.00 a 22.00hs___BR___**Lugar:** Av. Don Pedro de Mendoza 679 – La Boca'

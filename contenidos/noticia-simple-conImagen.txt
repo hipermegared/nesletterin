@@ -1,0 +1,19 @@
+NEWSLETTER_DIR='output-muestragaby'
+
+AREA='Multimediales__ENTER__Dirección de Extensión Cultural y Bienestar Estudiantil'
+
+ENCABEZADO='MUESTRA JUNIO 2015.'
+
+IMG_URL='http://www.extension.iuna-atam.com.ar/newsletter/images/muestrajunio.png'
+
+TITULO='JUNIO'
+
+SUBTITULO='Muestra fotográfica.'
+SUB_SUBTITULO='Autores, Luis María Herr y Gabriela García.'
+
+
+CONTENIDO='"Lo que va a pasar hoy pasó hace tanto__ENTER__me desperté diciendo esta mañana__ENTER__no vi las predicciones del espanto__ENTER__que le arrancaba al sueño mi palabra.__ENTER__En este invierno que pega tan duro__ENTER__está lejos tu boca que me ama__ENTER__y se me desdibuja en el futuro,__ENTER__y junio me arde rojo aquí en la espalda. "__ENTER__Extracto de la canción Junio de Jorge Fandermole.'
+
+
+CIERRE_titulo='PRESENTACIÓN'
+CIERRE_contenido='Viernes 26-06-2015, 11:30hs. Entrada libre y gratuita.__ENTER__Sede de la Carrera de Artes Multimediales, Planta Baja__ENTER__Av. Don Pedro de Mendoza 679.'
