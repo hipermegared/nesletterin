@@ -5,24 +5,24 @@ TITULO_MAIL='ATAM // Boletín Diciembre'
 IMG_HEADER='http://extension.atamvirtual.com.ar/sites/default/files/DICIEMBRE.png'
 
 
-TITULO_A='Acto de Colación'
+TITULO_A='Acto de Colación ATAM'
 
 img_A='http://extension.atamvirtual.com.ar/sites/default/files/colacion2015.jpg'
 
 titulo_A=' '
 
-contenido_A='La Secretaría Académica del Área Transdepartamental de Artes Multimediales celebrará el día Sábado 12 de Diciembre de 2015, 18:00hs, el **Acto de Colación de Grado y Posgrado** en el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova”.___BR______BR___**Especialización en Sonido Aplicado a las Artes Digitales:** Leonardo Zimmerman / Damián Anache.___BR___**Especialización en Teatro de Objetos, Interactividad y Nuevos Medios:** Tina Wilke / Luciana Estévez.___BR___**Licenciatura en Artes Multimediales:** Carolina Sáenz / Pablo Varela / Julián Helman / Romina Marchetti / Mercedes D`Espósito / Agustín Genoud / Juan Fernández / Anastasyia Petrova / Francisco Beltramino / Manuel Reyes / Paul Senderowitsch / Mauricio Gutierrez / Lucas Jara.___BR___**Técnico en Artes Multimediales:** Mauro Dollinger / Joaquín Ibarlucía.'
+contenido_A='El Área Transdepartamental de Artes Multimediales celebrará el día Sábado 12 de Diciembre de 2015 a las 18:00hs, el **Acto de Colación de Grado y Posgrado** en el Museo de Calcos y Escultura Comparada “Ernesto de la Cárcova”.___BR______BR______BR___**Recibirán Certificados de aprobación con méritos de su trabajo final (cum laude)**___BR___**Especialización en Sonido Aplicado a las Artes Digitales:** Leonardo Zimmerman / Damián Anache.___BR___**Especialización en Teatro de Objetos, Interactividad y Nuevos Medios:** Tina Wilke / Luciana Estévez.___BR___**Licenciatura en Artes Multimediales:** Anastasyia Petrova / Francisco Beltramino / Manuel Reyes / Paul Senderowitsch.___BR______BR___**Recibirán certificados de aprobación de su Proyecto de Graduación en la Licenciatura en Artes Multimediales:** Carolina Sáenz / Julián Helman / Romina Marchetti / Mercedes D`Espósito / Juan Fernández / Mauricio Gutierrez / Lucas Jara.___BR______BR___**Recibirán certificados de mejor Promedio de su promoción**___BR___**Licenciados en Artes Multimediales:** Pablo Varela / Agustín Genoud.___BR___**Técnicos en Artes Multimediales:** Mauro Dollinger / Joaquín Ibarlucía.___BR______BR___**Recibirán Diplomas de Licenciados en Artes Multimediales:** Agustín Genoud / Carmín Santos / Ayelén Cabadas García.___BR______BR___**Se entregarán también Diplomas de Técnicos en Artes Multimediales de las últimas promociones y distinciones especiales.**___BR___'
 
-data_A='**Entrada libre y gratuita** | Sábado 12 de diciembre – 14:00hs | España 1701 – Pto. Madero'
+data_A='**Entrada libre y gratuita** | Sábado 12 de diciembre - 14:00hs | España 1701 – Pto. Madero'
 
 
 
 TITULO_B='Muestra de la Carrera 2015'
 
-img_B='http://extension.atamvirtual.com.ar/sites/default/files/MFA-2015-news.png'
+img_B='http://extension.atamvirtual.com.ar/sites/default/files/MFA-2015_2.png'
 
-titulo_B='Producción de los estudiantes y cátedras'
+titulo_B=' '
 
 contenido_B='Dispositivos electrónicos, video-instalaciones, obras de experimentación sonora y lumínica, programaciones y proyectos colectivos, hacen de esta exposición un espacio privilegiado para la comunicación, la discusión y la construcción del conocimiento.___BR______BR___**¿Qué son las artes multimediales?** Son las propias obras las que responden. Las cátedras de Laboratorio de Sonido, Proyecto Visual, Filosofía y Estética, Artes Multimediales y de otras materias de la carrera, funcionan como el horizonte de sentido; verdaderas condiciones materiales de producción de las obras expuestas.___BR______BR___La Muestra de la Carrera de Artes Multimediales pone en escena la producción artística de los estudiantes y cátedras que la conforman. Es un **evento fundamental para nuestra unidad académica**, ya que nos permite observar el resultado del trabajo realizado a lo largo del año en las distintas materias de nuestra carrera.___BR______BR___Participan las cátedras de Artes Multimediales 1 (Groisman), Artes Multimediales 3 (Causa), Artes Multimediales 3 (Sosa), Artes Multimediales 4 (Lacabanne), Proyecto Visual 1 (Serrano Gomez), Proyecto Visual 1 (Domergue), Proyecto Visual 2	(Wolkowicz), Proyecto Visual 3 (Serrano Gomez), Laboratorio de Sonido 1	(Di Liscia), Laboratorio de Sonido 2 (Romero Costas), Laboratorio de Sonido 3 (Cetta), Informática Aplicada 1 (Calcagno), Informática Aplicada 2 (Causa) y Filosofía y Estética (Lucero).'
 
-data_B='**Entrada libre y gratuita** | Viernes 18 de diciembre – 16:00hs | Av. Don Pedro de Mendoza 679 – La Boca'
+data_B='**Entrada libre y gratuita** | Viernes 18 de diciembre - 16:00hs | Av. Don Pedro de Mendoza 679 – La Boca'
