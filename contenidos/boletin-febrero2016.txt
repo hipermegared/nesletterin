@@ -1,0 +1,125 @@
+NEWSLETTER_DIR='output-boletinfebrero'
+
+TITULO_MAIL='ATAM // Boletín Febrero 2016'
+
+TITULO_A='CURSOS DE EXTENSIÓN'
+
+
+
+titulo_A1='Introducción a la animación tradicional 2D'
+
+resumen_A1='“El animador no está haciendo dibujos que se mueven, está dibujando movimiento. Lo realmente importante sucede en el espacio que existe entre los cuadros, no en cada uno de ellos”. Norman Mclaren Este taller pretende abarcar los lineamientos  principales que constituyen la técnica del dibujo animado y sus posibilidades expresivas. La animación es un medio de expresión que permite representar el movimiento, pero mover no es animar, el movimiento por sí mismo, desprovisto de sentido e intención, será incapaz de comunicar. Las herramientas con que cuenta un animador para expresarse son básicamente dos: la forma y el tiempo, es decir, las distintas fases del movimiento y el tiempo empleado para pasar de una fase a la siguiente, que al ser proyectadas sucesivamente generan ilusión de movimiento. Un movimiento posee una intención y hay mucho de ella en la forma externa del movimiento y el significado de una forma tiene una relación con el movimiento. Durante el taller se llevarán adelante prácticas y se experimentará la relación entre la alteración formal de la figura animada y la representación del movimiento realizando pequeñas piezas de dibujo animado en donde se aplicarán los principios básicos del dibujo animado para poder explorar el desarrollo de una imagen, un gesto y un orden de relaciones propios.'
+
+data_A1='**Inicio:** Miércoles 23 de Marzo | **8 clases:** Miércoles de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2660-introduccion-a-la-animacion-tradicional-2d)'
+
+
+
+titulo_A2='Taller de aplicación de kinect en obras interactivas'
+
+resumen_A2='Kinect es una cámara de profundidad desarrollada por Microsoft para su consola Xbox 360. Si bien fue diseñada para controlar videojuegos con movimientos corporales, en los últimos años ha sido ampliamente adoptada en la construcción de contenidos artísticos interactivos, principalmente porque hace posible analizar grandes superficies en tres dimensiones de forma poco invasiva y sin conocimientos de electrónica. En este contexto, el principal objetivo de este taller es ayudar a los alumnos a incorporar el sensor Kinect en sus proyectos, independientemente de sus disciplinas de origen. Las temáticas propuestas son particularmente útiles en el diseño de escenografía e iluminación interactiva para danza y teatro, en el procesamiento de imágenes y en la construcción de instalaciones interactivas. Estos desarrollos no son sólo muy requeridos en espacios artísticos, sino que también son utilizados extensamente en publicidad y eventos corporativos. De esta forma, los contenidos del curso apuntan tanto complementar prácticas artísticas como a generar salidas laborales. Las clases del taller serán teórico-prácticas, centradas fuertemente en la resolución de problemas. Esto es, las exposiciones teóricas serán sencillas y estarán al servicio de generar herramientas para abordar problemáticas concretas de la construcción de sistemas interactivos.'
+
+data_A2='**Inicio:** Jueves 17 de Marzo | **4 clases:**  Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2661-taller-de-aplicacion-de-kinect-en-obras-interactivas)'
+
+
+titulo_A3='Desprogramando la máquina'
+resumen_A3='Históricamente el campo estético y las innovaciones tecnológicas han convivido paralelamente en una relación de retroalimentación. A partir de los avances y desarrollos en el área comunicacional, virtual y técnica, los artistas han logrado expandir el campo artístico aplicándolo a las distintas problemáticas que surgen en la sociedad pos capitalista. Dichos adelantos fueron de gran importancia en la superación de los presupuestos estéticos de la modernidad basados en el pensamiento kantiano, donde la contemplación y la belleza dejan de ser una norma. En el arte contemporáneo el espectador es alentado a adoptar otro tipo de actitud y participación en relación con la experiencia estética. Los sujetos involucrados en la creación artística son desafiados a subvertir la función de la maquina buscando un grado experimental que sobrepase lo presupuesto  por el medio en la industria de consumo y el espectáculo (la eficacia, la inmediatez y el control). Esta apertura a nuevos horizontes ha alcanzado un carácter transdiscisiplinar, tanto las ciencias duras como las sociales se conjugan con el arte desarrollando proyectos de distintas magnitudes que aportan nuevos e inesperados conocimientos a partir de operaciones conceptuales-críticas propias del campo artístico.'
+
+data_A3='**Inicio:** 23 de Marzo | **8 clases:** Lunes de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2662-desprogramando-la-maquina)'
+
+
+titulo_A4='Taller de experimentación audiovisual'
+
+resumen_A4='La propuesta es crear un espacio de desarrollo creativo, buceando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, el uso que cada uno le presta, y la búsqueda de representaciones. El uso básico de elementos de filmación, con los dispositivos con que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara. Los participantes realizarán trabajos de piezas individuales y en grupo en la clase, y también en la semana tendrán un ejercicio para traer y compartir, conformando así un ciclo cronológico de ejercicios que nos permitirán atravesar diferentes etapas de búsqueda y encuentro con los materiales tangibles que conducen a representar conceptos, ideas, sensaciones más intangibles.'
+
+data_A4='**Inicio:** Lunes 21 de Marzo | **4 clases:** jueves de 16:30 a 19hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2663-taller-de-experimentacion-audiovisual)'
+
+
+titulo_A5='Taller de Música Aplicada a Las Artes Audiovisuales y Multimediales'
+
+resumen_A5='El curso está orientado a estimular mediante el abordaje teórico-práctico, la producción sonora y musical a ser aplicada en producciones audiovisuales, multimediales, teatrales, etc. Partiendo de ideas, conceptos, imágenes, o segmentos fílmicos, articulándolas desde diversos principios constructivos. Se planteará una serie de trabajos prácticos a ser desarrollados individualmente o en grupo a partir de las herramientas que maneje cada alumno, para clase a clase, analizarlas en conjunto.'
+
+data_A5='**Inicio:** Viernes 18 de Marzo | **8 clases:** Viernes de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2664-taller-de-musica-aplicada-a-las-artes-audiovisuales-y-multimediales)'
+
+
+titulo_A6='Taller de Fotografía estenopeica en 35mm'
+
+resumen_A6='Se introduce al alumno en la técnica práctica de la fotografía estenopeica en película 35mm. La misma utiliza el principio de las cámaras oscuras sin lente y provistas de un pequeño orificio (estenopo) para la obtención de imágenes. A través de las clases teórico prácticas, y a partir de estos principios básicos de la fotografía, se abre un amplio espectro donde es posible que el participante construya su cámara artesanalmente acorde con sus propias necesidades, y que la misma se adecue al tipo de imagen que desea obtener.'
+
+data_A6='**Inicio:** Lunes 21 de marzo | **4 clases:** Lunes de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2665-taller-de-fotografia-estenopeica-en-35mm)'
+
+
+titulo_A7='Taller armado de químicos para revelado Blanco & Negro'
+
+resumen_A7='El taller se propone brindar fórmulas y procedimientos para que cada uno pueda fabricar sus propios químicos de revelado B&N. Los químicos producidos en el taller pueden usarse para: - Revelado de película negativa 35mm B&N. - Proceso reversible para diapositiva 35mm B&N - Revelado y copiado de papel fotográfico. - Revelado Super 8 (negativo y reversible para proyección) . Información de fórmulas, procedimientos y droguerías donde conseguir los componentes químicos. Al finalizar el taller el alumno tendrá 1 kit completo de químicos B&N fabricado por él mismo, para seguir utilizando luego del taller. Todos los materiales están incluidos.'
+
+data_A7='**Inicio:** Jueves 31 de Marzo | **2 clases:** Jueves de 18 a 22hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2666-taller-armado-de-quimicos-para-revelado-blanco-negro)'
+
+titulo_A8='Historia de la Fotografía I'
+
+resumen_A8='Siendo la fotografía un dispositivo con una apretada historia de menos de dos siglos, proponemos reconstruir los más importantes de estos procesos y ejes históricos y estéticos, a fin de comprender mejor el contexto en el que cada imagen fotográfica fue producido, visto y pensado.'
+
+data_A8='**Inicio:** Lunes 23 de Marzo | **8 clases:** Lunes de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2668-historia-de-la-fotografia-1)'
+
+
+TITULO_CIERRE_A='Inscripciones y Consultas'
+CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hrs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar)'
+
+
+
+TITULO_B='TALLERES DE EXTENSIÓN'
+
+RESUMEN_B='Tenemos el agrado de anunciar los nuevos talleres de Extensión de la carrera. Los mismos son **libres y gratuitos**, con una modalidad diferente a los cursos de extensión, ya que si bien inician, no tienen un cierre propuesto por el taller sino por la propia exploración de quienes asistan a ellos. Los mismos son dictados por profesores de la carrera de Artes Multimediales. Dentro de este programa queremos presentar los dos primeros talleres que estaremos dictando **a partir del jueves 17 de Marzo**.'
+
+DATA_B='**Bono contribución sugerido de $30.** // **Destinatarios**: Público en general. // **Modalidad**:  Practica.___BR___**Consultas e Inscripciones:** Lunes a viernes de 9.30 a 15hs.___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar) '
+
+
+titulo_B1='TALLER DE IMAGEN (pintura y dibujo)'
+
+resumen_B1='**Orientado a la pintura y al dibujo.**___BR___La propuesta es generar un espacio libre, abierto y gratuito en el que tanto los estudiantes de la carrera, así como posibles ingresantes, o bien la comunidad barrial, encuentren un lugar para desarrollar sus inquietudes con respecto a la génesis de imagen. ___BR___Los interesados pueden acercarse al taller en el horario de dictado con su propuesta individual para ser considerada y abordada en conjunto con la docente y sus compañeros.___BR___El taller invita a explorar un recorrido individual a lo largo de 3 meses, en los que no hay una fecha de inicio y finalización de las actividades salvo aquella que decante de lo que proponga el experimentar el asistente. Pudiendo incorporarse o retirarse del taller en cualquier instancia. Debido a esta modalidad, no se entregarán certificados de asistencia.'
+
+data_B1='**Profesora:** Estela Domergue | **Inicio:** 17 de Marzo | **Encuentros:** Jueves de 14 a 18hs'
+
+
+
+titulo_B2='LECTURA, ESCRITURA y CRÍTICA'
+resumen_B2='**Como leer y como escribir sobre lo que leemos.**___BR___Las letras como herramienta de transformación del artista. Se trata de un taller de socialización de la escritura, donde la puesta en común de cada consigna de trabajo permite que los estudiantes compartan la diversidad de sus experiencias. De este encuentro, en las diferencias expuestas por cada uno en la resolución de las consignas, surge el verdadero enriquecimiento del aprendizaje del taller. Al mismo tiempo, se introducirá a los estudiantes en la problemática hermenéutica, atendiendo al desarrollo de estrategias de lectura y comprensión de textos académicos y literarios. Entre los distintos géneros que se practicarán en el taller, destacamos: artículos especializados, ensayo, relato, crónica, reseña bibliográfica.'
+
+data_B2='**Profesor:** Mariano Dorr | **Inicio:** 17 de Marzo | **Encuentros:** Jueves de 14 a 16hs'
+
+
+
+
+TITULO_C='Especialización en Sonido'
+
+titulo_C1='Abierta la inscripción Cohorte 2016 a partir del 1 de febrero hasta el 31 de marzo de 2016'
+
+resumen_C1='<em>Reconocimiento oficial del Ministerio de Educación de la Nación. Resolución Nº 979/11</em>___BR______BR___**Matrícula Especialización en Sonido Aplicado a las Artes Digitales: $1.000 (pesos mil) **___BR______BR___**Cuotas (12 en total) alumnos que cursen de la carrera:** Graduados extranjeros: $2.500,00 (pesos dos mil quinientos) - Graduados iberoamericanos: $2.000,00 (pesos dos mil) - Graduados argentinos (excluyendo UNA): $1.300,00 (pesos mil tres cientos) - Profesores y No docentes del UNA: $1.000,00 (pesos mil) - Graduados UNA: $700,00 (pesos setecientos)___BR______BR___**Montos de los seminarios para alumnos no pertenecientes a la Carrera:** Graduados extranjeros: $3.400,00 (pesos tres mil cuatro cientos) - Graduados iberoamericanos: $2.700,00 (pesos dos mil setecientos) - Graduados argentinos (excluyendo UNA): $1.800,00 (pesos mil ochocientos) - Profesores y No docentes del UNA: $1.400,00 (pesos mil cuatro cientos) - Graduados UNA: $1.000,00 (pesos mil)___BR___'
+
+data_C1='**Inicio de cursada :** 6 de Mayo de 2016 | [+ info y requisitos de inscripción](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)'
+
+
+
+TITULO_CIERRE_C='Inscripciones y Consultas'
+CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a viernes 10 a 15hrs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [multimedia.investigacion@una.edu.ar](mailto:multimedia.investigacion@una.edu.ar)'
+
+
+
+
+
+TITULO_D='CURSOS VIRTUALES DE EXTENSIÓN'
+
+RESUMEN_D='**A partir del mes de abril** se incorporara en nuestra plataforma web nuevos **cursos de extensión de modalidad virtual**. Los mismos contaran con un seguimiento minucioso durante su desarrollo y con **encuentros semanales con el profesor**, brindando así, asesoramiento, asistencia y orientación constante a los estudiantes.___BR___Los recursos on-line que brinda nuestra plataforma virtual permiten realizar diferentes tipos de actividades: Foros donde podrás contactar con otros estudiantes y docentes, video-clases, evaluaciones, ejercicios y una amplia bibliografía digital a disposición.'
+
+
+titulo_D1='Introducción a Processing'
+
+resumen_D1='El curso es un acercamiento al entorno de programación processing. Está destinado a artistas que quieran comenzar a utilizar las herramientas tecnológicas actuales para el desarrollo de sus obras. A lo largo del curso, los concurrentes aprenderán desde los más básicos conceptos de programación por computadora, hasta lograr el desarrollo de su propia obra a través de estas herramientas. También esta destinado a todo aquel que quiera iniciarse en la programación de computadoras a través de un entorno de programación simple, visual y accesible. Durante el curso se desarrollarán ejemplos prácticos con objetivo de fijar los conocimientos técnicos incorporados.'
+
+data_D1='**Profesor:** Sebastián Zavatarelli | **Inicio:** Mes de abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'
+
+
+
+titulo_D2='Introducción a Arduino'
+resumen_D2='El curso es un acercamiento a la Computación Física a través de la placa Arduino, siendo esta una plataforma de electrónica abierta para la creación de prototipos basada en software y hardware flexibles y fa´ciles de usar El curso está dirigido a Artistas, Hobbistas y emprendedores tecnológicos sin conocimientos previos de electro´nica o programación. Durante el curso se desarrollarán ejemplos prácticos con objetivo de fijar los conocimientos técnicos incorporados.'
+
+data_D2='**Profesor:** Sebastián Zavatarelli | **Inicio:** Mes de abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'

@@ -58,9 +58,9 @@ CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | 
 
 
 
-TITULO_B='TALLERES DE EXTENSiÓN'
+TITULO_B='TALLERES DE EXTENSIÓN'
 
-RESUMEN_B='Tenemos el agrado de anunciar los nuevos talleres de Extensión de la carrera. Los mismos son **libres y gratuitos**, con una modalidad diferente a los cursos de extensión, ya que si bien inician, no tienen un cierre propuesto por el taller sino por la propia exploración de quienes asistan a ellos. Los mismos son dictados por profesores de la carrera de Artes Multimediales. Dentro de este programa queremos presentar los dos primeros talleres que estaremos dictando a partir del  jueves 10 de Septiembre.'
+RESUMEN_B='Tenemos el agrado de anunciar los nuevos talleres de Extensión de la carrera. Los mismos son **libres y gratuitos**, con una modalidad diferente a los cursos de extensión, ya que si bien inician, no tienen un cierre propuesto por el taller sino por la propia exploración de quienes asistan a ellos. Los mismos son dictados por profesores de la carrera de Artes Multimediales. Dentro de este programa queremos presentar los dos primeros talleres que estaremos dictando a partir del jueves 10 de Septiembre.'
 
 DATA_B='**Bono contribución sugerido de $30.** // **Destinatarios**: Público en general. // **Modalidad**:  Practica.___BR___**Consultas e Inscripciones:** Lunes a Viernes de 9.30 a 15hs.___BR___[multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar) // 4307-0622 int 106. | Dir. Extensión, Av Pedro de Mendoza 679.'
 
