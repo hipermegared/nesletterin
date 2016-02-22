@@ -13,6 +13,7 @@
 
 		body{margin:0; padding:0;}
 		img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+		img#headerImage{width: 100%;height: auto;}
 		table td{border-collapse:collapse;}
 		#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
 
@@ -438,6 +439,9 @@
 			#monkeyRewards img{
 				max-width:190px;
 			}
+			.nomargin p{
+				margin: 0px;opacity: 
+			}
 		</style>
 	</head>
 	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -455,7 +459,7 @@
 											<td class="headerContent">
 
 												<!-- // Begin Module: Standard Header Image \\ -->
-												<img src="http://extension.iuna-atam.com.ar/newsletter/images/boletin-septimbre.png" style="max-width:600px;" id="headerImage" title="{-----$TITULO_MAIL-----}"  alt="{------$TITULO_MAIL-----}"/>
+												<img src="http://extension.iuna-atam.com.ar/newsletter/headers/boletin-febrero.png" id="headerImage" title="{-----$TITULO_MAIL-----}"  alt="{------$TITULO_MAIL-----}"/>
 												<!-- // End Module: Standard Header Image \\ -->
 
 											</td>
@@ -613,7 +617,7 @@
 														<td valign="top">
 															<div  class="curso">				
 																<div class="resumen">{-----$RESUMEN_B-----}</div>
-																<div class="data">{-----$DATA_B-----}</div>
+																<!-- <div class="data">{-----$DATA_B-----}</div> -->
 															</div>
 														</td>
 													</tr>
@@ -624,7 +628,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_B1-----}</h4>
 																<div class="resumen">{-----$resumen_B1-----}</div>
-																<div class="data">{-----$data_B1-----}</div>
+																<div class="data nomargin">{-----$data_B1-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -636,7 +640,7 @@
 															<div  class="curso">				
 																<h4 class="h4">{-----$titulo_B2-----}</h4>
 																<div class="resumen">{-----$resumen_B2-----}</div>
-																<div class="data">{-----$data_B2-----}</div>
+																<div class="data nomargin">{-----$data_B2-----}</div>
 															</div>
 														</td>
 													</tr>
@@ -675,7 +679,7 @@
 													<tr>
 														<td valign="top">
 															<div  class="curso">				
-																<h4 class="h4">{-----$titulo_C1-----}</h4>
+																<!-- <h4 class="h4">{-----$titulo_C1-----}</h4> -->
 																<div class="resumen">{-----$resumen_C1-----}</div>
 																<div class="data">{-----$data_C1-----}</div>
 															</div>
