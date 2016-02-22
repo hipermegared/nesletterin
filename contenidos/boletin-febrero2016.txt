@@ -5,7 +5,7 @@ TITULO_MAIL='ATAM | Boletín Marzo 2016'
 TITULO_A='CURSOS DE EXTENSIÓN'
 TITULO_DESTACADO='Desarrollo Móvil para Android'
 
-titulo_DESTACADO1='Taller corto: Desarrollo de Aplicaciones Interactivas para SO Android'
+titulo_DESTACADO1='Taller corto: Desarrollo de Aplicaciones Interactivas para S.O. Android'
 
 
 resumen_DESTACADO1='**Profesor:** Wolfgang Taube___BR______BR___Este taller está orientado a estudiantes que no tienen mucho conocimiento de programación y que desean desarrollar pequeñas aplicaciones interactivas para Android. Trabajaremos con el entorno 'AppInventor' de MIT –una herramienta de desarrollo visual muy fácil de usar. Al final del seminario estarán en condiciones para desarrollar distintas aplicaciones en Android.___BR___La idea es investigar usos innovadores y creativos de dispositivos móviles y crear pequeños prototipos. Con AppInventor podrán usar los sensores de los smartphones Android y desarrollar juegos propios o aplicaciones con video. También conoceremos otros entornos como Processing/Ketai y el Android SDK.___BR______BR___**Requisitos:** Conocimientos básicos de programación (por ejemplo, lenguaje Processing). Es necesario concurrir con notebook y un dispositivo con Android.___BR______BR___**Arancel:** $1000. Graduados y Estudiantes de Artes Multimediales: **Gratuito** (con inscripción previa hasta el 01/03 - cupo limitado de 5 lugares). Docentes y No Docentes del ATAM: **50% de descuento**. Estudiantes de otras carreras de la UNA: **25% de descuento**.___BR___'
@@ -52,7 +52,7 @@ titulo_A6='Taller de Fotografía estenopeica en 35mm'
 
 resumen_A6='Se introduce al alumno en la técnica práctica de la fotografía estenopeica en película 35mm, que utiliza el principio de las cámaras oscuras sin lente y provistas de un pequeño orificio (estenopo) para la obtención de imágenes. A través de clases teórico prácticas, sobre los principios básicos de la fotografía, se abre un amplio espectro donde es posible que el participante construya su cámara artesanalmente acorde con sus necesidades, adecuándose al tipo de imagen que desea obtener.'
 
-data_A6='**Inicio:** Jueves 17 de marzo | **2 clases:** Jueves de 18 a 20hs | fi'
+data_A6='**Inicio:** Jueves 17 de marzo | **2 clases:** Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2665-taller-de-fotografia-estenopeica-en-35mm)'
 
 
 titulo_A7='Taller armado de químicos para revelado Blanco & Negro'
