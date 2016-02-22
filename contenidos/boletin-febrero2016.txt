@@ -5,12 +5,12 @@ TITULO_MAIL='ATAM | Boletín Marzo 2016'
 TITULO_A='CURSOS DE EXTENSIÓN'
 TITULO_DESTACADO='Desarrollo Móvil para Android'
 
-titulo_DESTACADO1='Taller corto: Desarrollo de Aplicaciones Interactivas para S.O. Android'
+titulo_DESTACADO1='Taller corto: Desarrollo de Aplicaciones Interactivas para dispositivos Android'
 
 
-resumen_DESTACADO1='**Profesor:** Wolfgang Taube___BR______BR___Este taller está orientado a estudiantes que no tienen mucho conocimiento de programación y que desean desarrollar pequeñas aplicaciones interactivas para Android. Trabajaremos con el entorno 'AppInventor' de MIT –una herramienta de desarrollo visual muy fácil de usar. Al final del seminario estarán en condiciones para desarrollar distintas aplicaciones en Android.___BR___La idea es investigar usos innovadores y creativos de dispositivos móviles y crear pequeños prototipos. Con AppInventor podrán usar los sensores de los smartphones Android y desarrollar juegos propios o aplicaciones con video. También conoceremos otros entornos como Processing/Ketai y el Android SDK.___BR______BR___**Requisitos:** Conocimientos básicos de programación (por ejemplo, lenguaje Processing). Es necesario concurrir con notebook y un dispositivo con Android.___BR______BR___**Arancel:** $1000. Graduados y Estudiantes de Artes Multimediales: **Gratuito** (con inscripción previa hasta el 01/03 - cupo limitado de 5 lugares). Docentes y No Docentes del ATAM: **50% de descuento**. Estudiantes de otras carreras de la UNA: **25% de descuento**.___BR___'
+resumen_DESTACADO1='**Profesor:** Wolfgang Taube___BR______BR___Este taller está orientado a estudiantes que no tienen mucho conocimiento de programación y que desean desarrollar pequeñas aplicaciones interactivas para Android. Trabajaremos con el entorno 'AppInventor' de MIT, una herramienta de desarrollo visual muy fácil de usar. Al final del seminario estarán en condiciones para desarrollar distintas aplicaciones en Android.___BR___La idea es investigar usos innovadores y creativos de dispositivos móviles y crear pequeños prototipos. Con AppInventor podrán usar los sensores de los smartphones Android y desarrollar juegos propios o aplicaciones con video. También conoceremos otros entornos como Processing/Ketai y el Android SDK.___BR______BR___**Requisitos:** Conocimientos básicos de programación (por ejemplo, lenguaje Processing). Es necesario concurrir con notebook y un dispositivo con Android.___BR______BR___**Arancel:** $1000. Graduados y Estudiantes de Artes Multimediales: **Gratuito** (con inscripción previa hasta el 01/03 - cupo limitado de 5 lugares). Docentes y No Docentes del ATAM: **50% de descuento**. Estudiantes de otras carreras de la UNA: **25% de descuento**.___BR___'
 
-data_DESTACADO1='**Dictado :** 6 de Mayo de 2016 de 10 a 18hs (con break para almuerzo) | [+ info ](dsfsdsdv)'
+data_DESTACADO1='**Dictado:** 3 y 4 de Marzo de 2016 de 10 a 18hs (con break para almuerzo) | [+ info ](http://multimedia.una.edu.ar/extension/cursos/2672-desarrollo-movil-con-android)'
 
 
 titulo_A1='Introducción a la animación tradicional 2D'
@@ -38,7 +38,7 @@ titulo_A4='Taller de experimentación audiovisual'
 
 resumen_A4='La propuesta es crear un espacio de desarrollo creativo, buceando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, y la búsqueda de representaciones. El uso básico de elementos de filmación, con los dispositivos con que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara.'
 
-data_A4='**Inicio:** Lunes 21 de Marzo | **4 clases:** jueves de 16:30 a 19hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2663-taller-de-experimentacion-audiovisual)'
+data_A4='**Inicio:** Lunes 21 de Marzo | **4 clases:** jueves de 16:30 a 19hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2663-taller-de-experimentacion-audiovisual)'
 
 
 titulo_A5='Taller de Música Aplicada a Las Artes Audiovisuales y Multimediales'
@@ -65,11 +65,11 @@ titulo_A8='Historia de la Fotografía I'
 
 resumen_A8='Siendo la fotografía un dispositivo con una apretada historia de menos de dos siglos, proponemos reconstruir los más importantes de estos procesos y ejes históricos y estéticos, a fin de comprender mejor el contexto en el que cada imagen fotográfica fue producido, visto y pensado.'
 
-data_A8='**Inicio:** Lunes 23 de Marzo | **8 clases:** Lunes de 19 a 21hrs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2668-historia-de-la-fotografia-1)'
+data_A8='**Inicio:** Lunes 23 de Marzo | **8 clases:** Lunes de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2668-historia-de-la-fotografia-1)'
 
 
 TITULO_CIERRE_A='Inscripciones y Consultas'
-CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hrs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar)'
+CONTENIDO_CIERRE_A='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar)'
 
 
 
@@ -84,30 +84,28 @@ titulo_B1='TALLER DE IMAGEN (pintura y dibujo)'
 
 resumen_B1='**Orientado a la pintura y al dibujo.**___BR___La propuesta es generar un espacio libre, abierto y gratuito en el que tanto los estudiantes de la carrera, así como posibles ingresantes, o bien la comunidad barrial, encuentren un lugar para desarrollar sus inquietudes con respecto a la génesis de imagen. ___BR___Los interesados pueden acercarse al taller en el horario de dictado con su propuesta individual para ser considerada y abordada en conjunto con la docente y sus compañeros.___BR___El taller invita a explorar un recorrido individual a lo largo de 3 meses, en los que no hay una fecha de inicio y finalización de las actividades salvo aquella que decante de lo que proponga el experimentar el asistente. Pudiendo incorporarse o retirarse del taller en cualquier instancia. Debido a esta modalidad, no se entregarán certificados de asistencia.'
 
-data_B1='**Profesora:** Estela Domergue | **Inicio:** 17 de Marzo | **Encuentros:** Jueves de 14 a 18hs | [+ info](hhttp://multimedia.una.edu.ar/extension/cursos/2659-taller-de-imagen)___BR___**Bono contribución sugerido de $30** | **Destinatarios**: Público en general | **Modalidad**:  Practica'
+data_B1='**Profesora:** Estela Domergue | **Inicio:** 17 de Marzo | **Encuentros:** Jueves de 14 a 18hs | [+ info](hhttp://multimedia.una.edu.ar/extension/cursos/2659-taller-de-imagen)___BR___**Bono contribución sugerido de $30** | **Destinatarios**: Público en general | **Modalidad**:  Práctica'
 
 
 
 titulo_B2='LECTURA, ESCRITURA y CRÍTICA'
 resumen_B2='**Como leer y como escribir sobre lo que leemos.**___BR___Las letras como herramienta de transformación del artista. Se trata de un taller de socialización de la escritura, donde la puesta en común de cada consigna de trabajo permite que los estudiantes compartan la diversidad de sus experiencias. De este encuentro, en las diferencias expuestas por cada uno en la resolución de las consignas, surge el verdadero enriquecimiento del aprendizaje del taller. Al mismo tiempo, se introducirá a los estudiantes en la problemática hermenéutica, atendiendo al desarrollo de estrategias de lectura y comprensión de textos académicos y literarios. Entre los distintos géneros que se practicarán en el taller, destacamos: artículos especializados, ensayo, relato, crónica, reseña bibliográfica.'
 
-data_B2='**Profesor:** Mariano Dorr | **Inicio:** 17 de Marzo | **Encuentros:** Jueves de 14 a 16hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2658-taller-de-escritura-lectura-y-critica)	___BR___**Bono contribución sugerido de $30** | **Destinatarios**: Público en general | **Modalidad**:  Practica'
+data_B2='**Profesor:** Mariano Dorr | **Inicio:** 17 de Marzo | **Encuentros:** Jueves de 14 a 16hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2658-taller-de-escritura-lectura-y-critica)	___BR___**Bono contribución sugerido de $30** | **Destinatarios**: Público en general | **Modalidad**:  Práctica'
 
 
 
 
 TITULO_C='Especialización en Sonido'
 
-titulo_C1=''
+titulo_C1='Carrera de Especialización en Sonido Aplicado a las Artes Digitales'
 
-resumen_C1='**Abierta la inscripción Cohorte 2016 a partir del 1 de febrero hasta el 31 de marzo de 2016**___BR___<em>Reconocimiento oficial del Ministerio de Educación de la Nación. Resolución Nº 979/11</em>___BR______BR___**Matrícula Especialización en Sonido Aplicado a las Artes Digitales: $1.000 (pesos mil) **___BR______BR___**Cuotas (12 en total) alumnos que cursen de la carrera:** Graduados extranjeros: $2.500,00 (pesos dos mil quinientos) - Graduados iberoamericanos: $2.000,00 (pesos dos mil) - Graduados argentinos (excluyendo UNA): $1.300,00 (pesos mil tres cientos) - Profesores y No docentes del UNA: $1.000,00 (pesos mil) - Graduados UNA: $700,00 (pesos setecientos)___BR______BR___**Montos de los seminarios para alumnos no pertenecientes a la Carrera:** Graduados extranjeros: $3.400,00 (pesos tres mil cuatro cientos) - Graduados iberoamericanos: $2.700,00 (pesos dos mil setecientos) - Graduados argentinos (excluyendo UNA): $1.800,00 (pesos mil ochocientos) - Profesores y No docentes del UNA: $1.400,00 (pesos mil cuatro cientos) - Graduados UNA: $1.000,00 (pesos mil)___BR___'
+resumen_C1='**Abierta la inscripción Cohorte 2016 a partir del 1 de febrero hasta el 31 de marzo de 2016**___BR___<em>Reconocimiento oficial del Ministerio de Educación de la Nación. Resolución Nº 979/11</em>___BR______BR___El enorme campo de aplicaciones de la informática al sonido y la música posibilitaría un sinnúmero de recorridos y propuestas. De entre ellas se ha seleccionado la línea que surge del Sonido Aplicado a las Artes Digitales. Se la considera un área compacta y bien delimitada de conocimientos que combina las ciencias exactas y las ciencias de la computación con el objetivo del diseño y producción de aplicaciones informáticas para ser usadas en la producción artística, la comunicación social y sus géneros afines.___BR___[**Mas detalles sobre la carrera y requisitos de inscripción**](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)___BR______BR___**Matrícula:** $1000.___BR______BR___**Arancel en cuotas (12 en total) para alumnos que cursen toda la Carrera:**___BR___- Graduados extranjeros: $2500.___BR___- Graduados iberoamericanos: $2000.___BR___- Graduados argentinos (excluyendo UNA): $1300.___BR___- Profesores y No docentes del UNA: $1000.___BR___- Graduados UNA: $700.___BR______BR___**Montos de cada uno de los seminarios para alumnos no pertenecientes a la Carrera:** ___BR___- Graduados extranjeros: $3400.___BR___- Graduados iberoamericanos: $2700.___BR___- Graduados argentinos (excluyendo UNA): $1800___BR___- Profesores y No docentes del UNA: $1400.___BR___- Graduados UNA: $1000.___BR___'
 
-data_C1='**Inicio de cursada :** 6 de Mayo de 2016 | [+ info y requisitos de inscripción](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)'
-
-
+data_C1='**Inicio de cursada :** 6 de Mayo de 2016 | [+ info](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)'
 
 TITULO_CIERRE_C='Inscripciones y Consultas'
-CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a viernes 10 a 15hrs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [multimedia.investigacion@una.edu.ar](mailto:multimedia.investigacion@una.edu.ar)'
+CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a jueves 11 a 15hs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [multimedia.investigacion@una.edu.ar](mailto:multimedia.investigacion@una.edu.ar)'
 
 
 
@@ -115,18 +113,31 @@ CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a viernes
 
 TITULO_D='CURSOS VIRTUALES'
 
-RESUMEN_D='**A partir del mes de abril** se incorporara en nuestra plataforma web nuevos **cursos de extensión de modalidad virtual**. Los mismos contaran con un seguimiento minucioso durante su desarrollo y con **encuentros semanales con el profesor**, brindando así, asesoramiento, asistencia y orientación constante a los estudiantes.___BR___Los recursos on-line que brinda nuestra plataforma virtual permiten realizar diferentes tipos de actividades: Foros donde podrás contactar con otros estudiantes y docentes, video-clases, evaluaciones, ejercicios y una amplia bibliografía digital a disposición.'
+RESUMEN_D='A partir del mes de Abril se incorporarán a la plataforma online de la carrera (ATAMVIRTUAL) nuevos cursos de extensión de modalidad virtual. Los mismos contaran con un seguimiento minucioso durante su desarrollo y con encuentros semanales con el profesor, brindando así, asesoramiento, asistencia y orientación constante a los asistentes.___BR___Los recursos on­line que brinda nuestra plataforma virtual permiten realizar diferentes tipos de actividades: Foros donde podrás contactarte con otros estudiantes y docentes, video­clases, ejercicios, evaluaciones, y una amplia bibliografía digital a disposición.___BR___Estos cursos contarán con certificados oficiales. Los interesados pueden escribir a [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar)'
 
 
 titulo_D1='Introducción a Processing'
 
 resumen_D1='El curso es un acercamiento al entorno de programación processing. Está destinado a artistas que quieran comenzar a utilizar las herramientas tecnológicas actuales para el desarrollo de sus obras. A lo largo del curso, los concurrentes aprenderán desde los más básicos conceptos de programación por computadora, hasta lograr el desarrollo de su propia obra a través de estas herramientas. También esta destinado a todo aquel que quiera iniciarse en la programación de computadoras a través de un entorno de programación simple, visual y accesible. Durante el curso se desarrollarán ejemplos prácticos con objetivo de fijar los conocimientos técnicos incorporados.'
 
-data_D1='**Profesor:** Sebastián Zavatarelli | **Inicio:** Mes de abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'
+data_D1='**Profesor:** Sebastián Zavatarelli | **Inicio:** Mes de Abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'
 
 
 
 titulo_D2='Introducción a Arduino'
 resumen_D2='El curso es un acercamiento a la Computación Física a través de la placa Arduino, siendo esta una plataforma de electrónica abierta para la creación de prototipos basada en software y hardware flexibles y fa´ciles de usar El curso está dirigido a Artistas, Hobbistas y emprendedores tecnológicos sin conocimientos previos de electro´nica o programación. Durante el curso se desarrollarán ejemplos prácticos con objetivo de fijar los conocimientos técnicos incorporados.'
 
-data_D2='**Profesor:** Sebastián Zavatarelli | **Inicio:** Mes de abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'
+data_D2='**Profesor:** Sebastián Zavatarelli | **Inicio:** Mes de Abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'
+
+
+
+titulo_D3='Producción Musical en Cubase'
+resumen_D3='El curso se divide en 8 modulos, los modulos consisten en imágenes, textos y videos explicativos que van afianzando en el alumno terminologías, conceptos y habilidades para el uso no solo del software sino también de los equipos y procesos utilizados en el espectaculo musical.'
+
+data_D3='**Profesor:** Leandro Castillo | **Inicio:** Mes de Abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'
+
+
+titulo_D4='Introducción a Ableton Live'
+resumen_D4='El curso se divide en 8 modulos, los modulos consisten en imágenes, textos y videos explicativos que van afianzando en el alumno terminologías, conceptos y habilidades para el uso no solo del software sino también de los equipos y procesos utilizados en el espectaculo musical.'
+
+data_D4='**Profesor:** Leandro Castillo | **Inicio:** Mes de Abril (día a confirmar) | **Encuentros:** virtuales de 2hs semanales'
