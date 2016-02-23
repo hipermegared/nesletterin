@@ -52,14 +52,14 @@ titulo_A6='Taller de Fotografía estenopeica en 35mm'
 
 resumen_A6='Se introduce al alumno en la técnica práctica de la fotografía estenopeica en película 35mm, que utiliza el principio de las cámaras oscuras sin lente y provistas de un pequeño orificio (estenopo) para la obtención de imágenes. A través de clases teórico prácticas, sobre los principios básicos de la fotografía, se abre un amplio espectro donde es posible que el participante construya su cámara artesanalmente acorde con sus necesidades, adecuándose al tipo de imagen que desea obtener.'
 
-data_A6='**Inicio:** Jueves 17 de Marzo | **2 clases:** Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2665-taller-de-fotografia-estenopeica-en-35mm)'
+data_A6='**Inicio:** Lunes 21 de Marzo | **4 clases:** Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2665-taller-de-fotografia-estenopeica-en-35mm)'
 
 
 titulo_A7='Taller armado de químicos para revelado Blanco & Negro'
 
 resumen_A7='El taller se propone brindar fórmulas y procedimientos para que los asistentes puedan fabricar sus propios químicos de revelado B&N. A su vez este material puede utilizarse para: Revelado de película negativa 35mm B&N, Proceso reversible para diapositiva 35mm B&N, Revelado y copiado de papel fotográfico, Revelado Super 8 (negativo y reversible para proyección). Al finalizar el taller el alumno tendrá 1 kit completo de químicos B&N. Todos los materiales están incluidos.'
 
-data_A7='**Inicio:** Lunes 21 de Marzo  | **2 clases:** Lunes de 18 a 22hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2666-taller-armado-de-quimicos-para-revelado-blanco-negro)'
+data_A7='**Inicio:** Jueves 31 de Marzo | **2 clases:** Lunes de 18 a 22hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2666-taller-armado-de-quimicos-para-revelado-blanco-negro)'
 
 titulo_A8='Historia de la Fotografía I'
 
@@ -113,7 +113,7 @@ CONTENIDO_CIERRE_C='Coordinación de Investigación y Posgrado | lunes a jueves 
 
 TITULO_D='CURSOS VIRTUALES'
 
-RESUMEN_D='A partir del mes de Abril se incorporarán a la plataforma online de la carrera (ATAMVIRTUAL) nuevos cursos de extensión de modalidad virtual. Los mismos contaran con un seguimiento minucioso durante su desarrollo y con encuentros semanales con el profesor, brindando así, asesoramiento, asistencia y orientación constante a los asistentes.___BR___Los recursos on­line que brinda nuestra plataforma virtual permiten realizar diferentes tipos de actividades: Foros donde podrás contactarte con otros estudiantes y docentes, video­clases, ejercicios, evaluaciones, y una amplia bibliografía digital a disposición.___BR___Estos cursos contarán con certificados oficiales. Los interesados pueden escribir a [multimedia.cursos@una.edu.ar](mailto:multimedia.cursos@una.edu.ar)'
+RESUMEN_D='A partir del mes de Abril se incorporarán a la plataforma online de la carrera (ATAMVIRTUAL) nuevos cursos de extensión de modalidad virtual. Los mismos contaran con un seguimiento minucioso durante su desarrollo y con encuentros semanales con el profesor, brindando así, asesoramiento, asistencia y orientación constante a los asistentes.___BR___Los recursos on­line que brinda nuestra plataforma virtual permiten realizar diferentes tipos de actividades: Foros donde podrás contactarte con otros estudiantes y docentes, video­clases, ejercicios, evaluaciones, y una amplia bibliografía digital a disposición.___BR______BR___**Estos cursos contarán con certificados oficiales**.___BR___Los interesados pueden escribir a [**multimedia.cursos@una.edu.ar**](mailto:multimedia.cursos@una.edu.ar).'
 
 
 titulo_D1='Introducción a Processing'
