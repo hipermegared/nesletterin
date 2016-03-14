@@ -1,0 +1,110 @@
+NEWSLETTER_DIR='output-boletin-marzo'
+HEADER_IMG='http://extension.atamvirtual.com.ar/assets/headers2016/HEADER_MARZO.png'
+TITULO_MAIL='En Artes Multimediales de la UNA, NO OLVIDAMOS NI PERDONAMOS.'
+
+
+TITULO_DESTACADO='Jornadas de Reflexión y Participación por la Memoria, la Verdad y la Justicia.'
+
+titulo_DESTACADO1='A 40 años del Golpe de Estado Cívico-Militar.'
+
+
+resumen_DESTACADO1='En memoria de las víctimas del Terrorismo de Estado perpetrado en la Argentina durante la última dictadura cívico-militar, convocamos a toda la comunidad de la Universidad Nacional de las Artes, en general, y de Artes Multimediales, en particular, a participar de las actividades que se realizarán el 22 y 23 de Marzo en Av. Don Pedro de Mendoza 679.___BR___Las actividades estarán destinadas no sólo a la comunidad académica en su conjunto, sino también a familiares, amigos y compañeros de los que habitamos este espacio, y que quieran sumarse y compartir sus experiencias, vivencias y reflexiones en torno a este hecho.___BR___'
+
+data_DESTACADO1='**Actividades:** 22 y 23 de Marzo de 2016 | [+ info ](http://multimedia.una.edu.ar/extension/cursos/2672-desarrollo-movil-con-android)'
+
+
+
+TITULO_A='Actividades martes 22 de Marzo'
+
+
+titulo_A1='Charla a cargo del escritor Jorge Boimvaser.'
+
+resumen_A1='Jorge Boimvaser reflexionará sobre su experiencia profesional y las huellas que ésta le ha dejado en su vasta producción.___BR___Autor de Las manos de Perón, Historia secreta de El Informador Público y Los sospechosos de siempre. Se presentará, además, la quinta edición de A Brillar Mi Amor. Mitología no autorizada de Patricio Rey y sus Rendonditos de Ricota, publicado por Editorial Sudamericana.'
+
+data_A1='**Día:** Martes 22 de Marzo. | **Horario:** 13:30 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
+
+
+
+titulo_A2='Charla de Eduardo Anguita.'
+
+resumen_A2='El 22 de Marzo visitará la sede de Artes Multimediales el periodista, docente y escritor Eduardo Anguita. Compartirá con toda la comunidad su experiencia, testimonio y convicción en relación a este aniversario que convoca a la reflexión, 40 años del Golpe Cívico-Militar.'
+
+data_A2='**Día:** Martes 22 de Marzo. | **Horario:** 19:00 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
+
+
+
+
+
+TITULO_B='Actividades Miércoles 23 de Marzo'
+
+
+titulo_B1='Colgada de Pañuelos.'
+
+resumen_B1='A las 9 de la mañana nos encontraremos en la entrada de la sede de Artes Multimediales y realizaremos una colgada simbólica de pañuelos en el frente del edificio de nuestra unidad académica, en Pedro de Mendoza 679.'
+
+data_B1='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:00 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
+
+
+
+
+titulo_B2='Mural Fotografía ARGRA.'
+resumen_B2='Intervención callejera con fotografías conmemorando los 40 Años del Golpe a cargo de los estudiantes de Artes Multimediales.'
+
+data_B1='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:30 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
+
+
+
+titulo_B3='Espacio para la reflexión y conmemoración colectiva.'
+resumen_B3='Queremos ofrecer desde nuestra unidad académica un espacio para que todos los miembros de la comunidad compartan, reflexionen y muestren tanto experiencias y vivencias personales, así como también producción personal o colectiva que se enmarque dentro de esta sensible temática.
+Desde las 10hs abriremos el Multiespacio de nuestra sede, con la lectura de la “Carta abierta de un escritor a la Junta Militar” de Rodolfo Walsh. Esta actividad intenta brindar un lugar para que quienes se sientan convocados asistan a exponer y poner en común diferentes perspectivas.'
+
+data_B3='**Día:** Miércoles 23 de Marzo. | **Horario:** 10:00 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
+
+
+
+titulo_B4='Concierto.'
+resumen_B4='A cargo de Buscados Abrunitez-___BR___Canto con Caja y Guitarra por Marcela Abruzeze y Juan Benitez.___BR___Buscados abrunitez.  La búsqueda incesante los identifica desde su  origen, está en su nombre: son buscados que buscan. En sus canciones los instrumentos acústicos como la guitarra y la caja chayera, dialogan con guitarras procesadas, loops y toques de electrónica.'
+
+data_B4='**Día:** Miércoles 23 de Marzo. | **Horario:** 12:30 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
+
+
+
+titulo_B5='Charla con el abogado penalista Victor Hortel.'
+resumen_B5='visitará la sede de Artes Multimediales Victor “el Negro” Hortel, abogado penalista. Docente UNLP, Ex Defensor General de CABA y ex Director Nacional del SPF para hablarnos sobre Derechos Humanos y Justicia durante el Golpe de Estado Cívico Militar.'
+
+data_B5='**Día:** Miércoles 23 de Marzo. | **Horario:** 13:30 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
+
+
+titulo_B6='Taller de armado de fanzines.'
+resumen_B6='**Actividad Abierta con inscripción previa.**___BR___Los docentes Mariano Dorr, Estela Domergue y Mariela Monsalve dicatarán un taller abierto en el que se producirán publicaciones temáticas (fanzines) en el marco de estas jornadas de Reflexión y Participación.___BR___El taller tendrá una duración de 3hs, comenzando con una puesta en común y breve lectura de material bibliográfico, para continuar con la producción de estas breves publicaciones. Se trabajarán con textos seleccionados especialmente para el taller.___BR___Se invita a los participantes a asistir con textos propios que quieran abordar.___BR___**Materiales:** Cada asistente tendrá que traer hojas A4 (10/20), marcadores, lápices, pegamento, tijeras y cutter.___BR______BR___**Inscripciones:** [multimedia.curso@una.edu.ar](multimedia.curso@una.edu.ar)'
+
+data_B6='**Día:** Miércoles 23 de Marzo. | **Horario:** 15:00 hs. | **Sede ATAM:** Aula 202 (2º piso) | Actividad libre, abierta y gratuita.'
+
+
+TITULO_CIERRE_B='Inscripciones y Consultas'
+CONTENIDO_CIERRE_B='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | | [multimedia.curso@una.edu.ar](mailto:multimedia.curso@una.edu.ar)'
+
+
+TITULO_C='CURSOS DE EXTENSIÓN'
+
+titulo_C1='Abierta la inscripción a cursos de extensión.'
+
+resumen_C1='[**Listado de cursos**](http://multimedia.una.edu.ar/extension/cursos/)'
+
+
+TITULO_CIERRE_C='Inscripciones y Consultas'
+CONTENIDO_CIERRE_C='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | | [multimedia.curso@una.edu.ar](mailto:multimedia.curso@una.edu.ar)'
+
+
+
+
+TITULO_D='Especialización en Sonido'
+
+titulo_D1='Carrera de Especialización en Sonido Aplicado a las Artes Digitales'
+
+resumen_D1='**Abierta la inscripción Cohorte 2016 a partir del 1 de febrero hasta el 6 de mayo de 2016**___BR___[**Mas detalles sobre la carrera y requisitos de inscripción**](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)'
+
+data_D1='**Inicio de cursada :** 6 de Mayo de 2016 | [+ info](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)'
+
+TITULO_CIERRE_D='Inscripciones y Consultas'
+CONTENIDO_CIERRE_D='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | | [multimedia.curso@una.edu.ar](mailto:multimedia.curso@una.edu.ar)'
