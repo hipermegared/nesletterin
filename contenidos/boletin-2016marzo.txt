@@ -1,20 +1,26 @@
 NEWSLETTER_DIR='output-boletin-marzo'
 HEADER_IMG='http://extension.atamvirtual.com.ar/assets/headers2016/HEADER_MARZO.png'
-TITULO_MAIL='En Artes Multimediales de la UNA, NO OLVIDAMOS NI PERDONAMOS.'
+TITULO_MAIL='ATAM / Boletín Marzo 2da Quincena'
 
 
-TITULO_DESTACADO='Jornadas de Reflexión y Participación por la Memoria, la Verdad y la Justicia.'
+TITULO_DESTACADO='Los Pescadores de Perlas'
 
 titulo_DESTACADO1='A 40 años del Golpe de Estado Cívico-Militar.'
 
+resumen_DESTACADO1='Los Pescadores de Perlas es un ciclo de conciertos y conversaciones públicas entre artistas sonoros y multimediales.___BR___En esta oportunidad contaremos con la presencia de la artista argentina radicada en New York, Master in Fine Arts Cecilia López (Bard College, NY) quien estudia composición experimental en Wesleyan University, Connecticut. Los artistas Federico Barabino (estudiante de ATAM) y Agustín Genoud (graduado y docente de ATAM) participarán del encuentro junto a López. Cada uno ejecutará una obra de su autoría.___BR___Finalmente, con la moderación de Mariano Dorr y Raul Lacabanne, los artistas dialogarán con el público y los estudiantes presentes.___BR___**Conciertos de :** Federico Barabino interpretará “No-Input Mixer Solo Set” | Agustín Genoud, “Canción a los dueños de las flechas y a los poetas criollos” | Cecilia López, “Red”.'
 
-resumen_DESTACADO1='En memoria de las víctimas del Terrorismo de Estado perpetrado en la Argentina durante la última dictadura cívico-militar, convocamos a toda la comunidad de la Universidad Nacional de las Artes, en general, y de Artes Multimediales, en particular, a participar de las actividades que se realizarán el 22 y 23 de Marzo en Av. Don Pedro de Mendoza 679.___BR___Las actividades estarán destinadas no sólo a la comunidad académica en su conjunto, sino también a familiares, amigos y compañeros de los que habitamos este espacio, y que quieran sumarse y compartir sus experiencias, vivencias y reflexiones en torno a este hecho.___BR___'
+img_DESTACADO1='http://extension.atamvirtual.com.ar/assets/imgs/perlas.png'
 
-data_DESTACADO1='**Actividades:** 22 y 23 de Marzo de 2016 | [+ info ](http://multimedia.una.edu.ar/extension/cursos/2672-desarrollo-movil-con-android)'
+data_DESTACADO1='**Día:** Miércoles 16 de Marzo. | **Horario:** 19:00 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre y gratuita.'
 
 
 
-TITULO_A='Actividades martes 22 de Marzo'
+TITULO_A='Jornadas de Reflexión y Participación por la Memoria, la Verdad y la Justicia'
+
+RESUMEN_A='A 40 años del Golpe de Estado Cívico-Militar. En memoria de las víctimas del Terrorismo de Estado perpetrado en la Argentina durante la última dictadura cívico-militar, convocamos a toda la comunidad de la Universidad Nacional de las Artes, en general, y de Artes Multimediales, en particular, a participar de las actividades que se realizarán el 22 y 23 de Marzo en Av. Don Pedro de Mendoza 679.___BR___Las actividades estarán destinadas no sólo a la comunidad académica en su conjunto, sino también a familiares, amigos y compañeros de los que habitamos este espacio, y que quieran sumarse y compartir sus experiencias, vivencias y reflexiones en torno a este hecho.'
+
+IMG_A='http://extension.atamvirtual.com.ar/assets/imgs/a_40_anios.png'
+
 
 
 titulo_A1='Charla a cargo del escritor Jorge Boimvaser.'
@@ -35,61 +41,62 @@ data_A2='**Día:** Martes 22 de Marzo. | **Horario:** 19:00 hs. | **Sede ATAM:**
 
 
 
-TITULO_B='Actividades Miércoles 23 de Marzo'
-
-
-titulo_B1='Colgada de Pañuelos.'
-
-resumen_B1='A las 9 de la mañana nos encontraremos en la entrada de la sede de Artes Multimediales y realizaremos una colgada simbólica de pañuelos en el frente del edificio de nuestra unidad académica, en Pedro de Mendoza 679.'
-
-data_B1='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:00 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
 
 
 
+titulo_A3='Colgada de Pañuelos.'
 
-titulo_B2='Mural Fotografía ARGRA.'
-resumen_B2='Intervención callejera con fotografías conmemorando los 40 Años del Golpe a cargo de los estudiantes de Artes Multimediales.'
+resumen_A3='A las 9 de la mañana nos encontraremos en la entrada de la sede de Artes Multimediales y realizaremos una colgada simbólica de pañuelos en el frente del edificio de nuestra unidad académica, en Pedro de Mendoza 679.'
 
-data_B2='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:30 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
-
+data_A3='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:00 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
 
 
-titulo_B3='Espacio para la reflexión y conmemoración colectiva.'
-resumen_B3='Queremos ofrecer desde nuestra unidad académica un espacio para que todos los miembros de la comunidad compartan, reflexionen y muestren tanto experiencias y vivencias personales, así como también producción personal o colectiva que se enmarque dentro de esta sensible temática.
+
+
+titulo_A4='Mural Fotografía ARGRA.'
+resumen_A4='Intervención callejera con fotografías conmemorando los 40 Años del Golpe a cargo de los estudiantes de Artes Multimediales.'
+
+data_A4='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:30 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
+
+
+
+titulo_A5='Espacio para la reflexión y conmemoración colectiva.'
+resumen_A5='Queremos ofrecer desde nuestra unidad académica un espacio para que todos los miembros de la comunidad compartan, reflexionen y muestren tanto experiencias y vivencias personales, así como también producción personal o colectiva que se enmarque dentro de esta sensible temática.
 Desde las 10hs abriremos el Multiespacio de nuestra sede, con la lectura de la “Carta abierta de un escritor a la Junta Militar” de Rodolfo Walsh. Esta actividad intenta brindar un lugar para que quienes se sientan convocados asistan a exponer y poner en común diferentes perspectivas.'
 
-data_B3='**Día:** Miércoles 23 de Marzo. | **Horario:** 10:00 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
+data_A5='**Día:** Miércoles 23 de Marzo. | **Horario:** 10:00 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
 
 
 
-titulo_B4='Concierto.'
-resumen_B4='A cargo de Buscados Abrunitez-___BR___Canto con Caja y Guitarra por Marcela Abruzeze y Juan Benitez.___BR___Buscados abrunitez.  La búsqueda incesante los identifica desde su  origen, está en su nombre: son buscados que buscan. En sus canciones los instrumentos acústicos como la guitarra y la caja chayera, dialogan con guitarras procesadas, loops y toques de electrónica.'
+titulo_A6='Concierto.'
+resumen_A6='A cargo de Buscados Abrunitez-___BR___Canto con Caja y Guitarra por Marcela Abruzeze y Juan Benitez.___BR___Buscados abrunitez.  La búsqueda incesante los identifica desde su  origen, está en su nombre: son buscados que buscan. En sus canciones los instrumentos acústicos como la guitarra y la caja chayera, dialogan con guitarras procesadas, loops y toques de electrónica.'
 
-data_B4='**Día:** Miércoles 23 de Marzo. | **Horario:** 12:30 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
-
-
-
-titulo_B5='Charla con el abogado penalista Victor Hortel.'
-resumen_B5='visitará la sede de Artes Multimediales Victor “el Negro” Hortel, abogado penalista. Docente UNLP, Ex Defensor General de CABA y ex Director Nacional del SPF para hablarnos sobre Derechos Humanos y Justicia durante el Golpe de Estado Cívico Militar.'
-
-data_B5='**Día:** Miércoles 23 de Marzo. | **Horario:** 13:30 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
+data_A6='**Día:** Miércoles 23 de Marzo. | **Horario:** 12:30 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
 
 
-titulo_B6='Taller de armado de fanzines.'
-resumen_B6='**Actividad Abierta con inscripción previa.**___BR___Los docentes Mariano Dorr, Estela Domergue y Mariela Monsalve dicatarán un taller abierto en el que se producirán publicaciones temáticas (fanzines) en el marco de estas jornadas de Reflexión y Participación.___BR___El taller tendrá una duración de 3hs, comenzando con una puesta en común y breve lectura de material bibliográfico, para continuar con la producción de estas breves publicaciones. Se trabajarán con textos seleccionados especialmente para el taller.___BR___Se invita a los participantes a asistir con textos propios que quieran abordar.___BR___**Materiales:** Cada asistente tendrá que traer hojas A4 (10/20), marcadores, lápices, pegamento, tijeras y cutter.___BR______BR___**Inscripciones:** [multimedia.curso@una.edu.ar](multimedia.curso@una.edu.ar)'
 
-data_B6='**Día:** Miércoles 23 de Marzo. | **Horario:** 15:00 hs. | **Sede ATAM:** Aula 202 (2º piso) | Actividad libre, abierta y gratuita.'
+titulo_A7='Charla con el abogado penalista Victor Hortel.'
+resumen_A7='visitará la sede de Artes Multimediales Victor “el Negro” Hortel, abogado penalista. Docente UNLP, Ex Defensor General de CABA y ex Director Nacional del SPF para hablarnos sobre Derechos Humanos y Justicia durante el Golpe de Estado Cívico Militar.'
+
+data_A7='**Día:** Miércoles 23 de Marzo. | **Horario:** 13:30 hs. | **Sede ATAM:** Aula Magna (1º piso - aula 109) | Actividad libre, abierta y gratuita.'
 
 
-TITULO_CIERRE_B='Inscripciones y Consultas'
-CONTENIDO_CIERRE_B='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | | [multimedia.curso@una.edu.ar](mailto:multimedia.curso@una.edu.ar)'
+titulo_A8='Taller de armado de fanzines.'
+resumen_A8='**Actividad Abierta con inscripción previa.**___BR___Los docentes Mariano Dorr, Estela Domergue y Mariela Monsalve dicatarán un taller abierto en el que se producirán publicaciones temáticas (fanzines) en el marco de estas jornadas de Reflexión y Participación.___BR___El taller tendrá una duración de 3hs, comenzando con una puesta en común y breve lectura de material bibliográfico, para continuar con la producción de estas breves publicaciones. Se trabajarán con textos seleccionados especialmente para el taller.___BR___Se invita a los participantes a asistir con textos propios que quieran abordar.___BR___**Materiales:** Cada asistente tendrá que traer hojas A4 (10/20), marcadores, lápices, pegamento, tijeras y cutter.___BR______BR___**Inscripciones:** [multimedia.curso@una.edu.ar](multimedia.curso@una.edu.ar)'
+
+data_A8='**Día:** Miércoles 23 de Marzo. | **Horario:** 15:00 hs. | **Sede ATAM:** Aula 202 (2º piso) | Actividad libre, abierta y gratuita.'
+
+
+
+
+
 
 
 TITULO_C='CURSOS DE EXTENSIÓN'
 
 titulo_C1='Abierta la inscripción a cursos de extensión.'
 
-resumen_C1='**[Listado de cursos](http://multimedia.una.edu.ar/extension/cursos/)**'
+resumen_C1='Se encuentra abierta la incripciones a los cursos y talleres de extensión de primer cuatrimeste. Recordamos que los alumnos regulares de ATAM cuentan con una bonificaciones del 50 % y un 25 % los alumnos regulares de otras carreras de la UNA.___BR___- Taller armado de químicos para revelado blanco & negro. | **Docente/s:** Natalia Monserrat - Manuel Reyes. [+ info](http://multimedia.una.edu.ar/extension/cursos/2666-taller-armado-de-quimicos-para-revelado-blanco-negro)___BR___- Taller de aplicación de Kinect en obras interactivas. | **Docente/s:** Fabián Sguiglia. [+ info](http://multimedia.una.edu.ar/extension/cursos/2661-taller-de-aplicacion-de-kinect-en-obras-interactivas)___BR___- Taller de música aplicada a las artes audiovisuales y multimediales. | **Docente/s:** Paula Kleiman - Julián Helman. [+ info](http://multimedia.una.edu.ar/extension/cursos/2664-taller-de-musica-aplicada-a-las-artes-audiovisuales-y-multimediales)___BR___- Taller de experimentación audiovisual. | **Docente/s:** Laura Huberman. [+ info](http://multimedia.una.edu.ar/extension/cursos/2663-taller-de-experimentacion-audiovisual)___BR___- Taller de fotografía estenopeica en 35mm. | **Docente/s:** Natalia Monserrat. [+ info](http://multimedia.una.edu.ar/extension/cursos/2665-taller-de-fotografia-estenopeica-en-35mm)___BR___- Desprogramando la máquina. | **Docente/s:** Nicolás Frank - Matías Billordo. [+ info](http://multimedia.una.edu.ar/extension/cursos/2662-desprogramando-la-maquina)___BR___- Historia de la fotografía 1. | **Docente/s:** Marina Fernández Quiroga. [+ info](http://multimedia.una.edu.ar/extension/cursos/2668-historia-de-la-fotografia-1)___BR___- Introducción a la animación tradicional 2D. | **Docente/s:** [+ info](http://multimedia.una.edu.ar/extension/cursos/2660-introduccion-a-la-animacion-tradicional-2d)'
 
 
 TITULO_CIERRE_C='Inscripciones y Consultas'
@@ -102,9 +109,9 @@ TITULO_D='Especialización en Sonido'
 
 titulo_D1='Carrera de Especialización en Sonido Aplicado a las Artes Digitales'
 
-resumen_D1='**Abierta la inscripción Cohorte 2016 a partir del 1 de febrero hasta el 6 de mayo de 2016**___BR___[**Mas detalles sobre la carrera y requisitos de inscripción**](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)'
+resumen_D1='**Abierta la inscripción Cohorte 2016 a partir del 1 de febrero hasta el 6 de mayo de 2016**___BR___<em>Reconocimiento oficial del Ministerio de Educación de la Nación. Resolución Nº 979/11</em>___BR______BR___El enorme campo de aplicaciones de la informática al sonido y la música posibilitaría un sinnúmero de recorridos y propuestas. De entre ellas se ha seleccionado la línea que surge del Sonido Aplicado a las Artes Digitales. Se la considera un área compacta y bien delimitada de conocimientos que combina las ciencias exactas y las ciencias de la computación con el objetivo del diseño y producción de aplicaciones informáticas para ser usadas en la producción artística, la comunicación social y sus géneros afines.___BR___[**Mas detalles sobre la carrera y requisitos de inscripción**](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)___BR______BR___**Matrícula:** $1000.___BR______BR___**Arancel en cuotas (12 en total) para alumnos que cursen toda la Carrera:**___BR___- Graduados extranjeros: $2500.___BR___- Graduados iberoamericanos: $2000.___BR___- Graduados argentinos (excluyendo UNA): $1300.___BR___- Profesores y No docentes del UNA: $1000.___BR___- Graduados UNA: $700.___BR______BR___**Montos de cada uno de los seminarios para alumnos no pertenecientes a la Carrera:** ___BR___- Graduados extranjeros: $3400.___BR___- Graduados iberoamericanos: $2700.___BR___- Graduados argentinos (excluyendo UNA): $1800___BR___- Profesores y No docentes del UNA: $1400.___BR___- Graduados UNA: $1000.___BR___'
 
 data_D1='**Inicio de cursada :** 6 de Mayo de 2016 | [+ info](http://multimedia.una.edu.ar/contenidos/710-especializacion-en-sonido-aplicado-a-las-artes-digitales)'
 
 TITULO_CIERRE_D='Inscripciones y Consultas'
-CONTENIDO_CIERRE_D='Dirección de Extensión y Bienestar Estudiantil / Cursos | lunes a viernes 10 a 15hs Av. Don Pedro de Mendoza 679 | 4307­0622 int 106 | | [multimedia.curso@una.edu.ar](mailto:multimedia.curso@una.edu.ar)'
+CONTENIDO_CIERRE_D='Coordinación de Investigación y Posgrado | lunes a jueves 11 a 15hs___BR___Av. Don Pedro de Mendoza 679 | 4307­0622 int 107 | [multimedia.investigacion@una.edu.ar](mailto:multimedia.investigacion@una.edu.ar)'

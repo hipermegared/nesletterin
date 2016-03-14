@@ -228,7 +228,10 @@
 				font-weight: bold !important;
 				color:#5D9C7E;
 			}
-
+			.data{
+				background: #E1E4E1;
+				padding: 3px;
+			}
 
 			.infoCursos td{
 				padding-bottom: 20px;
@@ -442,6 +445,9 @@
 			.nomargin p{
 				margin: 0px;opacity:
 			}
+			.img-seccion{
+				margin: 20px 0;
+			}
 		</style>
 	</head>
 	<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -488,6 +494,7 @@
 															<div  class="curso">
 															 <h4 class="h4">{-----$titulo_DESTACADO1-----}</h4>
 																<div class="resumen">{-----$resumen_DESTACADO1-----}</div>
+																<img class="img-seccion" src="{-----$img_DESTACADO1-----}" id="headerImage" title="{-----$titulo_DESTACADO1-----}"  alt="{------$titulo_DESTACADO1-----}"/>
 																<div class="data nomargin">{-----$data_DESTACADO1-----}</div>
  															</div>
 														</td>
@@ -499,155 +506,251 @@
 												
 												<!-- // End Module: Info \\ -->
 											</td>
-										</tr>
-										
+							</tr>
+							
+
+							<tr>	
+
 								<td align="center" valign="top">
 									<!-- // Begin Template Body \\ -->
 									<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
 
+										
+
 										<tr>
 											<td colspan="3" valign="top" class="bodyContent">
-
 												<!-- // Begin Module: Standard Content \\ -->
 												<table border="0" cellpadding="20" cellspacing="0" width="100%">
 													<tr>
 														<td valign="top" class="sectionTitle">
-															<div >
+															<div>
 																<h2 class="h2">{-----$TITULO_A-----}</h2>
 															</div>
 														</td>
+														
+														
 													</tr>
+													<tr>
+													<td valign="top" class="">
+															<div>
+																<div class="img-seccion" class="resumen">{-----$RESUMEN_A-----}</div>
+														<img src="{-----$IMG_A-----}" id="headerImage" title="{-----$TITULO_A-----}"  alt="{------$TITULO_A-----}"/>
+															</div>
+														</td>													
+														</tr>
+
 												</table>
 												<!-- // End Module: Title \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
-													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_A1-----}</h4>
-																<div class="resumen">{-----$resumen_A1-----}</div>
-																<div class="data">{-----$data_A1-----}</div>
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Standard Content \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
-													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_A2-----}</h4>
-																<div class="resumen">{-----$resumen_A2-----}</div>
-																<div class="data">{-----$data_A2-----}</div>
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Standard Content \\ -->
-												
-												
 											</td>
 										</tr>
+
+										<!--////////////////////////////////////////////////////// COMIENZA FILAS DE  2 COLUMNAS A //////////////////////////////////////////////////////////////////////--> 
 
 										<tr>
 											<td colspan="3" valign="top" class="bodyContent">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
 
-												<!-- // Begin Module: Standard Content \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%">
-													<tr>
-														<td valign="top" class="sectionTitle">
-															<div >
-																<h2 class="h2">{-----$TITULO_B-----}</h2>
 
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Title \\ -->
-												
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
 													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_B1-----}</h4>
-																<div class="resumen">{-----$resumen_B1-----}</div>
-																<div class="data nomargin">{-----$data_B1-----}</div>
-															</div>
+														<td valign="top" width="280" class="leftColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top" class="cellBorderRight">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A1-----}</h4>
+																			<div class="resumen">{-----$resumen_A1-----}</div>
+																			<div class="data">{-----$data_A1-----}</div>
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+														<td valign="top" width="280" class="rightColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A2-----}</h4>
+																			<div class="resumen">{-----$resumen_A2-----}</div>
+																			<div class="data">{-----$data_A2-----}</div>
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
 														</td>
 													</tr>
+
+
 												</table>
-												<!-- // End Module: Standard Content \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso even last">
-													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_B2-----}</h4>
-																<div class="resumen">{-----$resumen_B2-----}</div>
-																<div class="data nomargin">{-----$data_B2-----}</div>
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Standard Content \\ -->
-												<table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
-													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_B3-----}</h4>
-																<div class="resumen">{-----$resumen_B3-----}</div>
-																<div class="data nomargin">{-----$data_B3-----}</div>
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Standard Content \\ --><table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
-													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_B4-----}</h4>
-																<div class="resumen">{-----$resumen_B4-----}</div>
-																<div class="data nomargin">{-----$data_B4-----}</div>
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Standard Content \\ --><table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
-													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_B5-----}</h4>
-																<div class="resumen">{-----$resumen_B5-----}</div>
-																<div class="data nomargin">{-----$data_B5-----}</div>
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Standard Content \\ --><table border="0" cellpadding="20" cellspacing="0" width="100%" class="rowContent curso odd first">
-													<tr>
-														<td valign="top">
-															<div  class="curso">
-																<h4 class="h4">{-----$titulo_B6-----}</h4>
-																<div class="resumen">{-----$resumen_B6-----}</div>
-																<div class="data nomargin">{-----$data_B6-----}</div>
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Standard Content \\ -->
-												<table border="0" cellpadding="10" cellspacing="0" width="100%" class="rowContent infoCursos">
-													<tr>
-														<td valign="top">
-															<div class="inscripciones">
-																<h5 class="h5">{-----$TITULO_CIERRE_B-----}</h5>
-																{-----$CONTENIDO_CIERRE_B-----}
-															</div>
-														</td>
-													</tr>
-												</table>
-												<!-- // End Module: Info \\ -->
+												<!-- // End Section: otras noticias \\ -->
 											</td>
 										</tr>
 
+										<!--////////////////////////////////////////////////////// FINAL ROW2 COL (sin img)  //////////////////////////////////////////////////////////////////////--> 
+
 										
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
+
+
+													<tr>
+														<td valign="top" width="280" class="leftColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top" class="cellBorderRight">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A3-----}</h4>
+																			<div class="resumen">{-----$resumen_A3-----}</div>
+																			<div class="data">{-----$data_A3-----}</div>
+																			</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+														<td valign="top" width="280" class="rightColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A4-----}</h4>
+																			<div class="resumen">{-----$resumen_A4-----}</div>
+																			<div class="data">{-----$data_A4-----}</div>
+
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+													</tr>
+
+
+												</table>
+												<!-- // End Section: otras noticias \\ -->
+											</td>
+										</tr>
+										<!--////////////////////////////////////////////////////// FINAL ROW2 COL (sin titulo)  //////////////////////////////////////////////////////////////////////--> 
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
+
+
+													<tr>
+														<td valign="top" width="280" class="leftColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top" class="cellBorderRight">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A5-----}</h4>
+																			<div class="resumen">{-----$resumen_A5-----}</div>
+																			<div class="data">{-----$data_A5-----}</div>
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+														<td valign="top" width="280" class="rightColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A6-----}</h4>
+																			<div class="resumen">{-----$resumen_A6-----}</div>
+																			<div class="data">{-----$data_A6-----}</div>
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+													</tr>
+
+
+												</table>
+												<!-- // End Section: otras noticias \\ -->
+											</td>
+										</tr>
+
+										<!--////////////////////////////////////////////////////// FINAL ROW2 COL (sin img)  //////////////////////////////////////////////////////////////////////--> 
+
+										
+										<tr>
+											<td colspan="3" valign="top" class="bodyContent">
+												<table border="0" cellpadding="0" cellspacing="0" width="100%" id="otrasNoticias">
+
+
+													<tr>
+														<td valign="top" width="280" class="leftColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top" class="cellBorderRight">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A7-----}</h4>
+																			<div class="resumen">{-----$resumen_A7-----}</div>
+																			<div class="data">{-----$data_A7-----}</div>
+																			</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+														<td valign="top" width="280" class="rightColumnContent columnContent">
+
+															<!-- // Begin Module: Top Image with Content \\ -->
+															<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																<tr class="repeatable">
+																	<td valign="top">
+																		<div >
+																			<h4 class="h4">{-----$titulo_A8-----}</h4>
+																			<div class="resumen">{-----$resumen_A8-----}</div>
+																			<div class="data">{-----$data_A8-----}</div>
+
+																		</div>
+																	</td>
+																</tr>
+															</table>
+															<!-- // End Module: Top Image with Content \\ -->
+
+														</td>
+													</tr>
+
+
+												</table>
+												<!-- // End Section: otras noticias \\ -->
+											</td>
+										</tr>
+										<!--////////////////////////////////////////////////////// FINAL ROW2 COL (sin titulo)  //////////////////////////////////////////////////////////////////////--> 
+									</table>
+								</td>
+							</tr>
+																				
+
 
 										<tr>
 											<td colspan="3" valign="top" class="bodyContent">
