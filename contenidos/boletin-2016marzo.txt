@@ -50,7 +50,7 @@ data_B1='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:00 hs. | Sede ATAM 
 titulo_B2='Mural Fotografía ARGRA.'
 resumen_B2='Intervención callejera con fotografías conmemorando los 40 Años del Golpe a cargo de los estudiantes de Artes Multimediales.'
 
-data_B1='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:30 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
+data_B2='**Día:** Miércoles 23 de Marzo. | **Horario:** 09:30 hs. | Sede ATAM Pedro de Mendoza 679) | Actividad Abierta, abierta y gratuita.'
 
 
 
@@ -89,7 +89,7 @@ TITULO_C='CURSOS DE EXTENSIÓN'
 
 titulo_C1='Abierta la inscripción a cursos de extensión.'
 
-resumen_C1='[**Listado de cursos**](http://multimedia.una.edu.ar/extension/cursos/)'
+resumen_C1='**[Listado de cursos](http://multimedia.una.edu.ar/extension/cursos/)**'
 
 
 TITULO_CIERRE_C='Inscripciones y Consultas'
