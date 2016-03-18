@@ -17,7 +17,7 @@ titulo_A1='Introducción a la animación tradicional 2D'
 
 resumen_A1='Este taller pretende abarcar los lineamientos principales que constituyen la técnica del dibujo animado y sus posibilidades expresivas. Durante el taller se llevarán adelante prácticas y se experimentará la relación entre la alteración formal de la figura animada y la representación del movimiento realizando pequeñas piezas en donde se aplicarán los principios básicos del dibujo animado para poder explorar el desarrollo de una imagen, un gesto y un orden de relaciones propios.'
 
-data_A1='**Inicio:** Miércoles 23 de Marzo | **8 clases:** Miércoles de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2660-introduccion-a-la-animacion-tradicional-2d)'
+data_A1='**Inicio:** Miércoles 6 de Abril | **8 clases:** Miércoles de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2660-introduccion-a-la-animacion-tradicional-2d)'
 
 
 
@@ -25,47 +25,62 @@ titulo_A2='Taller de aplicación de kinect en obras interactivas'
 
 resumen_A2='El principal objetivo de este taller es ayudar a incorporar el sensor Kinect en proyectos propios. Las temáticas propuestas son particularmente útiles en el diseño de escenografía e iluminación interactiva para danza y teatro, en el procesamiento de imágenes y en la construcción de instalaciones interactivas. Estos desarrollos son muy requeridos en espacios artísticos y utilizados en publicidad y eventos corporativos. Los contenidos del curso apuntan tanto complementar prácticas artísticas como a generar salidas laborales.'
 
-data_A2='**Inicio:** Jueves 17 de Marzo | **4 clases:**  Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2661-taller-de-aplicacion-de-kinect-en-obras-interactivas)'
+data_A2='**Inicio:** Jueves 31 de Marzo | **4 clases:**  Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2661-taller-de-aplicacion-de-kinect-en-obras-interactivas)'
 
 
 titulo_A3='Desprogramando la máquina'
 resumen_A3='Históricamente el campo estético y las innovaciones tecnológicas han convivido paralelamente en una relación de retroalimentación. En el arte contemporáneo el espectador es alentado a adoptar otro tipo de actitud y participación en relación con la experiencia estética. Los sujetos involucrados en la creación artística son desafiados a subvertir la función de la máquina buscando un grado experimental que sobrepase lo presupuesto por el medio en la industria de consumo y el espectáculo (la eficacia, la inmediatez y el control).'
 
-data_A3='**Inicio:** Lunes 23 de Marzo | **8 clases:** Lunes de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2662-desprogramando-la-maquina)'
+data_A3='**Inicio:** Lunes 6 de Abril | **8 clases:** Lunes de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2662-desprogramando-la-maquina)'
 
 
 titulo_A4='Taller de experimentación audiovisual'
 
 resumen_A4='La propuesta es crear un espacio de desarrollo creativo, buceando entre las percepciones personales que cada uno posee previamente sobre el audiovisual, y la búsqueda de representaciones. El uso básico de elementos de filmación, con los dispositivos con que pueda contar el participante, serán las herramientas para alcanzar expresiones sobre diferentes temáticas y ejes, sin ser la narrativa una estricta guía para estas creaciones, trabajando en tiempo real o con montaje en cámara.'
 
-data_A4='**Inicio:** Lunes 21 de Marzo | **4 clases:** jueves de 16:30 a 19hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2663-taller-de-experimentacion-audiovisual)'
+data_A4='**Inicio:** Lunes 4 de Abril | **4 clases:** jueves de 16:30 a 19hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2663-taller-de-experimentacion-audiovisual)'
 
 
 titulo_A5='Taller de Música Aplicada a Las Artes Audiovisuales y Multimediales'
 
 resumen_A5='El curso está orientado a estimular mediante el abordaje teórico-práctico, la producción sonora y musical a ser aplicada en producciones audiovisuales, multimediales, teatrales, etc. Partiendo de ideas, conceptos, imágenes, o segmentos fílmicos, articulándolas desde diversos principios constructivos. Se planteará una serie de trabajos prácticos a ser desarrollados individualmente o en grupo a partir de las herramientas que maneje cada alumno, para clase a clase, analizarlas en conjunto.'
 
-data_A5='**Inicio:** Viernes 18 de Marzo | **8 clases:** Viernes de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2664-taller-de-musica-aplicada-a-las-artes-audiovisuales-y-multimediales)'
+data_A5='**Inicio:** Viernes 1 de Abril | **8 clases:** Viernes de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2664-taller-de-musica-aplicada-a-las-artes-audiovisuales-y-multimediales)'
 
 
 titulo_A6='Taller de Fotografía estenopeica en 35mm'
 
 resumen_A6='Se introduce al alumno en la técnica práctica de la fotografía estenopeica en película 35mm, que utiliza el principio de las cámaras oscuras sin lente y provistas de un pequeño orificio (estenopo) para la obtención de imágenes. A través de clases teórico prácticas, sobre los principios básicos de la fotografía, se abre un amplio espectro donde es posible que el participante construya su cámara artesanalmente acorde con sus necesidades, adecuándose al tipo de imagen que desea obtener.'
 
-data_A6='**Inicio:** Lunes 21 de Marzo | **4 clases:** Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2665-taller-de-fotografia-estenopeica-en-35mm)'
+data_A6='**Inicio:** Lunes 4 de Abril | **4 clases:** Jueves de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2665-taller-de-fotografia-estenopeica-en-35mm)'
 
 
 titulo_A7='Taller armado de químicos para revelado Blanco & Negro'
 
 resumen_A7='El taller se propone brindar fórmulas y procedimientos para que los asistentes puedan fabricar sus propios químicos de revelado B&N. A su vez este material puede utilizarse para: Revelado de película negativa 35mm B&N, Proceso reversible para diapositiva 35mm B&N, Revelado y copiado de papel fotográfico, Revelado Super 8 (negativo y reversible para proyección). Al finalizar el taller el alumno tendrá 1 kit completo de químicos B&N. Todos los materiales están incluidos.'
 
-data_A7='**Inicio:** Jueves 31 de Marzo | **2 clases:** Lunes de 18 a 22hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2666-taller-armado-de-quimicos-para-revelado-blanco-negro)'
+data_A7='**Inicio:** Jueves 14 de Abril | **2 clases:** Lunes de 18 a 22hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2666-taller-armado-de-quimicos-para-revelado-blanco-negro)'
 
 titulo_A8='Historia de la Fotografía I'
 
 resumen_A8='Siendo la fotografía un dispositivo con una apretada historia de menos de dos siglos, proponemos reconstruir los más importantes de estos procesos y ejes históricos y estéticos, a fin de comprender mejor el contexto en el que cada imagen fotográfica fue producido, visto y pensado.'
 
-data_A8='**Inicio:** Lunes 23 de Marzo | **8 clases:** Lunes de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2668-historia-de-la-fotografia-1)'
+data_A8='**Inicio:** Lunes 6 de Abril | **8 clases:** Lunes de 19 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos/2668-historia-de-la-fotografia-1)'
+
+
+
+titulo_A9='Expresión Corporal Multimedia'
+
+resumen_A9='Conocer el propio cuerpo y explorar sus posibilidades expresivas en relación al espacio y al universo multimedia por medio de ejercicios técnicos-actorales y juegos que nos den mayor cantidad de herra-mientas al momento de hacer una performance, integrar una obra multidisciplinaria o actuar frente a cámara.'
+
+data_A9='**Inicio:** Lunes 28 de Marzo | **4 clases:** Lunes de 18 a 20hs | [+ info](http://multimedia.una.edu.ar/extension/cursos)'
+
+
+titulo_A10='La Tecnología Multimedia Interactiva en la Escena'
+
+resumen_A10='El **software Isadora** es un entorno de programación gráfica que proporciona control interactivo sobre los medios digitales, con especial énfasis en la manipulación en tiempo real del video digital. Procesa también música o cualquier “material” sonoro digital, imágenes, información MIDI y OSC, video cámaras, sistema físicos lumínicos y mecánicos y demás. Recopila la información de movimiento recibida por diferentes tipos de sensores de movimiento para manipular el video digital, sintetizadores de música y luces entre otros. Es un programa que tiene diez años desde su primera versión, y a lo largo de este período ha ido evolucionando, expandiéndose y mejorando sus posibilidades funcionales y operativas.'
+
+data_A10='**Inicio:** Viernes 8 Abril | **4 clases:** Lunes de 18 a 21hs | [+ info](http://multimedia.una.edu.ar/extension/cursos)'
 
 
 TITULO_CIERRE_A='Inscripciones y Consultas'
